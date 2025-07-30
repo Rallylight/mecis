@@ -20,7 +20,7 @@ Installation
 1. Copy the `mecis` module into your Odoo `addons` directory
 2. Activate Developer Mode in Odoo
 3. Update Apps List
-4. Install the `MECIS` module
+4. Import the `MECIS` module
 
 Requirements
 ------------
