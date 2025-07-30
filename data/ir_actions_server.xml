@@ -1,0 +1,52 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<odoo>
+  <record id="MECIS.auto_change_state_wh_9b56e291-d344-4f14-8aa3-8c360f04f783" model="ir.actions.server" context="{'studio': True}">
+    <field name="binding_model_id" eval="False"/>
+    <field name="binding_type">action</field>
+    <field name="binding_view_types">list,form</field>
+    <field name="child_ids" eval="[(6, 0, [])]"/>
+    <field name="code"><![CDATA[
+]]></field>
+    <field name="crud_model_id" eval="False"/>
+    <field name="help" eval="False"/>
+    <field name="link_field_id" eval="False"/>
+    <field name="model_id" ref="maintenance.model_maintenance_request"/>
+    <field name="name">Auto change state when stage is done</field>
+    <field name="sequence">5</field>
+    <field name="state">object_write</field>
+  </record>
+  <record id="MECIS.automatic_create_mes_457ab10b-6629-4356-8239-b06a8241489b" model="ir.actions.server" context="{'studio': True}">
+    <field name="binding_model_id" eval="False"/>
+    <field name="binding_type">action</field>
+    <field name="binding_view_types">list,form</field>
+    <field name="child_ids" eval="[(6, 0, [])]"/>
+    <field name="code"><![CDATA[confirmation_message = "Thiết bị ở trạng thái hoạt động bình thường ngày {}".format(fields.Date.today())
+record.message_post(body=confirmation_message, message_type='notification')
+]]></field>
+    <field name="crud_model_id" ref="mail.model_mail_message"/>
+    <field name="help" eval="False"/>
+    <field name="link_field_id" eval="False"/>
+    <field name="model_id" ref="maintenance.model_maintenance_equipment"/>
+    <field name="name">Automatic create message for normal condition</field>
+    <field name="sequence">5</field>
+    <field name="state">code</field>
+  </record>
+  <record id="MECIS.generate_qr_code_53d81df0-d111-4961-8780-1b58d0d74f14" model="ir.actions.server" context="{'studio': True}">
+    <field name="binding_model_id" eval="False"/>
+    <field name="binding_type">action</field>
+    <field name="binding_view_types">list,form</field>
+    <field name="child_ids" eval="[(6, 0, [])]"/>
+    <field name="code"><![CDATA[for record in records:
+  if not record['x_qrcode']:
+    record['x_qrcode'] = env['ir.sequence'].next_by_code('product.qrcode')
+
+]]></field>
+    <field name="crud_model_id" eval="False"/>
+    <field name="help" eval="False"/>
+    <field name="link_field_id" eval="False"/>
+    <field name="model_id" ref="maintenance.model_maintenance_equipment"/>
+    <field name="name">Generate QR code</field>
+    <field name="sequence">5</field>
+    <field name="state">code</field>
+  </record>
+</odoo>

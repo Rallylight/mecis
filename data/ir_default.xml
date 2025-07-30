@@ -1,0 +1,192 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<odoo>
+  <record id="MECIS.a_update_maintenance_05f04229-8510-498a-a30d-f0578dac40e4" model="ir.default" context="{'studio': True}">
+    <field name="condition" eval="False"/>
+    <field name="json_value">"True"</field>
+  </record>
+  <record id="MECIS.active_loan_return_99886d40-5e6a-4795-9551-f817b0ada58d" model="ir.default" context="{'studio': True}">
+    <field name="field_id" ref="MECIS.active_loan_return_ebe7e278-34d1-40f4-82d7-243baac3b773"/>
+    <field name="condition" eval="False"/>
+    <field name="json_value">true</field>
+  </record>
+  <record id="MECIS.active_maintenance_p_12409fa6-9194-41f3-8567-13723b4afe9c" model="ir.default" context="{'studio': True}">
+    <field name="field_id" ref="MECIS.active_maintenance_p_d445013e-9119-48e5-be06-b1554aa9b520"/>
+    <field name="condition" eval="False"/>
+    <field name="json_value">true</field>
+  </record>
+  <record id="MECIS.active_order_funnel_15a53e0c-ce3b-42cf-8bed-824ad7755597" model="ir.default" context="{'studio': True}">
+    <field name="field_id" ref="MECIS.active_order_funnel_9c75eb52-f907-418b-be3d-fad1b20d36ad"/>
+    <field name="condition" eval="False"/>
+    <field name="json_value">true</field>
+  </record>
+  <record id="MECIS.company_loan_return_4b93f507-e842-4eca-8551-48dc87d7f69f" model="ir.default" context="{'studio': True}">
+    <field name="field_id" ref="MECIS.company_loan_return_230d7a6d-0e73-4ed7-b959-7d01d6fe26ba"/>
+    <field name="condition" eval="False"/>
+    <field name="json_value">2</field>
+  </record>
+  <record id="MECIS.company_loan_return_b4d6ce92-5271-4fb7-a593-d7bd543f38d7" model="ir.default" context="{'studio': True}">
+    <field name="field_id" ref="MECIS.company_loan_return_230d7a6d-0e73-4ed7-b959-7d01d6fe26ba"/>
+    <field name="condition" eval="False"/>
+    <field name="json_value">3</field>
+  </record>
+  <record id="MECIS.company_loan_return_c21e838e-161a-43db-a76b-6feffa960a53" model="ir.default" context="{'studio': True}">
+    <field name="field_id" ref="MECIS.company_loan_return_230d7a6d-0e73-4ed7-b959-7d01d6fe26ba"/>
+    <field name="condition" eval="False"/>
+    <field name="json_value">1</field>
+  </record>
+  <record id="MECIS.company_loan_return_cee923e0-4620-4fc3-af80-252c02823985" model="ir.default" context="{'studio': True}">
+    <field name="field_id" ref="MECIS.company_loan_return_230d7a6d-0e73-4ed7-b959-7d01d6fe26ba"/>
+    <field name="condition" eval="False"/>
+    <field name="json_value">4</field>
+  </record>
+  <record id="MECIS.company_maintenance__135bbd28-3dd2-4c42-9442-3658d8eb5414" model="ir.default" context="{'studio': True}">
+    <field name="field_id" ref="MECIS.company_maintenance__373df23f-d787-43f9-b58d-4dd8d3a0a818"/>
+    <field name="condition" eval="False"/>
+    <field name="json_value">2</field>
+  </record>
+  <record id="MECIS.company_maintenance__d14347c7-8e1c-4dc2-b46e-ced7c5ef302e" model="ir.default" context="{'studio': True}">
+    <field name="field_id" ref="MECIS.company_maintenance__373df23f-d787-43f9-b58d-4dd8d3a0a818"/>
+    <field name="condition" eval="False"/>
+    <field name="json_value">3</field>
+  </record>
+  <record id="MECIS.company_maintenance__f2620eb0-d1f3-48ec-9f21-f83e7dca13ff" model="ir.default" context="{'studio': True}">
+    <field name="field_id" ref="MECIS.company_maintenance__373df23f-d787-43f9-b58d-4dd8d3a0a818"/>
+    <field name="condition" eval="False"/>
+    <field name="json_value">1</field>
+  </record>
+  <record id="MECIS.company_order_funnel_06c30d92-8150-4916-9bdb-bb236112704f" model="ir.default" context="{'studio': True}">
+    <field name="field_id" ref="MECIS.company_order_funnel_e79852d4-ee6c-4b01-a864-ad9abfd0adaf"/>
+    <field name="condition" eval="False"/>
+    <field name="json_value">1</field>
+  </record>
+  <record id="MECIS.company_order_funnel_136aa416-6f71-4a90-b6d7-802a1910f028" model="ir.default" context="{'studio': True}">
+    <field name="field_id" ref="MECIS.company_order_funnel_e79852d4-ee6c-4b01-a864-ad9abfd0adaf"/>
+    <field name="condition" eval="False"/>
+    <field name="json_value">3</field>
+  </record>
+  <record id="MECIS.company_order_funnel_5ca0ed28-e17a-4d94-a63a-f78973d3dcb5" model="ir.default" context="{'studio': True}">
+    <field name="field_id" ref="MECIS.company_order_funnel_e79852d4-ee6c-4b01-a864-ad9abfd0adaf"/>
+    <field name="condition" eval="False"/>
+    <field name="json_value">2</field>
+  </record>
+  <record id="MECIS.currency_loan_return_4ef8b2d8-7f2e-4ba4-ae71-eaab15ddbe12" model="ir.default" context="{'studio': True}">
+    <field name="field_id" ref="MECIS.currency_loan_return_f5c9a05d-683f-400f-843d-ffb2e731a6c9"/>
+    <field name="condition" eval="False"/>
+    <field name="json_value">23</field>
+  </record>
+  <record id="MECIS.currency_loan_return_759d82dd-9048-4051-a163-350654977462" model="ir.default" context="{'studio': True}">
+    <field name="field_id" ref="MECIS.currency_loan_return_f5c9a05d-683f-400f-843d-ffb2e731a6c9"/>
+    <field name="condition" eval="False"/>
+    <field name="json_value">23</field>
+  </record>
+  <record id="MECIS.currency_loan_return_a42d540a-36c2-40a7-bec6-6622ae8c8a36" model="ir.default" context="{'studio': True}">
+    <field name="field_id" ref="MECIS.currency_loan_return_f5c9a05d-683f-400f-843d-ffb2e731a6c9"/>
+    <field name="condition" eval="False"/>
+    <field name="json_value">23</field>
+  </record>
+  <record id="MECIS.currency_loan_return_bce47909-e5df-439d-b0be-4d0efa6640ef" model="ir.default" context="{'studio': True}">
+    <field name="field_id" ref="MECIS.currency_loan_return_f5c9a05d-683f-400f-843d-ffb2e731a6c9"/>
+    <field name="condition" eval="False"/>
+    <field name="json_value">23</field>
+  </record>
+  <record id="MECIS.currency_maintenance_2b4e8301-b6dc-456e-8333-c80b22ff93b5" model="ir.default" context="{'studio': True}">
+    <field name="field_id" ref="MECIS.currency_maintenance_aa826314-33c4-4083-9eac-5415c8c43bb3"/>
+    <field name="condition" eval="False"/>
+    <field name="json_value">23</field>
+  </record>
+  <record id="MECIS.currency_maintenance_4fdc93a0-f6e6-4252-ac54-3a059757b829" model="ir.default" context="{'studio': True}">
+    <field name="field_id" ref="MECIS.currency_maintenance_aa826314-33c4-4083-9eac-5415c8c43bb3"/>
+    <field name="condition" eval="False"/>
+    <field name="json_value">23</field>
+  </record>
+  <record id="MECIS.currency_maintenance_64897ccd-a6bc-437a-8d67-a3e33448ecc2" model="ir.default" context="{'studio': True}">
+    <field name="field_id" ref="MECIS.currency_maintenance_aa826314-33c4-4083-9eac-5415c8c43bb3"/>
+    <field name="condition" eval="False"/>
+    <field name="json_value">23</field>
+  </record>
+  <record id="MECIS.currency_order_funne_68fa0de9-a850-4713-96fc-b1e824f71845" model="ir.default" context="{'studio': True}">
+    <field name="field_id" ref="MECIS.currency_order_funne_bc29accb-10d0-417f-8f77-06ecc63d877c"/>
+    <field name="condition" eval="False"/>
+    <field name="json_value">23</field>
+  </record>
+  <record id="MECIS.currency_order_funne_ecbd1f5e-6bc1-4986-ac49-e6cf1e0ecc80" model="ir.default" context="{'studio': True}">
+    <field name="field_id" ref="MECIS.currency_order_funne_bc29accb-10d0-417f-8f77-06ecc63d877c"/>
+    <field name="condition" eval="False"/>
+    <field name="json_value">23</field>
+  </record>
+  <record id="MECIS.currency_order_funne_f786e77b-a351-48dc-8d60-3028101a617a" model="ir.default" context="{'studio': True}">
+    <field name="field_id" ref="MECIS.currency_order_funne_bc29accb-10d0-417f-8f77-06ecc63d877c"/>
+    <field name="condition" eval="False"/>
+    <field name="json_value">23</field>
+  </record>
+  <record id="MECIS.new_integer_loan_ret_4710e5db-a616-4d43-92dc-9f82190d7b45" model="ir.default" context="{'studio': True}">
+    <field name="field_id" ref="MECIS.new_integer_loan_ret_de2b58b6-639c-470a-92b2-71f2e15227ad"/>
+    <field name="condition" eval="False"/>
+    <field name="json_value">"0"</field>
+  </record>
+  <record id="MECIS.new_integer_maintena_5e16f0c3-eb2c-47fd-bc7b-5a5931629d93" model="ir.default" context="{'studio': True}">
+    <field name="field_id" ref="MECIS.new_integer_maintena_3c8c5f6c-30f9-412b-b02a-80a2063fec05"/>
+    <field name="condition" eval="False"/>
+    <field name="json_value">"0"</field>
+  </record>
+  <record id="MECIS.pipeline_status_bar__80c8a9e8-34d9-4c8a-9b27-4b0b2993460f" model="ir.default" context="{'studio': True}">
+    <field name="field_id" ref="MECIS.pipeline_status_bar__0e10368e-ff7f-406d-91a5-96ae0159fc67"/>
+    <field name="condition" eval="False"/>
+    <field name="json_value">"Hoạt động bình thường"</field>
+  </record>
+  <record id="MECIS.pipeline_status_bar__af80a332-4efc-433e-b847-7c1aa4b57a69" model="ir.default" context="{'studio': True}">
+    <field name="field_id" ref="MECIS.pipeline_status_bar__553b613b-9ced-46aa-94ef-00c6475f4021"/>
+    <field name="condition" eval="False"/>
+    <field name="json_value">false</field>
+  </record>
+  <record id="MECIS.sequence_loan_return_15bdbe05-1997-4bcf-a8ed-94cd3b12d266" model="ir.default" context="{'studio': True}">
+    <field name="field_id" ref="MECIS.sequence_loan_return_8231ca0e-ed93-45f0-a878-dd9ebb289184"/>
+    <field name="condition" eval="False"/>
+    <field name="json_value">10</field>
+  </record>
+  <record id="MECIS.sequence_loan_return_f12c8663-da26-403b-b5a9-d751faa1e9f9" model="ir.default" context="{'studio': True}">
+    <field name="field_id" ref="MECIS.sequence_loan_return_fd19bed5-d20e-4e12-a78d-f53beceef74f"/>
+    <field name="condition" eval="False"/>
+    <field name="json_value">10</field>
+  </record>
+  <record id="MECIS.sequence_maintenance_294f7a1d-9006-4d8e-9add-d3761c2b0f12" model="ir.default" context="{'studio': True}">
+    <field name="field_id" ref="MECIS.sequence_maintenance_c8b21f65-3e47-4e22-9c49-d69baff0a2cf"/>
+    <field name="condition" eval="False"/>
+    <field name="json_value">10</field>
+  </record>
+  <record id="MECIS.sequence_maintenance_d44f9d4f-2119-47ee-af9d-6e1753a911c8" model="ir.default" context="{'studio': True}">
+    <field name="field_id" ref="MECIS.sequence_maintenance_eecad66a-e918-4ad1-837f-b26d8e567e64"/>
+    <field name="condition" eval="False"/>
+    <field name="json_value">10</field>
+  </record>
+  <record id="MECIS.sequence_order_funne_8ef6c30b-b52b-49b8-a2d4-bdd7c15b9f10" model="ir.default" context="{'studio': True}">
+    <field name="field_id" ref="MECIS.sequence_order_funne_06031611-a6e1-40c1-983e-e9c6a451960a"/>
+    <field name="condition" eval="False"/>
+    <field name="json_value">10</field>
+  </record>
+  <record id="MECIS.sequence_order_funne_b7e7525c-77e7-4b87-b06a-1770df1705dd" model="ir.default" context="{'studio': True}">
+    <field name="field_id" ref="MECIS.sequence_order_funne_b25c8981-de9b-4a7f-9b5e-0ab9b2d2477e"/>
+    <field name="condition" eval="False"/>
+    <field name="json_value">10</field>
+  </record>
+  <record id="MECIS.stage_loan_return_d6585ba4-c816-4328-aa9c-7e44c02920a0" model="ir.default" context="{'studio': True}">
+    <field name="field_id" ref="MECIS.stage_loan_return_faf83f94-4b4d-47ca-8c8c-fc222b11d03f"/>
+    <field name="condition" eval="False"/>
+    <field name="json_value">1</field>
+  </record>
+  <record id="MECIS.stage_maintenance_pa_39722d19-bf9e-43ac-921f-a9835e49c309" model="ir.default" context="{'studio': True}">
+    <field name="field_id" ref="MECIS.stage_maintenance_pa_ab4571bf-c89d-499d-940d-ad1a82496e81"/>
+    <field name="condition" eval="False"/>
+    <field name="json_value">1</field>
+  </record>
+  <record id="MECIS.stage_order_funnel_f1e78f4f-62d9-4e3d-a3ab-cdf5282f354d" model="ir.default" context="{'studio': True}">
+    <field name="field_id" ref="MECIS.stage_order_funnel_0d0029c3-8015-4873-a60e-5ef40efa8f4e"/>
+    <field name="condition" eval="False"/>
+    <field name="json_value">1</field>
+  </record>
+  <record id="MECIS.used_by_maintenance__ac607df6-7b27-417b-9cdf-292b0cee4dfb" model="ir.default" context="{'studio': True}">
+    <field name="field_id" ref="hr_maintenance.field_maintenance_equipment__equipment_assign_to"/>
+    <field name="condition" eval="False"/>
+    <field name="json_value">"department"</field>
+  </record>
+</odoo>

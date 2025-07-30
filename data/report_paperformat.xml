@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<odoo>
+  <record id="MECIS.label_35x22mm_b95b5af4-0ac6-4338-8e92-50354b9a3cbf" model="report.paperformat" context="{'studio': True}">
+    <field name="margin_top" eval="False"/>
+    <field name="margin_bottom" eval="False"/>
+    <field name="disable_shrinking" eval="False"/>
+    <field name="display_name">Label 35x22mm</field>
+    <field name="margin_right" eval="False"/>
+    <field name="header_spacing">35</field>
+    <field name="dpi">203</field>
+    <field name="page_width">110</field>
+    <field name="print_page_width">110.0</field>
+    <field name="print_page_height">22.0</field>
+    <field name="page_height">22</field>
+    <field name="default" eval="False"/>
+    <field name="orientation">Portrait</field>
+    <field name="name">Label 35x22mm</field>
+    <field name="format">custom</field>
+    <field name="header_line" eval="False"/>
+    <field name="margin_left" eval="False"/>
+  </record>
+</odoo>

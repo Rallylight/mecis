@@ -1,0 +1,98 @@
+The following relational data haven't been exported because they either refer
+to a model that Studio doesn't export, or have no XML id:
+
+Record: studio_customization.label_35x22mm_b95b5af4-0ac6-4338-8e92-50354b9a3cbf
+Model: report.paperformat
+Field: report_ids
+Type: one2many
+Value: ir.actions.report(970,) ('In nhãn thiết bị')
+
+Record: studio_customization.auto_change_state_wh_9b56e291-d344-4f14-8aa3-8c360f04f783
+Model: ir.actions.server
+Field: fields_lines
+Type: one2many
+Value: ir.server.object.lines(656,) ('ir.server.object.lines,656')
+
+Record: maintenance.menu_maintenance_configuration
+Model: ir.ui.menu
+Field: groups_id
+Type: many2many
+Value: res.groups(87, 13, 176) ('Maintenance / Biomedical Engineer', 'Maintenance / Equipment Manager', 'Maintenance / Equipment Supervisor')
+
+Record: maintenance.menu_equipment_form
+Model: ir.ui.menu
+Field: groups_id
+Type: many2many
+Value: res.groups(87, 13, 176, 140, 1) ('Maintenance / Biomedical Engineer', 'Maintenance / Equipment Manager', 'Maintenance / Equipment Supervisor', 'Maintenance / Equipment User', 'User types / Internal User')
+
+Record: maintenance.menu_m_dashboard
+Model: ir.ui.menu
+Field: groups_id
+Type: many2many
+Value: res.groups(87, 13, 176, 140, 1) ('Maintenance / Biomedical Engineer', 'Maintenance / Equipment Manager', 'Maintenance / Equipment Supervisor', 'Maintenance / Equipment User', 'User types / Internal User')
+
+Record: maintenance.menu_m_request
+Model: ir.ui.menu
+Field: groups_id
+Type: many2many
+Value: res.groups(87, 164, 13, 176) ('Maintenance / Biomedical Engineer', 'Maintenance / Department Manager', 'Maintenance / Equipment Manager', 'Maintenance / Equipment Supervisor')
+
+Record: maintenance.menu_m_request_calendar
+Model: ir.ui.menu
+Field: groups_id
+Type: many2many
+Value: res.groups(87, 13, 176, 140, 1) ('Maintenance / Biomedical Engineer', 'Maintenance / Equipment Manager', 'Maintenance / Equipment Supervisor', 'Maintenance / Equipment User', 'User types / Internal User')
+
+Record: maintenance.menu_m_request_form
+Model: ir.ui.menu
+Field: groups_id
+Type: many2many
+Value: res.groups(87, 13, 176, 140, 1) ('Maintenance / Biomedical Engineer', 'Maintenance / Equipment Manager', 'Maintenance / Equipment Supervisor', 'Maintenance / Equipment User', 'User types / Internal User')
+
+Record: maintenance.menu_maintenance_teams
+Model: ir.ui.menu
+Field: groups_id
+Type: many2many
+Value: res.groups(13, 176) ('Maintenance / Equipment Manager', 'Maintenance / Equipment Supervisor')
+
+Record: studio_customization.maintenance_8c394948-2821-4aac-9c6f-5036f821de6b
+Model: ir.ui.menu
+Field: groups_id
+Type: many2many
+Value: res.groups(87, 164, 13, 176, 140) ('Maintenance / Biomedical Engineer', 'Maintenance / Department Manager', 'Maintenance / Equipment Manager', 'Maintenance / Equipment Supervisor', 'Maintenance / Equipment User')
+
+Record: studio_customization.maintenance_custom_c_543af948-66c2-4039-94d4-f8f1fff23bfa
+Model: ir.ui.menu
+Field: groups_id
+Type: many2many
+Value: res.groups(13, 176) ('Maintenance / Equipment Manager', 'Maintenance / Equipment Supervisor')
+
+Record: studio_customization.maintenance_custom_c_6780d4e6-17b5-4294-ac0e-4cd99b33d6cb
+Model: ir.ui.menu
+Field: groups_id
+Type: many2many
+Value: res.groups(13, 176) ('Maintenance / Equipment Manager', 'Maintenance / Equipment Supervisor')
+
+Record: studio_customization.maintenance_e90fa4ce-3625-4bf5-b04f-138c5c9de9be
+Model: ir.ui.menu
+Field: groups_id
+Type: many2many
+Value: res.groups(87, 164, 13, 176, 140) ('Maintenance / Biomedical Engineer', 'Maintenance / Department Manager', 'Maintenance / Equipment Manager', 'Maintenance / Equipment Supervisor', 'Maintenance / Equipment User')
+
+Record: studio_customization.maintenance_loan_ret_669020a5-698e-4588-9b03-7fe8b77d89c8
+Model: ir.ui.menu
+Field: groups_id
+Type: many2many
+Value: res.groups(87, 164, 13, 176) ('Maintenance / Biomedical Engineer', 'Maintenance / Department Manager', 'Maintenance / Equipment Manager', 'Maintenance / Equipment Supervisor')
+
+Record: studio_customization.no_edit_in_done_stat_e56ed14c-e4d9-4f63-a665-1d3879ccc1ec
+Model: base.automation
+Field: action_server_id
+Type: many2one
+Value: ir.actions.server(1270,) ('No edit in done state in loan')
+
+Record: studio_customization.a_update_maintenance_05f04229-8510-498a-a30d-f0578dac40e4
+Model: ir.default
+Field: field_id
+Type: many2one
+Value: ir.model.fields(19868,) ('Đã update (maintenance.equipment)')

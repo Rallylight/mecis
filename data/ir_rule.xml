@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<odoo>
+  <record id="MECIS.loan_return_multi_co_424a5d9b-56ab-4e18-8653-f257749e28a9" model="ir.rule" context="{'studio': True}">
+    <field name="active" eval="True"/>
+    <field name="domain_force"><![CDATA[['|', ('x_studio_company_id', '=', False), ('x_studio_company_id', 'in', company_ids)]]]></field>
+    <field name="groups" eval="[(6, 0, [])]"/>
+    <field name="model_id" ref="MECIS.loan_return_5f5410b5-9a9b-4b81-a536-b45cd27177de"/>
+    <field name="name">Loan &amp; Return - Multi-Company</field>
+    <field name="perm_create" eval="True"/>
+    <field name="perm_read" eval="True"/>
+    <field name="perm_unlink" eval="True"/>
+    <field name="perm_write" eval="True"/>
+  </record>
+  <record id="MECIS.maintenance_parts_mu_e11252b9-cfde-4eea-b925-a7a410d1fd66" model="ir.rule" context="{'studio': True}">
+    <field name="active" eval="True"/>
+    <field name="domain_force"><![CDATA[['|', ('x_studio_company_id', '=', False), ('x_studio_company_id', 'in', company_ids)]]]></field>
+    <field name="groups" eval="[(6, 0, [])]"/>
+    <field name="model_id" ref="MECIS.maintenance_parts_74b80e0b-d249-4b95-b4e7-b718d92139d7"/>
+    <field name="name">Maintenance Parts - Multi-Company</field>
+    <field name="perm_create" eval="True"/>
+    <field name="perm_read" eval="True"/>
+    <field name="perm_unlink" eval="True"/>
+    <field name="perm_write" eval="True"/>
+  </record>
+  <record id="MECIS.order_funnel_multi_c_2d4eeecb-029f-43d3-abd6-a8622f7457c8" model="ir.rule" context="{'studio': True}">
+    <field name="active" eval="True"/>
+    <field name="domain_force"><![CDATA[['|', ('x_studio_company_id', '=', False), ('x_studio_company_id', 'in', company_ids)]]]></field>
+    <field name="groups" eval="[(6, 0, [])]"/>
+    <field name="model_id" ref="MECIS.order_funnel_1bd0262f-6b71-4195-b208-dd87804393d0"/>
+    <field name="name">Order funnel - Multi-Company</field>
+    <field name="perm_create" eval="True"/>
+    <field name="perm_read" eval="True"/>
+    <field name="perm_unlink" eval="True"/>
+    <field name="perm_write" eval="True"/>
+  </record>
+</odoo>
