@@ -40,7 +40,8 @@ Includes maintenance, calibration, loan tracking, and document management.
         'data/ir_rule.xml',
         'data/ir_default.xml',
     ],
-    'images': ['static/description/cover.jpg]
+    'images': ['static/description/cover.jpg'],
+    'installable': True,
     'application': False,
     'license': 'OPL-1',
 }
