@@ -1,104 +1,104 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <odoo>
-  <record id="MECIS.equipment_kanban_2e4f84a8-6d16-4bb2-b450-b1d865369225" model="ir.actions.act_window.view" context="{'studio': True}">
+  <record id="studio_customization.equipment_kanban_2e4f84a8-6d16-4bb2-b450-b1d865369225" model="ir.actions.act_window.view" context="{'studio': True}">
     <field name="act_window_id" ref="maintenance.hr_equipment_action"/>
     <field name="multi" eval="False"/>
     <field name="sequence" eval="False"/>
     <field name="view_id" ref="maintenance.hr_equipment_view_kanban"/>
     <field name="view_mode">kanban</field>
   </record>
-  <record id="MECIS.equipment_request_ka_bbf6e1f7-ec38-4caa-8ca5-9c5089748244" model="ir.actions.act_window.view" context="{'studio': True}">
+  <record id="studio_customization.equipment_request_ka_bbf6e1f7-ec38-4caa-8ca5-9c5089748244" model="ir.actions.act_window.view" context="{'studio': True}">
     <field name="act_window_id" ref="maintenance.hr_equipment_request_action"/>
     <field name="multi" eval="False"/>
     <field name="sequence" eval="False"/>
     <field name="view_id" ref="maintenance.hr_equipment_request_view_kanban"/>
     <field name="view_mode">kanban</field>
   </record>
-  <record id="MECIS.false_103ec310-c26d-474f-a660-c465c3a7cba5" model="ir.actions.act_window.view" context="{'studio': True}">
+  <record id="studio_customization.false_103ec310-c26d-474f-a660-c465c3a7cba5" model="ir.actions.act_window.view" context="{'studio': True}">
     <field name="act_window_id" ref="maintenance.maintenance_dashboard_action"/>
     <field name="multi" eval="False"/>
     <field name="sequence">1</field>
     <field name="view_id" eval="False"/>
     <field name="view_mode">dashboard</field>
   </record>
-  <record id="MECIS.false_1fa4ab86-58a3-49ea-9f2c-0ca0116dcc2b" model="ir.actions.act_window.view" context="{'studio': True}">
+  <record id="studio_customization.false_1fa4ab86-58a3-49ea-9f2c-0ca0116dcc2b" model="ir.actions.act_window.view" context="{'studio': True}">
     <field name="act_window_id" ref="maintenance.hr_equipment_request_action"/>
     <field name="multi" eval="False"/>
     <field name="sequence">4</field>
     <field name="view_id" eval="False"/>
     <field name="view_mode">graph</field>
   </record>
-  <record id="MECIS.false_2da368da-1755-4a37-a42a-d35583539a0e" model="ir.actions.act_window.view" context="{'studio': True}">
+  <record id="studio_customization.false_2da368da-1755-4a37-a42a-d35583539a0e" model="ir.actions.act_window.view" context="{'studio': True}">
     <field name="act_window_id" ref="maintenance.hr_equipment_request_action"/>
     <field name="multi" eval="False"/>
     <field name="sequence">1</field>
     <field name="view_id" eval="False"/>
     <field name="view_mode">tree</field>
   </record>
-  <record id="MECIS.false_32f234db-d234-4a23-9177-0d1638bc2fd8" model="ir.actions.act_window.view" context="{'studio': True}">
+  <record id="studio_customization.false_32f234db-d234-4a23-9177-0d1638bc2fd8" model="ir.actions.act_window.view" context="{'studio': True}">
     <field name="act_window_id" ref="maintenance.hr_equipment_request_action"/>
     <field name="multi" eval="False"/>
     <field name="sequence">5</field>
     <field name="view_id" eval="False"/>
     <field name="view_mode">calendar</field>
   </record>
-  <record id="MECIS.false_3f645f8b-2834-42c6-928d-40fde532fbbb" model="ir.actions.act_window.view" context="{'studio': True}">
+  <record id="studio_customization.false_3f645f8b-2834-42c6-928d-40fde532fbbb" model="ir.actions.act_window.view" context="{'studio': True}">
     <field name="act_window_id" ref="maintenance.maintenance_dashboard_action"/>
     <field name="multi" eval="False"/>
     <field name="sequence">3</field>
     <field name="view_id" eval="False"/>
     <field name="view_mode">tree</field>
   </record>
-  <record id="MECIS.false_40d41a8a-854b-4cf9-b55f-aa9dc5192238" model="ir.actions.act_window.view" context="{'studio': True}">
+  <record id="studio_customization.false_40d41a8a-854b-4cf9-b55f-aa9dc5192238" model="ir.actions.act_window.view" context="{'studio': True}">
     <field name="act_window_id" ref="maintenance.hr_equipment_action"/>
     <field name="multi" eval="False"/>
     <field name="sequence">1</field>
     <field name="view_id" eval="False"/>
     <field name="view_mode">tree</field>
   </record>
-  <record id="MECIS.false_4e3b46f0-fe74-4ebe-9f4f-8c40945e1595" model="ir.actions.act_window.view" context="{'studio': True}">
+  <record id="studio_customization.false_4e3b46f0-fe74-4ebe-9f4f-8c40945e1595" model="ir.actions.act_window.view" context="{'studio': True}">
     <field name="act_window_id" ref="maintenance.hr_equipment_action"/>
     <field name="multi" eval="False"/>
     <field name="sequence">3</field>
     <field name="view_id" eval="False"/>
     <field name="view_mode">dashboard</field>
   </record>
-  <record id="MECIS.false_5b3e9957-ac05-45ff-be30-ede6eae6f50b" model="ir.actions.act_window.view" context="{'studio': True}">
+  <record id="studio_customization.false_5b3e9957-ac05-45ff-be30-ede6eae6f50b" model="ir.actions.act_window.view" context="{'studio': True}">
     <field name="act_window_id" ref="maintenance.hr_equipment_request_action"/>
     <field name="multi" eval="False"/>
     <field name="sequence">2</field>
     <field name="view_id" eval="False"/>
     <field name="view_mode">form</field>
   </record>
-  <record id="MECIS.false_8797c86c-07fc-4b7c-b4c4-6e01f9cf6228" model="ir.actions.act_window.view" context="{'studio': True}">
+  <record id="studio_customization.false_8797c86c-07fc-4b7c-b4c4-6e01f9cf6228" model="ir.actions.act_window.view" context="{'studio': True}">
     <field name="act_window_id" ref="maintenance.hr_equipment_action"/>
     <field name="multi" eval="False"/>
     <field name="sequence">2</field>
     <field name="view_id" eval="False"/>
     <field name="view_mode">form</field>
   </record>
-  <record id="MECIS.false_aa913dca-02e5-446e-8bbd-abe2b7636382" model="ir.actions.act_window.view" context="{'studio': True}">
+  <record id="studio_customization.false_aa913dca-02e5-446e-8bbd-abe2b7636382" model="ir.actions.act_window.view" context="{'studio': True}">
     <field name="act_window_id" ref="maintenance.hr_equipment_request_action"/>
     <field name="multi" eval="False"/>
     <field name="sequence">3</field>
     <field name="view_id" eval="False"/>
     <field name="view_mode">pivot</field>
   </record>
-  <record id="MECIS.false_b6e2330b-eba3-4477-8a97-a34deff67ec3" model="ir.actions.act_window.view" context="{'studio': True}">
+  <record id="studio_customization.false_b6e2330b-eba3-4477-8a97-a34deff67ec3" model="ir.actions.act_window.view" context="{'studio': True}">
     <field name="act_window_id" ref="maintenance.maintenance_dashboard_action"/>
     <field name="multi" eval="False"/>
     <field name="sequence">2</field>
     <field name="view_id" eval="False"/>
     <field name="view_mode">form</field>
   </record>
-  <record id="MECIS.false_d6614c2e-600f-42f2-927d-6cf9681de8fb" model="ir.actions.act_window.view" context="{'studio': True}">
+  <record id="studio_customization.false_d6614c2e-600f-42f2-927d-6cf9681de8fb" model="ir.actions.act_window.view" context="{'studio': True}">
     <field name="act_window_id" ref="maintenance.hr_equipment_request_action"/>
     <field name="multi" eval="False"/>
     <field name="sequence">6</field>
     <field name="view_id" eval="False"/>
     <field name="view_mode">gantt</field>
   </record>
-  <record id="MECIS.maintenance_team_kan_013dc7fa-1a0f-40a9-b150-6a3bb74db48c" model="ir.actions.act_window.view" context="{'studio': True}">
+  <record id="studio_customization.maintenance_team_kan_013dc7fa-1a0f-40a9-b150-6a3bb74db48c" model="ir.actions.act_window.view" context="{'studio': True}">
     <field name="act_window_id" ref="maintenance.maintenance_dashboard_action"/>
     <field name="multi" eval="False"/>
     <field name="sequence" eval="False"/>

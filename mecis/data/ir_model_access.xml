@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <odoo>
-  <record id="MECIS.equipment_admin_user_e5cb0580-0aaf-4030-8380-683ac23af549" model="ir.model.access" context="{'studio': True}">
+  <record id="studio_customization.equipment_admin_user_e5cb0580-0aaf-4030-8380-683ac23af549" model="ir.model.access" context="{'studio': True}">
     <field name="active" eval="True"/>
     <field name="group_id" ref="__export__.res_groups_87_6ab241dd"/>
     <field name="model_id" ref="maintenance.model_maintenance_equipment"/>
@@ -10,300 +10,300 @@
     <field name="perm_unlink" eval="False"/>
     <field name="perm_write" eval="True"/>
   </record>
-  <record id="MECIS.loan_return_group_sy_151652cd-0642-4f2b-94e9-8e73102de190" model="ir.model.access" context="{'studio': True}">
+  <record id="studio_customization.loan_return_group_sy_151652cd-0642-4f2b-94e9-8e73102de190" model="ir.model.access" context="{'studio': True}">
     <field name="active" eval="True"/>
     <field name="group_id" ref="base.group_system"/>
-    <field name="model_id" ref="MECIS.loan_return_5f5410b5-9a9b-4b81-a536-b45cd27177de"/>
+    <field name="model_id" ref="studio_customization.loan_return_5f5410b5-9a9b-4b81-a536-b45cd27177de"/>
     <field name="name">Loan &amp; Return group_system</field>
     <field name="perm_create" eval="True"/>
     <field name="perm_read" eval="True"/>
     <field name="perm_unlink" eval="True"/>
     <field name="perm_write" eval="True"/>
   </record>
-  <record id="MECIS.loan_return_group_us_532df932-dc9f-47e5-a432-a0ce0d5dd471" model="ir.model.access" context="{'studio': True}">
+  <record id="studio_customization.loan_return_group_us_532df932-dc9f-47e5-a432-a0ce0d5dd471" model="ir.model.access" context="{'studio': True}">
     <field name="active" eval="True"/>
     <field name="group_id" ref="base.group_user"/>
-    <field name="model_id" ref="MECIS.loan_return_5f5410b5-9a9b-4b81-a536-b45cd27177de"/>
+    <field name="model_id" ref="studio_customization.loan_return_5f5410b5-9a9b-4b81-a536-b45cd27177de"/>
     <field name="name">Loan &amp; Return group_user</field>
     <field name="perm_create" eval="True"/>
     <field name="perm_read" eval="True"/>
     <field name="perm_unlink" eval="False"/>
     <field name="perm_write" eval="True"/>
   </record>
-  <record id="MECIS.loan_return_lines_gr_01d91877-ad70-4403-9934-745496b0f5ec" model="ir.model.access" context="{'studio': True}">
+  <record id="studio_customization.loan_return_lines_gr_01d91877-ad70-4403-9934-745496b0f5ec" model="ir.model.access" context="{'studio': True}">
     <field name="active" eval="True"/>
     <field name="group_id" ref="base.group_user"/>
-    <field name="model_id" ref="MECIS.loan_return_lines_2e85940e-4a01-4b24-a526-f7d9fc37afe3"/>
+    <field name="model_id" ref="studio_customization.loan_return_lines_2e85940e-4a01-4b24-a526-f7d9fc37afe3"/>
     <field name="name">Loan Return  Lines group_user</field>
     <field name="perm_create" eval="True"/>
     <field name="perm_read" eval="True"/>
     <field name="perm_unlink" eval="False"/>
     <field name="perm_write" eval="True"/>
   </record>
-  <record id="MECIS.loan_return_lines_gr_0844ea09-5acd-4401-ac5c-ac1e78ed9a7b" model="ir.model.access" context="{'studio': True}">
+  <record id="studio_customization.loan_return_lines_gr_0844ea09-5acd-4401-ac5c-ac1e78ed9a7b" model="ir.model.access" context="{'studio': True}">
     <field name="active" eval="True"/>
     <field name="group_id" ref="base.group_system"/>
-    <field name="model_id" ref="MECIS.loan_return_lines_2e85940e-4a01-4b24-a526-f7d9fc37afe3"/>
+    <field name="model_id" ref="studio_customization.loan_return_lines_2e85940e-4a01-4b24-a526-f7d9fc37afe3"/>
     <field name="name">Loan Return  Lines group_system</field>
     <field name="perm_create" eval="True"/>
     <field name="perm_read" eval="True"/>
     <field name="perm_unlink" eval="True"/>
     <field name="perm_write" eval="True"/>
   </record>
-  <record id="MECIS.loan_return_lines_gr_583dc81d-dc77-4eea-919b-e4b4f0605ef1" model="ir.model.access" context="{'studio': True}">
+  <record id="studio_customization.loan_return_lines_gr_583dc81d-dc77-4eea-919b-e4b4f0605ef1" model="ir.model.access" context="{'studio': True}">
     <field name="active" eval="True"/>
     <field name="group_id" ref="base.group_system"/>
-    <field name="model_id" ref="MECIS.loan_return_lines_2e85940e-4a01-4b24-a526-f7d9fc37afe3"/>
+    <field name="model_id" ref="studio_customization.loan_return_lines_2e85940e-4a01-4b24-a526-f7d9fc37afe3"/>
     <field name="name">Loan Return  Lines group_system</field>
     <field name="perm_create" eval="True"/>
     <field name="perm_read" eval="True"/>
     <field name="perm_unlink" eval="True"/>
     <field name="perm_write" eval="True"/>
   </record>
-  <record id="MECIS.loan_return_lines_gr_c128b4a1-a313-494d-b333-e242b4ceacf3" model="ir.model.access" context="{'studio': True}">
+  <record id="studio_customization.loan_return_lines_gr_c128b4a1-a313-494d-b333-e242b4ceacf3" model="ir.model.access" context="{'studio': True}">
     <field name="active" eval="True"/>
     <field name="group_id" ref="base.group_user"/>
-    <field name="model_id" ref="MECIS.loan_return_lines_2e85940e-4a01-4b24-a526-f7d9fc37afe3"/>
+    <field name="model_id" ref="studio_customization.loan_return_lines_2e85940e-4a01-4b24-a526-f7d9fc37afe3"/>
     <field name="name">Loan Return  Lines group_user</field>
     <field name="perm_create" eval="True"/>
     <field name="perm_read" eval="True"/>
     <field name="perm_unlink" eval="False"/>
     <field name="perm_write" eval="True"/>
   </record>
-  <record id="MECIS.loan_return_stages_g_18ba30ce-068e-4325-87a4-34b74468947c" model="ir.model.access" context="{'studio': True}">
+  <record id="studio_customization.loan_return_stages_g_18ba30ce-068e-4325-87a4-34b74468947c" model="ir.model.access" context="{'studio': True}">
     <field name="active" eval="True"/>
     <field name="group_id" ref="base.group_user"/>
-    <field name="model_id" ref="MECIS.loan_return_stages_658da81f-11ab-4689-b454-babf91344fd8"/>
+    <field name="model_id" ref="studio_customization.loan_return_stages_658da81f-11ab-4689-b454-babf91344fd8"/>
     <field name="name">Loan &amp; Return Stages group_user</field>
     <field name="perm_create" eval="True"/>
     <field name="perm_read" eval="True"/>
     <field name="perm_unlink" eval="False"/>
     <field name="perm_write" eval="True"/>
   </record>
-  <record id="MECIS.loan_return_stages_g_a405ee6c-47eb-466d-aa26-576c4c9cd69a" model="ir.model.access" context="{'studio': True}">
+  <record id="studio_customization.loan_return_stages_g_a405ee6c-47eb-466d-aa26-576c4c9cd69a" model="ir.model.access" context="{'studio': True}">
     <field name="active" eval="True"/>
     <field name="group_id" ref="base.group_system"/>
-    <field name="model_id" ref="MECIS.loan_return_stages_658da81f-11ab-4689-b454-babf91344fd8"/>
+    <field name="model_id" ref="studio_customization.loan_return_stages_658da81f-11ab-4689-b454-babf91344fd8"/>
     <field name="name">Loan &amp; Return Stages group_system</field>
     <field name="perm_create" eval="True"/>
     <field name="perm_read" eval="True"/>
     <field name="perm_unlink" eval="True"/>
     <field name="perm_write" eval="True"/>
   </record>
-  <record id="MECIS.loan_return_tags_gro_d71e5088-3088-4e43-a232-435300f44e0d" model="ir.model.access" context="{'studio': True}">
+  <record id="studio_customization.loan_return_tags_gro_d71e5088-3088-4e43-a232-435300f44e0d" model="ir.model.access" context="{'studio': True}">
     <field name="active" eval="True"/>
     <field name="group_id" ref="base.group_user"/>
-    <field name="model_id" ref="MECIS.loan_return_tags_fc2d91c6-dc6d-43f2-a702-a3713b431c44"/>
+    <field name="model_id" ref="studio_customization.loan_return_tags_fc2d91c6-dc6d-43f2-a702-a3713b431c44"/>
     <field name="name">Loan &amp; Return Tags group_user</field>
     <field name="perm_create" eval="True"/>
     <field name="perm_read" eval="True"/>
     <field name="perm_unlink" eval="False"/>
     <field name="perm_write" eval="True"/>
   </record>
-  <record id="MECIS.loan_return_tags_gro_e2538da2-f570-4eb4-a261-ef0c33a1dc5f" model="ir.model.access" context="{'studio': True}">
+  <record id="studio_customization.loan_return_tags_gro_e2538da2-f570-4eb4-a261-ef0c33a1dc5f" model="ir.model.access" context="{'studio': True}">
     <field name="active" eval="True"/>
     <field name="group_id" ref="base.group_system"/>
-    <field name="model_id" ref="MECIS.loan_return_tags_fc2d91c6-dc6d-43f2-a702-a3713b431c44"/>
+    <field name="model_id" ref="studio_customization.loan_return_tags_fc2d91c6-dc6d-43f2-a702-a3713b431c44"/>
     <field name="name">Loan &amp; Return Tags group_system</field>
     <field name="perm_create" eval="True"/>
     <field name="perm_read" eval="True"/>
     <field name="perm_unlink" eval="True"/>
     <field name="perm_write" eval="True"/>
   </record>
-  <record id="MECIS.maintenance_parts_gr_7d33f46f-b0da-4ad6-8af0-a68c1868705a" model="ir.model.access" context="{'studio': True}">
+  <record id="studio_customization.maintenance_parts_gr_7d33f46f-b0da-4ad6-8af0-a68c1868705a" model="ir.model.access" context="{'studio': True}">
     <field name="active" eval="True"/>
     <field name="group_id" ref="base.group_system"/>
-    <field name="model_id" ref="MECIS.maintenance_parts_74b80e0b-d249-4b95-b4e7-b718d92139d7"/>
+    <field name="model_id" ref="studio_customization.maintenance_parts_74b80e0b-d249-4b95-b4e7-b718d92139d7"/>
     <field name="name">Maintenance Parts group_system</field>
     <field name="perm_create" eval="True"/>
     <field name="perm_read" eval="True"/>
     <field name="perm_unlink" eval="True"/>
     <field name="perm_write" eval="True"/>
   </record>
-  <record id="MECIS.maintenance_parts_gr_da1f113a-b1d7-43f6-8706-21bb79bab5ad" model="ir.model.access" context="{'studio': True}">
+  <record id="studio_customization.maintenance_parts_gr_da1f113a-b1d7-43f6-8706-21bb79bab5ad" model="ir.model.access" context="{'studio': True}">
     <field name="active" eval="False"/>
     <field name="group_id" ref="base.group_user"/>
-    <field name="model_id" ref="MECIS.maintenance_parts_74b80e0b-d249-4b95-b4e7-b718d92139d7"/>
+    <field name="model_id" ref="studio_customization.maintenance_parts_74b80e0b-d249-4b95-b4e7-b718d92139d7"/>
     <field name="name">Maintenance Parts group_user</field>
     <field name="perm_create" eval="True"/>
     <field name="perm_read" eval="True"/>
     <field name="perm_unlink" eval="False"/>
     <field name="perm_write" eval="True"/>
   </record>
-  <record id="MECIS.maintenance_parts_li_02d162a2-2851-4b50-9cf7-63f807d81a35" model="ir.model.access" context="{'studio': True}">
+  <record id="studio_customization.maintenance_parts_li_02d162a2-2851-4b50-9cf7-63f807d81a35" model="ir.model.access" context="{'studio': True}">
     <field name="active" eval="False"/>
     <field name="group_id" ref="base.group_user"/>
-    <field name="model_id" ref="MECIS.maintenance_parts_li_f67ff913-885b-433c-aeda-40184a23050d"/>
+    <field name="model_id" ref="studio_customization.maintenance_parts_li_f67ff913-885b-433c-aeda-40184a23050d"/>
     <field name="name">Maintenance Parts  Lines group_user</field>
     <field name="perm_create" eval="True"/>
     <field name="perm_read" eval="True"/>
     <field name="perm_unlink" eval="False"/>
     <field name="perm_write" eval="True"/>
   </record>
-  <record id="MECIS.maintenance_parts_li_07f28d76-9a23-4774-9166-3d8e4338c743" model="ir.model.access" context="{'studio': True}">
+  <record id="studio_customization.maintenance_parts_li_07f28d76-9a23-4774-9166-3d8e4338c743" model="ir.model.access" context="{'studio': True}">
     <field name="active" eval="True"/>
     <field name="group_id" ref="base.group_system"/>
-    <field name="model_id" ref="MECIS.maintenance_parts_li_f67ff913-885b-433c-aeda-40184a23050d"/>
+    <field name="model_id" ref="studio_customization.maintenance_parts_li_f67ff913-885b-433c-aeda-40184a23050d"/>
     <field name="name">Maintenance Parts  Lines group_system</field>
     <field name="perm_create" eval="True"/>
     <field name="perm_read" eval="True"/>
     <field name="perm_unlink" eval="True"/>
     <field name="perm_write" eval="True"/>
   </record>
-  <record id="MECIS.maintenance_parts_li_4d240b2c-26f8-4da6-bbd8-cecf23890881" model="ir.model.access" context="{'studio': True}">
+  <record id="studio_customization.maintenance_parts_li_4d240b2c-26f8-4da6-bbd8-cecf23890881" model="ir.model.access" context="{'studio': True}">
     <field name="active" eval="False"/>
     <field name="group_id" ref="base.group_user"/>
-    <field name="model_id" ref="MECIS.maintenance_parts_li_f67ff913-885b-433c-aeda-40184a23050d"/>
+    <field name="model_id" ref="studio_customization.maintenance_parts_li_f67ff913-885b-433c-aeda-40184a23050d"/>
     <field name="name">Maintenance Parts  Lines group_user</field>
     <field name="perm_create" eval="True"/>
     <field name="perm_read" eval="True"/>
     <field name="perm_unlink" eval="False"/>
     <field name="perm_write" eval="True"/>
   </record>
-  <record id="MECIS.maintenance_parts_li_973eb329-b8aa-4ade-a036-5630ba96ecd7" model="ir.model.access" context="{'studio': True}">
+  <record id="studio_customization.maintenance_parts_li_973eb329-b8aa-4ade-a036-5630ba96ecd7" model="ir.model.access" context="{'studio': True}">
     <field name="active" eval="True"/>
     <field name="group_id" ref="base.group_system"/>
-    <field name="model_id" ref="MECIS.maintenance_parts_li_f67ff913-885b-433c-aeda-40184a23050d"/>
+    <field name="model_id" ref="studio_customization.maintenance_parts_li_f67ff913-885b-433c-aeda-40184a23050d"/>
     <field name="name">Maintenance Parts  Lines group_system</field>
     <field name="perm_create" eval="True"/>
     <field name="perm_read" eval="True"/>
     <field name="perm_unlink" eval="True"/>
     <field name="perm_write" eval="True"/>
   </record>
-  <record id="MECIS.maintenance_parts_st_7771cf9f-3be4-4c71-a5b1-a7fedec3b2fd" model="ir.model.access" context="{'studio': True}">
+  <record id="studio_customization.maintenance_parts_st_7771cf9f-3be4-4c71-a5b1-a7fedec3b2fd" model="ir.model.access" context="{'studio': True}">
     <field name="active" eval="False"/>
     <field name="group_id" ref="base.group_user"/>
-    <field name="model_id" ref="MECIS.maintenance_parts_st_8d0f291b-b021-433b-9801-dca4b4026e35"/>
+    <field name="model_id" ref="studio_customization.maintenance_parts_st_8d0f291b-b021-433b-9801-dca4b4026e35"/>
     <field name="name">Maintenance Parts Stages group_user</field>
     <field name="perm_create" eval="True"/>
     <field name="perm_read" eval="True"/>
     <field name="perm_unlink" eval="False"/>
     <field name="perm_write" eval="True"/>
   </record>
-  <record id="MECIS.maintenance_parts_st_9fabafb1-ffdd-428d-b914-ca57338fda1a" model="ir.model.access" context="{'studio': True}">
+  <record id="studio_customization.maintenance_parts_st_9fabafb1-ffdd-428d-b914-ca57338fda1a" model="ir.model.access" context="{'studio': True}">
     <field name="active" eval="True"/>
     <field name="group_id" ref="base.group_system"/>
-    <field name="model_id" ref="MECIS.maintenance_parts_st_8d0f291b-b021-433b-9801-dca4b4026e35"/>
+    <field name="model_id" ref="studio_customization.maintenance_parts_st_8d0f291b-b021-433b-9801-dca4b4026e35"/>
     <field name="name">Maintenance Parts Stages group_system</field>
     <field name="perm_create" eval="True"/>
     <field name="perm_read" eval="True"/>
     <field name="perm_unlink" eval="True"/>
     <field name="perm_write" eval="True"/>
   </record>
-  <record id="MECIS.maintenance_parts_ta_8c5652eb-ad3c-4df3-8ca8-e8a1ff653859" model="ir.model.access" context="{'studio': True}">
+  <record id="studio_customization.maintenance_parts_ta_8c5652eb-ad3c-4df3-8ca8-e8a1ff653859" model="ir.model.access" context="{'studio': True}">
     <field name="active" eval="False"/>
     <field name="group_id" ref="base.group_user"/>
-    <field name="model_id" ref="MECIS.maintenance_parts_ta_38fe04c9-c3f3-4959-97a2-cb0daa617c26"/>
+    <field name="model_id" ref="studio_customization.maintenance_parts_ta_38fe04c9-c3f3-4959-97a2-cb0daa617c26"/>
     <field name="name">Maintenance Parts Tags group_user</field>
     <field name="perm_create" eval="True"/>
     <field name="perm_read" eval="True"/>
     <field name="perm_unlink" eval="False"/>
     <field name="perm_write" eval="True"/>
   </record>
-  <record id="MECIS.maintenance_parts_ta_dcb876e1-ce58-4227-833f-90c1b583dd07" model="ir.model.access" context="{'studio': True}">
+  <record id="studio_customization.maintenance_parts_ta_dcb876e1-ce58-4227-833f-90c1b583dd07" model="ir.model.access" context="{'studio': True}">
     <field name="active" eval="True"/>
     <field name="group_id" ref="base.group_system"/>
-    <field name="model_id" ref="MECIS.maintenance_parts_ta_38fe04c9-c3f3-4959-97a2-cb0daa617c26"/>
+    <field name="model_id" ref="studio_customization.maintenance_parts_ta_38fe04c9-c3f3-4959-97a2-cb0daa617c26"/>
     <field name="name">Maintenance Parts Tags group_system</field>
     <field name="perm_create" eval="True"/>
     <field name="perm_read" eval="True"/>
     <field name="perm_unlink" eval="True"/>
     <field name="perm_write" eval="True"/>
   </record>
-  <record id="MECIS.order_funnel_group_s_62f66c3b-647c-46f0-a40e-135f3e3448cc" model="ir.model.access" context="{'studio': True}">
+  <record id="studio_customization.order_funnel_group_s_62f66c3b-647c-46f0-a40e-135f3e3448cc" model="ir.model.access" context="{'studio': True}">
     <field name="active" eval="True"/>
     <field name="group_id" ref="base.group_system"/>
-    <field name="model_id" ref="MECIS.order_funnel_1bd0262f-6b71-4195-b208-dd87804393d0"/>
+    <field name="model_id" ref="studio_customization.order_funnel_1bd0262f-6b71-4195-b208-dd87804393d0"/>
     <field name="name">Order funnel group_system</field>
     <field name="perm_create" eval="True"/>
     <field name="perm_read" eval="True"/>
     <field name="perm_unlink" eval="True"/>
     <field name="perm_write" eval="True"/>
   </record>
-  <record id="MECIS.order_funnel_group_u_e1eed941-f2d7-4c86-b29a-8fa2e63b0bc1" model="ir.model.access" context="{'studio': True}">
+  <record id="studio_customization.order_funnel_group_u_e1eed941-f2d7-4c86-b29a-8fa2e63b0bc1" model="ir.model.access" context="{'studio': True}">
     <field name="active" eval="False"/>
     <field name="group_id" ref="base.group_user"/>
-    <field name="model_id" ref="MECIS.order_funnel_1bd0262f-6b71-4195-b208-dd87804393d0"/>
+    <field name="model_id" ref="studio_customization.order_funnel_1bd0262f-6b71-4195-b208-dd87804393d0"/>
     <field name="name">Order funnel group_user</field>
     <field name="perm_create" eval="True"/>
     <field name="perm_read" eval="True"/>
     <field name="perm_unlink" eval="False"/>
     <field name="perm_write" eval="True"/>
   </record>
-  <record id="MECIS.order_funnel_lines_g_06b18e47-d730-47ab-8c43-e24ebf3f0760" model="ir.model.access" context="{'studio': True}">
+  <record id="studio_customization.order_funnel_lines_g_06b18e47-d730-47ab-8c43-e24ebf3f0760" model="ir.model.access" context="{'studio': True}">
     <field name="active" eval="True"/>
     <field name="group_id" ref="base.group_system"/>
-    <field name="model_id" ref="MECIS.order_funnel_lines_a4f9526d-b3f8-4323-91df-28059c7c817e"/>
+    <field name="model_id" ref="studio_customization.order_funnel_lines_a4f9526d-b3f8-4323-91df-28059c7c817e"/>
     <field name="name">Order Funnel  Lines group_system</field>
     <field name="perm_create" eval="True"/>
     <field name="perm_read" eval="True"/>
     <field name="perm_unlink" eval="True"/>
     <field name="perm_write" eval="True"/>
   </record>
-  <record id="MECIS.order_funnel_lines_g_4c93a4c9-c0fa-430b-9fc9-d2d1517da2f0" model="ir.model.access" context="{'studio': True}">
+  <record id="studio_customization.order_funnel_lines_g_4c93a4c9-c0fa-430b-9fc9-d2d1517da2f0" model="ir.model.access" context="{'studio': True}">
     <field name="active" eval="False"/>
     <field name="group_id" ref="base.group_user"/>
-    <field name="model_id" ref="MECIS.order_funnel_lines_a4f9526d-b3f8-4323-91df-28059c7c817e"/>
+    <field name="model_id" ref="studio_customization.order_funnel_lines_a4f9526d-b3f8-4323-91df-28059c7c817e"/>
     <field name="name">Order Funnel  Lines group_user</field>
     <field name="perm_create" eval="True"/>
     <field name="perm_read" eval="True"/>
     <field name="perm_unlink" eval="False"/>
     <field name="perm_write" eval="True"/>
   </record>
-  <record id="MECIS.order_funnel_lines_g_b9a9c4d3-0021-471d-8741-ba985b9a5cab" model="ir.model.access" context="{'studio': True}">
+  <record id="studio_customization.order_funnel_lines_g_b9a9c4d3-0021-471d-8741-ba985b9a5cab" model="ir.model.access" context="{'studio': True}">
     <field name="active" eval="True"/>
     <field name="group_id" ref="base.group_system"/>
-    <field name="model_id" ref="MECIS.order_funnel_lines_a4f9526d-b3f8-4323-91df-28059c7c817e"/>
+    <field name="model_id" ref="studio_customization.order_funnel_lines_a4f9526d-b3f8-4323-91df-28059c7c817e"/>
     <field name="name">Order Funnel  Lines group_system</field>
     <field name="perm_create" eval="True"/>
     <field name="perm_read" eval="True"/>
     <field name="perm_unlink" eval="True"/>
     <field name="perm_write" eval="True"/>
   </record>
-  <record id="MECIS.order_funnel_lines_g_d93f663a-227e-49d8-a571-65ee34cfae9c" model="ir.model.access" context="{'studio': True}">
+  <record id="studio_customization.order_funnel_lines_g_d93f663a-227e-49d8-a571-65ee34cfae9c" model="ir.model.access" context="{'studio': True}">
     <field name="active" eval="False"/>
     <field name="group_id" ref="base.group_user"/>
-    <field name="model_id" ref="MECIS.order_funnel_lines_a4f9526d-b3f8-4323-91df-28059c7c817e"/>
+    <field name="model_id" ref="studio_customization.order_funnel_lines_a4f9526d-b3f8-4323-91df-28059c7c817e"/>
     <field name="name">Order Funnel  Lines group_user</field>
     <field name="perm_create" eval="True"/>
     <field name="perm_read" eval="True"/>
     <field name="perm_unlink" eval="False"/>
     <field name="perm_write" eval="True"/>
   </record>
-  <record id="MECIS.order_funnel_stages__a697c423-735e-4765-b3af-03062de33f2a" model="ir.model.access" context="{'studio': True}">
+  <record id="studio_customization.order_funnel_stages__a697c423-735e-4765-b3af-03062de33f2a" model="ir.model.access" context="{'studio': True}">
     <field name="active" eval="False"/>
     <field name="group_id" ref="base.group_user"/>
-    <field name="model_id" ref="MECIS.order_funnel_stages_cd904842-e6bb-4d62-b9dd-58862c0f31e6"/>
+    <field name="model_id" ref="studio_customization.order_funnel_stages_cd904842-e6bb-4d62-b9dd-58862c0f31e6"/>
     <field name="name">Order funnel Stages group_user</field>
     <field name="perm_create" eval="True"/>
     <field name="perm_read" eval="True"/>
     <field name="perm_unlink" eval="False"/>
     <field name="perm_write" eval="True"/>
   </record>
-  <record id="MECIS.order_funnel_stages__e470cec5-a026-45e9-b0c8-7d658d8bb711" model="ir.model.access" context="{'studio': True}">
+  <record id="studio_customization.order_funnel_stages__e470cec5-a026-45e9-b0c8-7d658d8bb711" model="ir.model.access" context="{'studio': True}">
     <field name="active" eval="True"/>
     <field name="group_id" ref="base.group_system"/>
-    <field name="model_id" ref="MECIS.order_funnel_stages_cd904842-e6bb-4d62-b9dd-58862c0f31e6"/>
+    <field name="model_id" ref="studio_customization.order_funnel_stages_cd904842-e6bb-4d62-b9dd-58862c0f31e6"/>
     <field name="name">Order funnel Stages group_system</field>
     <field name="perm_create" eval="True"/>
     <field name="perm_read" eval="True"/>
     <field name="perm_unlink" eval="True"/>
     <field name="perm_write" eval="True"/>
   </record>
-  <record id="MECIS.order_funnel_tags_gr_166934df-3624-47cd-a62e-6659b2f4e4d4" model="ir.model.access" context="{'studio': True}">
+  <record id="studio_customization.order_funnel_tags_gr_166934df-3624-47cd-a62e-6659b2f4e4d4" model="ir.model.access" context="{'studio': True}">
     <field name="active" eval="True"/>
     <field name="group_id" ref="base.group_system"/>
-    <field name="model_id" ref="MECIS.order_funnel_tags_6704a207-df14-4684-b5cd-961abb1dec64"/>
+    <field name="model_id" ref="studio_customization.order_funnel_tags_6704a207-df14-4684-b5cd-961abb1dec64"/>
     <field name="name">Order funnel Tags group_system</field>
     <field name="perm_create" eval="True"/>
     <field name="perm_read" eval="True"/>
     <field name="perm_unlink" eval="True"/>
     <field name="perm_write" eval="True"/>
   </record>
-  <record id="MECIS.order_funnel_tags_gr_34baec68-a871-41b7-9078-6b280f1f8059" model="ir.model.access" context="{'studio': True}">
+  <record id="studio_customization.order_funnel_tags_gr_34baec68-a871-41b7-9078-6b280f1f8059" model="ir.model.access" context="{'studio': True}">
     <field name="active" eval="False"/>
     <field name="group_id" ref="base.group_user"/>
-    <field name="model_id" ref="MECIS.order_funnel_tags_6704a207-df14-4684-b5cd-961abb1dec64"/>
+    <field name="model_id" ref="studio_customization.order_funnel_tags_6704a207-df14-4684-b5cd-961abb1dec64"/>
     <field name="name">Order funnel Tags group_user</field>
     <field name="perm_create" eval="True"/>
     <field name="perm_read" eval="True"/>

@@ -14,10 +14,10 @@
     <field name="report_name">stock.report_deliveryslip</field>
     <field name="report_type">qweb-pdf</field>
   </record>
-  <record id="MECIS.loan_return_report_aae8fe46-380e-4678-9481-3a1a9281db94" model="ir.actions.report" context="{'studio': True}">
+  <record id="studio_customization.loan_return_report_aae8fe46-380e-4678-9481-3a1a9281db94" model="ir.actions.report" context="{'studio': True}">
     <field name="attachment" eval="False"/>
     <field name="attachment_use" eval="False"/>
-    <field name="binding_model_id" ref="MECIS.loan_return_5f5410b5-9a9b-4b81-a536-b45cd27177de"/>
+    <field name="binding_model_id" ref="studio_customization.loan_return_5f5410b5-9a9b-4b81-a536-b45cd27177de"/>
     <field name="binding_type">report</field>
     <field name="binding_view_types">list,form</field>
     <field name="groups_id" eval="[(6, 0, [])]"/>
@@ -25,10 +25,10 @@
     <field name="multi" eval="False"/>
     <field name="name">Phiếu lĩnh TBYT</field>
     <field name="paperformat_id" eval="False"/>
-    <field name="report_name">MECIS.studio_report_docume_5c01eb44-a8eb-4067-b105-a2f5dd8a0979</field>
+    <field name="report_name">studio_customization.studio_report_docume_5c01eb44-a8eb-4067-b105-a2f5dd8a0979</field>
     <field name="report_type">qweb-pdf</field>
   </record>
-  <record id="MECIS.maintenance_equipmen_54ab2b4d-4865-4430-98d8-5983f78db6e7" model="ir.actions.report" context="{'studio': True}">
+  <record id="studio_customization.maintenance_equipmen_54ab2b4d-4865-4430-98d8-5983f78db6e7" model="ir.actions.report" context="{'studio': True}">
     <field name="attachment" eval="False"/>
     <field name="attachment_use" eval="False"/>
     <field name="binding_model_id" ref="maintenance.model_maintenance_equipment"/>
@@ -39,10 +39,10 @@
     <field name="multi" eval="False"/>
     <field name="name">Biên bản bàn giao</field>
     <field name="paperformat_id" eval="False"/>
-    <field name="report_name">MECIS.studio_report_docume_9660f1dd-354d-4f63-a4e2-4e416bd340f4</field>
+    <field name="report_name">studio_customization.studio_report_docume_9660f1dd-354d-4f63-a4e2-4e416bd340f4</field>
     <field name="report_type">qweb-pdf</field>
   </record>
-  <record id="MECIS.maintenance_equipmen_9e8bff33-c01d-4e0d-a173-a544b86deda4" model="ir.actions.report" context="{'studio': True}">
+  <record id="studio_customization.maintenance_equipmen_9e8bff33-c01d-4e0d-a173-a544b86deda4" model="ir.actions.report" context="{'studio': True}">
     <field name="attachment" eval="False"/>
     <field name="attachment_use" eval="False"/>
     <field name="binding_model_id" ref="maintenance.model_maintenance_equipment"/>
@@ -52,11 +52,11 @@
     <field name="model">maintenance.equipment</field>
     <field name="multi" eval="False"/>
     <field name="name">In nhãn thiết bị</field>
-    <field name="paperformat_id" ref="MECIS.label_35x22mm_b95b5af4-0ac6-4338-8e92-50354b9a3cbf"/>
-    <field name="report_name">MECIS.studio_report_docume_f973f087-095b-46e0-b523-ddb8c8f2da11</field>
+    <field name="paperformat_id" ref="studio_customization.label_35x22mm_b95b5af4-0ac6-4338-8e92-50354b9a3cbf"/>
+    <field name="report_name">studio_customization.studio_report_docume_f973f087-095b-46e0-b523-ddb8c8f2da11</field>
     <field name="report_type">qweb-pdf</field>
   </record>
-  <record id="MECIS.maintenance_equipmen_b16ed430-3714-41f5-8a3c-e60e1f648004" model="ir.actions.report" context="{'studio': True}">
+  <record id="studio_customization.maintenance_equipmen_b16ed430-3714-41f5-8a3c-e60e1f648004" model="ir.actions.report" context="{'studio': True}">
     <field name="attachment" eval="False"/>
     <field name="attachment_use" eval="False"/>
     <field name="binding_model_id" ref="maintenance.model_maintenance_equipment"/>
@@ -67,10 +67,10 @@
     <field name="multi" eval="False"/>
     <field name="name">Báo cáo theo dõi sử dụng thiết bị</field>
     <field name="paperformat_id" eval="False"/>
-    <field name="report_name">MECIS.studio_report_docume_c4b17c2d-ffc1-49cf-a92f-7b52e653bc4b</field>
+    <field name="report_name">studio_customization.studio_report_docume_c4b17c2d-ffc1-49cf-a92f-7b52e653bc4b</field>
     <field name="report_type">qweb-pdf</field>
   </record>
-  <record id="MECIS.maintenance_equipmen_eefde165-207b-4301-8023-f091eb79bdb9" model="ir.actions.report" context="{'studio': True}">
+  <record id="studio_customization.maintenance_equipmen_eefde165-207b-4301-8023-f091eb79bdb9" model="ir.actions.report" context="{'studio': True}">
     <field name="attachment" eval="False"/>
     <field name="attachment_use" eval="False"/>
     <field name="binding_model_id" ref="maintenance.model_maintenance_equipment"/>
@@ -81,10 +81,10 @@
     <field name="multi" eval="False"/>
     <field name="name">Báo cáo theo dõi sửa chữa, bảo dưỡng thiết bị</field>
     <field name="paperformat_id" eval="False"/>
-    <field name="report_name">MECIS.studio_report_docume_d7b58c8b-c5e9-42b6-a595-3a96a9906903</field>
+    <field name="report_name">studio_customization.studio_report_docume_d7b58c8b-c5e9-42b6-a595-3a96a9906903</field>
     <field name="report_type">qweb-pdf</field>
   </record>
-  <record id="MECIS.maintenance_request__8d267e12-b1c7-49a3-be78-6701559937c7" model="ir.actions.report" context="{'studio': True}">
+  <record id="studio_customization.maintenance_request__8d267e12-b1c7-49a3-be78-6701559937c7" model="ir.actions.report" context="{'studio': True}">
     <field name="attachment" eval="False"/>
     <field name="attachment_use" eval="False"/>
     <field name="binding_model_id" ref="maintenance.model_maintenance_request"/>
@@ -95,13 +95,13 @@
     <field name="multi" eval="False"/>
     <field name="name">Maintenance Request Report</field>
     <field name="paperformat_id" eval="False"/>
-    <field name="report_name">MECIS.studio_report_docume_6129ae64-34f6-47aa-837c-24a8434b9e5d</field>
+    <field name="report_name">studio_customization.studio_report_docume_6129ae64-34f6-47aa-837c-24a8434b9e5d</field>
     <field name="report_type">qweb-pdf</field>
   </record>
-  <record id="MECIS.phieu_giao_thiet_bi__698c9e34-b3e7-4440-b4fe-289435b9a087" model="ir.actions.report" context="{'studio': True}">
+  <record id="studio_customization.phieu_giao_thiet_bi__698c9e34-b3e7-4440-b4fe-289435b9a087" model="ir.actions.report" context="{'studio': True}">
     <field name="attachment" eval="False"/>
     <field name="attachment_use" eval="False"/>
-    <field name="binding_model_id" ref="MECIS.phieu_giao_thiet_bi_348e201b-285e-42db-94c1-5795c01585fd"/>
+    <field name="binding_model_id" ref="studio_customization.phieu_giao_thiet_bi_348e201b-285e-42db-94c1-5795c01585fd"/>
     <field name="binding_type">report</field>
     <field name="binding_view_types">list,form</field>
     <field name="groups_id" eval="[(6, 0, [])]"/>
@@ -109,7 +109,7 @@
     <field name="multi" eval="False"/>
     <field name="name">Phiếu giao thiết bị Report</field>
     <field name="paperformat_id" eval="False"/>
-    <field name="report_name">MECIS.studio_report_docume_9fc6824e-753b-487b-bfd6-4b87ef0949d5</field>
+    <field name="report_name">studio_customization.studio_report_docume_9fc6824e-753b-487b-bfd6-4b87ef0949d5</field>
     <field name="report_type">qweb-pdf</field>
   </record>
 </odoo>

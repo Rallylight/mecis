@@ -110,7 +110,7 @@
     <field name="sequence">2</field>
     <field name="web_icon" eval="False"/>
   </record>
-  <record id="MECIS.danh_muc_ky_thuat_371b724e-94a1-4310-912a-719c33d9f597" model="ir.ui.menu" context="{'studio': True}">
+  <record id="studio_customization.danh_muc_ky_thuat_371b724e-94a1-4310-912a-719c33d9f597" model="ir.ui.menu" context="{'studio': True}">
     <field name="action" eval="False"/>
     <field name="active" eval="True"/>
     <field name="groups_id" eval="[(6, 0, [])]"/>
@@ -119,44 +119,44 @@
     <field name="sequence" eval="False"/>
     <field name="web_icon">fa fa-wheelchair,#f1c40f,#34495e</field>
   </record>
-  <record id="MECIS.danh_muc_ky_thuat_co_7065e1ef-0353-40c1-b7a1-ccf5ad525441" model="ir.ui.menu" context="{'studio': True}">
+  <record id="studio_customization.danh_muc_ky_thuat_co_7065e1ef-0353-40c1-b7a1-ccf5ad525441" model="ir.ui.menu" context="{'studio': True}">
     <field name="action" ref="base.action_open_website"/>
     <field name="active" eval="True"/>
     <field name="groups_id" eval="[(6, 0, [])]"/>
     <field name="name">Configuration</field>
-    <field name="parent_id" ref="MECIS.danh_muc_ky_thuat_371b724e-94a1-4310-912a-719c33d9f597"/>
+    <field name="parent_id" ref="studio_customization.danh_muc_ky_thuat_371b724e-94a1-4310-912a-719c33d9f597"/>
     <field name="sequence">1</field>
     <field name="web_icon" eval="False"/>
   </record>
-  <record id="MECIS.danh_muc_ky_thuat_da_59f83a5f-06c0-45a3-b5cc-84b8bd6bf6ba" model="ir.ui.menu" context="{'studio': True}">
-    <field name="action" ref="MECIS.danh_muc_ky_thuat_9a7a3a23-aee4-43c4-b47a-d3f39348a433"/>
+  <record id="studio_customization.danh_muc_ky_thuat_da_59f83a5f-06c0-45a3-b5cc-84b8bd6bf6ba" model="ir.ui.menu" context="{'studio': True}">
+    <field name="action" ref="studio_customization.danh_muc_ky_thuat_9a7a3a23-aee4-43c4-b47a-d3f39348a433"/>
     <field name="active" eval="True"/>
     <field name="groups_id" eval="[(6, 0, [])]"/>
     <field name="name">Danh mục kỹ thuật</field>
-    <field name="parent_id" ref="MECIS.danh_muc_ky_thuat_371b724e-94a1-4310-912a-719c33d9f597"/>
+    <field name="parent_id" ref="studio_customization.danh_muc_ky_thuat_371b724e-94a1-4310-912a-719c33d9f597"/>
     <field name="sequence" eval="False"/>
     <field name="web_icon" eval="False"/>
   </record>
-  <record id="MECIS.danh_muc_ky_thuat_nh_4c2d74f1-5a72-4f97-a8da-ffb945b2aa44" model="ir.ui.menu" context="{'studio': True}">
-    <field name="action" ref="MECIS.nhom_ky_thuat_19292b5d-f943-4ebd-9669-78b67663cb5b"/>
+  <record id="studio_customization.danh_muc_ky_thuat_nh_4c2d74f1-5a72-4f97-a8da-ffb945b2aa44" model="ir.ui.menu" context="{'studio': True}">
+    <field name="action" ref="studio_customization.nhom_ky_thuat_19292b5d-f943-4ebd-9669-78b67663cb5b"/>
     <field name="active" eval="True"/>
     <field name="groups_id" eval="[(6, 0, [])]"/>
     <field name="name">Nhóm kỹ thuật</field>
-    <field name="parent_id" ref="MECIS.danh_muc_ky_thuat_co_7065e1ef-0353-40c1-b7a1-ccf5ad525441"/>
+    <field name="parent_id" ref="studio_customization.danh_muc_ky_thuat_co_7065e1ef-0353-40c1-b7a1-ccf5ad525441"/>
     <field name="sequence" eval="False"/>
     <field name="web_icon" eval="False"/>
   </record>
-  <record id="MECIS.danh_muc_ky_thuat_ph_6492b312-465a-4e98-bc15-ae87a73c249a" model="ir.ui.menu" context="{'studio': True}">
-    <field name="action" ref="MECIS.phan_tuyen_ky_thuat_aacb4dd8-f82c-466e-96f5-754eec55ab13"/>
+  <record id="studio_customization.danh_muc_ky_thuat_ph_6492b312-465a-4e98-bc15-ae87a73c249a" model="ir.ui.menu" context="{'studio': True}">
+    <field name="action" ref="studio_customization.phan_tuyen_ky_thuat_aacb4dd8-f82c-466e-96f5-754eec55ab13"/>
     <field name="active" eval="True"/>
     <field name="groups_id" eval="[(6, 0, [])]"/>
     <field name="name">Phân tuyến kỹ thuật</field>
-    <field name="parent_id" ref="MECIS.danh_muc_ky_thuat_co_7065e1ef-0353-40c1-b7a1-ccf5ad525441"/>
+    <field name="parent_id" ref="studio_customization.danh_muc_ky_thuat_co_7065e1ef-0353-40c1-b7a1-ccf5ad525441"/>
     <field name="sequence">1</field>
     <field name="web_icon" eval="False"/>
   </record>
-  <record id="MECIS.documents_message_f13b3c5d-8a5a-4f3a-9141-828d4438a4e9" model="ir.ui.menu" context="{'studio': True}">
-    <field name="action" ref="MECIS.message_2c980d0f-3fb9-4910-8110-835937eed2cc"/>
+  <record id="studio_customization.documents_message_f13b3c5d-8a5a-4f3a-9141-828d4438a4e9" model="ir.ui.menu" context="{'studio': True}">
+    <field name="action" ref="studio_customization.message_2c980d0f-3fb9-4910-8110-835937eed2cc"/>
     <field name="active" eval="True"/>
     <field name="groups_id" eval="[(6, 0, [])]"/>
     <field name="name">Message</field>
@@ -164,16 +164,16 @@
     <field name="sequence">2</field>
     <field name="web_icon" eval="False"/>
   </record>
-  <record id="MECIS.maintenance_8c394948-2821-4aac-9c6f-5036f821de6b" model="ir.ui.menu" context="{'studio': True}">
-    <field name="action" ref="MECIS.loan_return_5438720b-f572-47f0-af80-782f0b536123"/>
+  <record id="studio_customization.maintenance_8c394948-2821-4aac-9c6f-5036f821de6b" model="ir.ui.menu" context="{'studio': True}">
+    <field name="action" ref="studio_customization.loan_return_5438720b-f572-47f0-af80-782f0b536123"/>
     <field name="active" eval="False"/>
     <field name="name">Mượn &amp; Trả</field>
     <field name="parent_id" ref="maintenance.menu_maintenance_title"/>
     <field name="sequence">4</field>
     <field name="web_icon" eval="False"/>
   </record>
-  <record id="MECIS.maintenance_activity_805a929a-6b94-4c1d-a245-dc7ab6cab2d1" model="ir.ui.menu" context="{'studio': True}">
-    <field name="action" ref="MECIS.activity_1f64ade2-0c5f-4a4c-b131-279040505a05"/>
+  <record id="studio_customization.maintenance_activity_805a929a-6b94-4c1d-a245-dc7ab6cab2d1" model="ir.ui.menu" context="{'studio': True}">
+    <field name="action" ref="studio_customization.activity_1f64ade2-0c5f-4a4c-b131-279040505a05"/>
     <field name="active" eval="True"/>
     <field name="groups_id" eval="[(6, 0, [])]"/>
     <field name="name">Activity</field>
@@ -181,8 +181,8 @@
     <field name="sequence">1</field>
     <field name="web_icon" eval="False"/>
   </record>
-  <record id="MECIS.maintenance_calibrat_012c6f76-1b97-4bdd-9eb2-05fc396e4909" model="ir.ui.menu" context="{'studio': True}">
-    <field name="action" ref="MECIS.calibration_verifica_e802afe6-51d9-48d1-a601-4d8ddd8a31e4"/>
+  <record id="studio_customization.maintenance_calibrat_012c6f76-1b97-4bdd-9eb2-05fc396e4909" model="ir.ui.menu" context="{'studio': True}">
+    <field name="action" ref="studio_customization.calibration_verifica_e802afe6-51d9-48d1-a601-4d8ddd8a31e4"/>
     <field name="active" eval="True"/>
     <field name="groups_id" eval="[(6, 0, [])]"/>
     <field name="name">Calibration Category</field>
@@ -190,8 +190,8 @@
     <field name="sequence">2</field>
     <field name="web_icon" eval="False"/>
   </record>
-  <record id="MECIS.maintenance_calibrat_dd263bca-b858-476d-8e9c-91d71643842a" model="ir.ui.menu" context="{'studio': True}">
-    <field name="action" ref="MECIS.calibration_verifica_b6161e31-c8b7-417b-ba61-b06182c4f73a"/>
+  <record id="studio_customization.maintenance_calibrat_dd263bca-b858-476d-8e9c-91d71643842a" model="ir.ui.menu" context="{'studio': True}">
+    <field name="action" ref="studio_customization.calibration_verifica_b6161e31-c8b7-417b-ba61-b06182c4f73a"/>
     <field name="active" eval="False"/>
     <field name="groups_id" eval="[(6, 0, [])]"/>
     <field name="name">Calibration &amp; Verification</field>
@@ -199,15 +199,15 @@
     <field name="sequence">6</field>
     <field name="web_icon" eval="False"/>
   </record>
-  <record id="MECIS.maintenance_custom_c_543af948-66c2-4039-94d4-f8f1fff23bfa" model="ir.ui.menu" context="{'studio': True}">
-    <field name="action" ref="MECIS.loan_return_stages_14fb3e65-2291-49a7-9d59-a3bcb5e2ef69"/>
+  <record id="studio_customization.maintenance_custom_c_543af948-66c2-4039-94d4-f8f1fff23bfa" model="ir.ui.menu" context="{'studio': True}">
+    <field name="action" ref="studio_customization.loan_return_stages_14fb3e65-2291-49a7-9d59-a3bcb5e2ef69"/>
     <field name="active" eval="True"/>
     <field name="name">Loan &amp; Return Stages</field>
     <field name="parent_id" ref="maintenance.menu_maintenance_configuration"/>
     <field name="sequence">9</field>
     <field name="web_icon" eval="False"/>
   </record>
-  <record id="MECIS.maintenance_custom_c_60993582-31e0-4203-b7c4-9c2ab5e069f9" model="ir.ui.menu" context="{'studio': True}">
+  <record id="studio_customization.maintenance_custom_c_60993582-31e0-4203-b7c4-9c2ab5e069f9" model="ir.ui.menu" context="{'studio': True}">
     <field name="action" eval="False"/>
     <field name="active" eval="False"/>
     <field name="groups_id" eval="[(6, 0, [])]"/>
@@ -216,16 +216,16 @@
     <field name="sequence">1000</field>
     <field name="web_icon" eval="False"/>
   </record>
-  <record id="MECIS.maintenance_custom_c_6780d4e6-17b5-4294-ac0e-4cd99b33d6cb" model="ir.ui.menu" context="{'studio': True}">
-    <field name="action" ref="MECIS.loan_return_tags_211a0ca2-c186-4f65-9ea2-e63352895a39"/>
+  <record id="studio_customization.maintenance_custom_c_6780d4e6-17b5-4294-ac0e-4cd99b33d6cb" model="ir.ui.menu" context="{'studio': True}">
+    <field name="action" ref="studio_customization.loan_return_tags_211a0ca2-c186-4f65-9ea2-e63352895a39"/>
     <field name="active" eval="True"/>
     <field name="name">Loan &amp; Return Tags</field>
     <field name="parent_id" ref="maintenance.menu_maintenance_configuration"/>
     <field name="sequence">8</field>
     <field name="web_icon" eval="False"/>
   </record>
-  <record id="MECIS.maintenance_custom_c_a11b0fe2-c0ab-43a5-84b4-97ead923ebff" model="ir.ui.menu" context="{'studio': True}">
-    <field name="action" ref="MECIS.maintenance_parts_st_970be611-5766-4649-be7a-7aa7fec07396"/>
+  <record id="studio_customization.maintenance_custom_c_a11b0fe2-c0ab-43a5-84b4-97ead923ebff" model="ir.ui.menu" context="{'studio': True}">
+    <field name="action" ref="studio_customization.maintenance_parts_st_970be611-5766-4649-be7a-7aa7fec07396"/>
     <field name="active" eval="True"/>
     <field name="groups_id" eval="[(6, 0, [])]"/>
     <field name="name">Maintenance Parts Stages</field>
@@ -233,7 +233,7 @@
     <field name="sequence">6</field>
     <field name="web_icon" eval="False"/>
   </record>
-  <record id="MECIS.maintenance_custom_c_daddc9cd-46c2-4e68-ba81-9e723cc33c5b" model="ir.ui.menu" context="{'studio': True}">
+  <record id="studio_customization.maintenance_custom_c_daddc9cd-46c2-4e68-ba81-9e723cc33c5b" model="ir.ui.menu" context="{'studio': True}">
     <field name="action" eval="False"/>
     <field name="active" eval="False"/>
     <field name="groups_id" eval="[(6, 0, [])]"/>
@@ -242,8 +242,8 @@
     <field name="sequence">1000</field>
     <field name="web_icon" eval="False"/>
   </record>
-  <record id="MECIS.maintenance_custom_c_e32cc201-7b56-4d7f-b500-ea032fcd3951" model="ir.ui.menu" context="{'studio': True}">
-    <field name="action" ref="MECIS.maintenance_parts_ta_f8c97ee2-51de-4c39-9b2a-6585eecf687d"/>
+  <record id="studio_customization.maintenance_custom_c_e32cc201-7b56-4d7f-b500-ea032fcd3951" model="ir.ui.menu" context="{'studio': True}">
+    <field name="action" ref="studio_customization.maintenance_parts_ta_f8c97ee2-51de-4c39-9b2a-6585eecf687d"/>
     <field name="active" eval="True"/>
     <field name="groups_id" eval="[(6, 0, [])]"/>
     <field name="name">Maintenance Parts Tags</field>
@@ -251,8 +251,8 @@
     <field name="sequence">5</field>
     <field name="web_icon" eval="False"/>
   </record>
-  <record id="MECIS.maintenance_delivery_ecb4153e-040d-4788-8e9f-45b8e3cee64c" model="ir.ui.menu" context="{'studio': True}">
-    <field name="action" ref="MECIS.delivery_line_0bb865c3-7b23-4650-ae81-2341a9851ce3"/>
+  <record id="studio_customization.maintenance_delivery_ecb4153e-040d-4788-8e9f-45b8e3cee64c" model="ir.ui.menu" context="{'studio': True}">
+    <field name="action" ref="studio_customization.delivery_line_0bb865c3-7b23-4650-ae81-2341a9851ce3"/>
     <field name="active" eval="True"/>
     <field name="groups_id" eval="[(6, 0, [])]"/>
     <field name="name">Delivery line</field>
@@ -260,16 +260,16 @@
     <field name="sequence">11</field>
     <field name="web_icon" eval="False"/>
   </record>
-  <record id="MECIS.maintenance_e90fa4ce-3625-4bf5-b04f-138c5c9de9be" model="ir.ui.menu" context="{'studio': True}">
-    <field name="action" ref="MECIS.maintenance_equipmen_391ade45-c2d3-4970-b99d-1c3a0253f2a5"/>
+  <record id="studio_customization.maintenance_e90fa4ce-3625-4bf5-b04f-138c5c9de9be" model="ir.ui.menu" context="{'studio': True}">
+    <field name="action" ref="studio_customization.maintenance_equipmen_391ade45-c2d3-4970-b99d-1c3a0253f2a5"/>
     <field name="active" eval="True"/>
     <field name="name">Equipment</field>
     <field name="parent_id" ref="maintenance.menu_equipment_form"/>
     <field name="sequence" eval="False"/>
     <field name="web_icon" eval="False"/>
   </record>
-  <record id="MECIS.maintenance_event_e2e7fb2b-a199-4ed7-a1ad-f48b9b717dc5" model="ir.ui.menu" context="{'studio': True}">
-    <field name="action" ref="MECIS.event_8f82a9bb-ade3-4205-bc6d-128b0591d9a6"/>
+  <record id="studio_customization.maintenance_event_e2e7fb2b-a199-4ed7-a1ad-f48b9b717dc5" model="ir.ui.menu" context="{'studio': True}">
+    <field name="action" ref="studio_customization.event_8f82a9bb-ade3-4205-bc6d-128b0591d9a6"/>
     <field name="active" eval="True"/>
     <field name="groups_id" eval="[(6, 0, [])]"/>
     <field name="name">Event</field>
@@ -277,8 +277,8 @@
     <field name="sequence">2</field>
     <field name="web_icon" eval="False"/>
   </record>
-  <record id="MECIS.maintenance_kiem_inh_b93a5a17-952f-4bdf-908d-df6ce5736ac8" model="ir.ui.menu" context="{'studio': True}">
-    <field name="action" ref="MECIS.kiem_inh_hieu_chuan_094c0f8d-5c6d-4b89-857d-cb8ba8c02eaf"/>
+  <record id="studio_customization.maintenance_kiem_inh_b93a5a17-952f-4bdf-908d-df6ce5736ac8" model="ir.ui.menu" context="{'studio': True}">
+    <field name="action" ref="studio_customization.kiem_inh_hieu_chuan_094c0f8d-5c6d-4b89-857d-cb8ba8c02eaf"/>
     <field name="active" eval="True"/>
     <field name="groups_id" eval="[(6, 0, [])]"/>
     <field name="name">Kiểm định &amp; Hiệu chuẩn</field>
@@ -286,8 +286,8 @@
     <field name="sequence">2</field>
     <field name="web_icon" eval="False"/>
   </record>
-  <record id="MECIS.maintenance_loan_lin_405a9c77-e854-41f7-9094-828fceb0399a" model="ir.ui.menu" context="{'studio': True}">
-    <field name="action" ref="MECIS.loan_lines_bb3615aa-2ccd-48d1-ba82-42240ba719e1"/>
+  <record id="studio_customization.maintenance_loan_lin_405a9c77-e854-41f7-9094-828fceb0399a" model="ir.ui.menu" context="{'studio': True}">
+    <field name="action" ref="studio_customization.loan_lines_bb3615aa-2ccd-48d1-ba82-42240ba719e1"/>
     <field name="active" eval="True"/>
     <field name="groups_id" eval="[(6, 0, [])]"/>
     <field name="name">Loan Lines</field>
@@ -295,16 +295,16 @@
     <field name="sequence">10</field>
     <field name="web_icon" eval="False"/>
   </record>
-  <record id="MECIS.maintenance_loan_ret_669020a5-698e-4588-9b03-7fe8b77d89c8" model="ir.ui.menu" context="{'studio': True}">
-    <field name="action" ref="MECIS.loan_return_14c6296d-df69-4535-843a-3996824ef5ce"/>
+  <record id="studio_customization.maintenance_loan_ret_669020a5-698e-4588-9b03-7fe8b77d89c8" model="ir.ui.menu" context="{'studio': True}">
+    <field name="action" ref="studio_customization.loan_return_14c6296d-df69-4535-843a-3996824ef5ce"/>
     <field name="active" eval="True"/>
     <field name="name">Loan &amp; Return</field>
     <field name="parent_id" ref="maintenance.menu_maintenance_title"/>
     <field name="sequence">3</field>
     <field name="web_icon" eval="False"/>
   </record>
-  <record id="MECIS.maintenance_maintena_0e41a64b-da1b-44eb-bb06-bd1e61e17fa0" model="ir.ui.menu" context="{'studio': True}">
-    <field name="action" ref="MECIS.maintenance_parts_1e98cc03-6a1d-4c36-bf3f-09741bad7c55"/>
+  <record id="studio_customization.maintenance_maintena_0e41a64b-da1b-44eb-bb06-bd1e61e17fa0" model="ir.ui.menu" context="{'studio': True}">
+    <field name="action" ref="studio_customization.maintenance_parts_1e98cc03-6a1d-4c36-bf3f-09741bad7c55"/>
     <field name="active" eval="False"/>
     <field name="groups_id" eval="[(6, 0, [])]"/>
     <field name="name">Maintenance Parts</field>
@@ -312,8 +312,8 @@
     <field name="sequence">3</field>
     <field name="web_icon" eval="False"/>
   </record>
-  <record id="MECIS.maintenance_maintena_1230423d-dce3-4acf-ad4a-1e4e0e7f090a" model="ir.ui.menu" context="{'studio': True}">
-    <field name="action" ref="MECIS.maintenance_parts_07c50d01-461f-4adf-bc2f-48eeb93f163b"/>
+  <record id="studio_customization.maintenance_maintena_1230423d-dce3-4acf-ad4a-1e4e0e7f090a" model="ir.ui.menu" context="{'studio': True}">
+    <field name="action" ref="studio_customization.maintenance_parts_07c50d01-461f-4adf-bc2f-48eeb93f163b"/>
     <field name="active" eval="True"/>
     <field name="groups_id" eval="[(6, 0, [])]"/>
     <field name="name">Maintenance Parts</field>
@@ -321,8 +321,8 @@
     <field name="sequence">1</field>
     <field name="web_icon" eval="False"/>
   </record>
-  <record id="MECIS.maintenance_maintena_2c6d8217-bbdd-49e4-bb0c-b7aeb61ebccc" model="ir.ui.menu" context="{'studio': True}">
-    <field name="action" ref="MECIS.maintenance_parts_253a280f-8c28-4c77-8896-dd1c4f204048"/>
+  <record id="studio_customization.maintenance_maintena_2c6d8217-bbdd-49e4-bb0c-b7aeb61ebccc" model="ir.ui.menu" context="{'studio': True}">
+    <field name="action" ref="studio_customization.maintenance_parts_253a280f-8c28-4c77-8896-dd1c4f204048"/>
     <field name="active" eval="True"/>
     <field name="groups_id" eval="[(6, 0, [])]"/>
     <field name="name">Maintenance Parts</field>
@@ -330,7 +330,7 @@
     <field name="sequence">7</field>
     <field name="web_icon" eval="False"/>
   </record>
-  <record id="MECIS.order_funnel_4806c582-6018-42bd-8a2d-5ca8c4d89574" model="ir.ui.menu" context="{'studio': True}">
+  <record id="studio_customization.order_funnel_4806c582-6018-42bd-8a2d-5ca8c4d89574" model="ir.ui.menu" context="{'studio': True}">
     <field name="action" eval="False"/>
     <field name="active" eval="True"/>
     <field name="groups_id" eval="[(6, 0, [])]"/>
@@ -339,39 +339,39 @@
     <field name="sequence">10</field>
     <field name="web_icon">fa fa-home,#f1c40f,#34495e</field>
   </record>
-  <record id="MECIS.order_funnel_configu_4f5c6890-8e55-473e-927c-b6f6e1db36f4" model="ir.ui.menu" context="{'studio': True}">
+  <record id="studio_customization.order_funnel_configu_4f5c6890-8e55-473e-927c-b6f6e1db36f4" model="ir.ui.menu" context="{'studio': True}">
     <field name="action" eval="False"/>
     <field name="active" eval="True"/>
     <field name="groups_id" eval="[(6, 0, [])]"/>
     <field name="name">Configuration</field>
-    <field name="parent_id" ref="MECIS.order_funnel_4806c582-6018-42bd-8a2d-5ca8c4d89574"/>
+    <field name="parent_id" ref="studio_customization.order_funnel_4806c582-6018-42bd-8a2d-5ca8c4d89574"/>
     <field name="sequence">100</field>
     <field name="web_icon" eval="False"/>
   </record>
-  <record id="MECIS.order_funnel_configu_1d1f1bdd-da78-4dab-8228-4bab3709759b" model="ir.ui.menu" context="{'studio': True}">
-    <field name="action" ref="MECIS.order_funnel_stages_aed0444d-419a-4ee8-bed4-dc72bf56e88d"/>
+  <record id="studio_customization.order_funnel_configu_1d1f1bdd-da78-4dab-8228-4bab3709759b" model="ir.ui.menu" context="{'studio': True}">
+    <field name="action" ref="studio_customization.order_funnel_stages_aed0444d-419a-4ee8-bed4-dc72bf56e88d"/>
     <field name="active" eval="True"/>
     <field name="groups_id" eval="[(6, 0, [])]"/>
     <field name="name">Order funnel Stages</field>
-    <field name="parent_id" ref="MECIS.order_funnel_configu_4f5c6890-8e55-473e-927c-b6f6e1db36f4"/>
+    <field name="parent_id" ref="studio_customization.order_funnel_configu_4f5c6890-8e55-473e-927c-b6f6e1db36f4"/>
     <field name="sequence">10</field>
     <field name="web_icon" eval="False"/>
   </record>
-  <record id="MECIS.order_funnel_configu_59ca2c1f-6897-4c9a-bcef-f7b4ec9da3ed" model="ir.ui.menu" context="{'studio': True}">
-    <field name="action" ref="MECIS.order_funnel_tags_a7ef742d-7a13-4259-ae01-c372492aa091"/>
+  <record id="studio_customization.order_funnel_configu_59ca2c1f-6897-4c9a-bcef-f7b4ec9da3ed" model="ir.ui.menu" context="{'studio': True}">
+    <field name="action" ref="studio_customization.order_funnel_tags_a7ef742d-7a13-4259-ae01-c372492aa091"/>
     <field name="active" eval="True"/>
     <field name="groups_id" eval="[(6, 0, [])]"/>
     <field name="name">Order funnel Tags</field>
-    <field name="parent_id" ref="MECIS.order_funnel_configu_4f5c6890-8e55-473e-927c-b6f6e1db36f4"/>
+    <field name="parent_id" ref="studio_customization.order_funnel_configu_4f5c6890-8e55-473e-927c-b6f6e1db36f4"/>
     <field name="sequence">10</field>
     <field name="web_icon" eval="False"/>
   </record>
-  <record id="MECIS.order_funnel_order_f_1717165f-8ab9-4253-8e19-fd095e21ac7c" model="ir.ui.menu" context="{'studio': True}">
-    <field name="action" ref="MECIS.order_funnel_5c0b6b26-d3a3-47bd-96fa-5456a1edd8a1"/>
+  <record id="studio_customization.order_funnel_order_f_1717165f-8ab9-4253-8e19-fd095e21ac7c" model="ir.ui.menu" context="{'studio': True}">
+    <field name="action" ref="studio_customization.order_funnel_5c0b6b26-d3a3-47bd-96fa-5456a1edd8a1"/>
     <field name="active" eval="True"/>
     <field name="groups_id" eval="[(6, 0, [])]"/>
     <field name="name">Order funnel</field>
-    <field name="parent_id" ref="MECIS.order_funnel_4806c582-6018-42bd-8a2d-5ca8c4d89574"/>
+    <field name="parent_id" ref="studio_customization.order_funnel_4806c582-6018-42bd-8a2d-5ca8c4d89574"/>
     <field name="sequence">10</field>
     <field name="web_icon" eval="False"/>
   </record>

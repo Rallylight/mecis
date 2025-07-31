@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <odoo>
-  <record id="MECIS.auto_change_state_wh_9b56e291-d344-4f14-8aa3-8c360f04f783" model="ir.actions.server" context="{'studio': True}">
+  <record id="studio_customization.auto_change_state_wh_9b56e291-d344-4f14-8aa3-8c360f04f783" model="ir.actions.server" context="{'studio': True}">
     <field name="binding_model_id" eval="False"/>
     <field name="binding_type">action</field>
     <field name="binding_view_types">list,form</field>
@@ -15,7 +15,7 @@
     <field name="sequence">5</field>
     <field name="state">object_write</field>
   </record>
-  <record id="MECIS.automatic_create_mes_457ab10b-6629-4356-8239-b06a8241489b" model="ir.actions.server" context="{'studio': True}">
+  <record id="studio_customization.automatic_create_mes_457ab10b-6629-4356-8239-b06a8241489b" model="ir.actions.server" context="{'studio': True}">
     <field name="binding_model_id" eval="False"/>
     <field name="binding_type">action</field>
     <field name="binding_view_types">list,form</field>
@@ -31,7 +31,7 @@ record.message_post(body=confirmation_message, message_type='notification')
     <field name="sequence">5</field>
     <field name="state">code</field>
   </record>
-  <record id="MECIS.generate_qr_code_53d81df0-d111-4961-8780-1b58d0d74f14" model="ir.actions.server" context="{'studio': True}">
+  <record id="studio_customization.generate_qr_code_53d81df0-d111-4961-8780-1b58d0d74f14" model="ir.actions.server" context="{'studio': True}">
     <field name="binding_model_id" eval="False"/>
     <field name="binding_type">action</field>
     <field name="binding_view_types">list,form</field>

@@ -1106,7 +1106,7 @@
     <field name="priority">16</field>
     <field name="type">tree</field>
   </record>
-  <record id="MECIS.default_activity_vie_e61a33eb-e57c-4c47-973c-eb090f0ff21a" model="ir.ui.view" context="{'studio': True}">
+  <record id="studio_customization.default_activity_vie_e61a33eb-e57c-4c47-973c-eb090f0ff21a" model="ir.ui.view" context="{'studio': True}">
     <field name="active" eval="True"/>
     <field name="arch" type="xml">
       <activity string="Bảo trì thiết bị">
@@ -1127,7 +1127,7 @@
     <field name="priority">16</field>
     <field name="type">activity</field>
   </record>
-  <record id="MECIS.default_calendar_vie_27dd45f8-5b52-436c-8096-f5620641a485" model="ir.ui.view" context="{'studio': True}">
+  <record id="studio_customization.default_calendar_vie_27dd45f8-5b52-436c-8096-f5620641a485" model="ir.ui.view" context="{'studio': True}">
     <field name="active" eval="True"/>
     <field name="arch" type="xml">
       <calendar date_start="x_studio_date" create_name_field="x_name"/>
@@ -1142,7 +1142,7 @@
     <field name="priority">16</field>
     <field name="type">calendar</field>
   </record>
-  <record id="MECIS.default_calendar_vie_413b99be-e5df-4435-9c64-84af661c2fad" model="ir.ui.view" context="{'studio': True}">
+  <record id="studio_customization.default_calendar_vie_413b99be-e5df-4435-9c64-84af661c2fad" model="ir.ui.view" context="{'studio': True}">
     <field name="active" eval="True"/>
     <field name="arch" type="xml">
       <calendar date_start="x_studio_date" create_name_field="x_name"/>
@@ -1157,7 +1157,7 @@
     <field name="priority">16</field>
     <field name="type">calendar</field>
   </record>
-  <record id="MECIS.default_calendar_vie_af47ec9d-0fe4-430f-8236-3db52bcaa3f7" model="ir.ui.view" context="{'studio': True}">
+  <record id="studio_customization.default_calendar_vie_af47ec9d-0fe4-430f-8236-3db52bcaa3f7" model="ir.ui.view" context="{'studio': True}">
     <field name="active" eval="True"/>
     <field name="arch" type="xml">
       <calendar date_start="x_studio_date" create_name_field="x_name"/>
@@ -1172,7 +1172,7 @@
     <field name="priority">16</field>
     <field name="type">calendar</field>
   </record>
-  <record id="MECIS.default_calendar_vie_c8828983-48bd-43b9-b9bf-6bbd2f634b7f" model="ir.ui.view" context="{'studio': True}">
+  <record id="studio_customization.default_calendar_vie_c8828983-48bd-43b9-b9bf-6bbd2f634b7f" model="ir.ui.view" context="{'studio': True}">
     <field name="active" eval="True"/>
     <field name="arch" type="xml">
       <calendar date_start="create_date" date_stop="create_date" string="Default calendar view for x_calibration_request"/>
@@ -1187,7 +1187,7 @@
     <field name="priority">16</field>
     <field name="type">calendar</field>
   </record>
-  <record id="MECIS.default_dashboard_vi_22606160-7145-48f2-9b3b-cb8b96c0f094" model="ir.ui.view" context="{'studio': True}">
+  <record id="studio_customization.default_dashboard_vi_22606160-7145-48f2-9b3b-cb8b96c0f094" model="ir.ui.view" context="{'studio': True}">
     <field name="active" eval="True"/>
     <field name="arch" type="xml">
       <dashboard>
@@ -1205,7 +1205,7 @@
     <field name="priority">16</field>
     <field name="type">dashboard</field>
   </record>
-  <record id="MECIS.default_dashboard_vi_75385a26-b6d8-45b2-be06-3e71f98271c7" model="ir.ui.view" context="{'studio': True}">
+  <record id="studio_customization.default_dashboard_vi_75385a26-b6d8-45b2-be06-3e71f98271c7" model="ir.ui.view" context="{'studio': True}">
     <field name="active" eval="True"/>
     <field name="arch" type="xml">
       <dashboard>
@@ -1223,7 +1223,7 @@
     <field name="priority">16</field>
     <field name="type">dashboard</field>
   </record>
-  <record id="MECIS.default_dashboard_vi_c309d65c-ff12-42ac-aa02-26d7e27f7332" model="ir.ui.view" context="{'studio': True}">
+  <record id="studio_customization.default_dashboard_vi_c309d65c-ff12-42ac-aa02-26d7e27f7332" model="ir.ui.view" context="{'studio': True}">
     <field name="active" eval="True"/>
     <field name="arch" type="xml">
       <dashboard>
@@ -1241,7 +1241,7 @@
     <field name="priority">16</field>
     <field name="type">dashboard</field>
   </record>
-  <record id="MECIS.default_form_view_fo_30046579-d9b6-42a9-8792-ba718bb2385a" model="ir.ui.view" context="{'studio': True}">
+  <record id="studio_customization.default_form_view_fo_30046579-d9b6-42a9-8792-ba718bb2385a" model="ir.ui.view" context="{'studio': True}">
     <field name="active" eval="True"/>
     <field name="arch" type="xml">
       <form>
@@ -1269,7 +1269,7 @@
     <field name="priority">16</field>
     <field name="type">form</field>
   </record>
-  <record id="MECIS.default_form_view_fo_33e22a73-57a5-4385-ba4f-395d22a16f13" model="ir.ui.view" context="{'studio': True}">
+  <record id="studio_customization.default_form_view_fo_33e22a73-57a5-4385-ba4f-395d22a16f13" model="ir.ui.view" context="{'studio': True}">
     <field name="active" eval="True"/>
     <field name="arch" type="xml">
       <form>
@@ -1299,7 +1299,7 @@
     <field name="priority">16</field>
     <field name="type">form</field>
   </record>
-  <record id="MECIS.default_form_view_fo_355c0b8b-c4b9-4deb-b077-088f725c6452" model="ir.ui.view" context="{'studio': True}">
+  <record id="studio_customization.default_form_view_fo_355c0b8b-c4b9-4deb-b077-088f725c6452" model="ir.ui.view" context="{'studio': True}">
     <field name="active" eval="True"/>
     <field name="arch" type="xml">
       <form>
@@ -1327,7 +1327,7 @@
     <field name="priority">16</field>
     <field name="type">form</field>
   </record>
-  <record id="MECIS.default_form_view_fo_3de79b24-bd7e-4be0-acf3-07213ffbb570" model="ir.ui.view" context="{'studio': True}">
+  <record id="studio_customization.default_form_view_fo_3de79b24-bd7e-4be0-acf3-07213ffbb570" model="ir.ui.view" context="{'studio': True}">
     <field name="active" eval="True"/>
     <field name="arch" type="xml">
       <form>
@@ -1356,7 +1356,7 @@
     <field name="priority">16</field>
     <field name="type">form</field>
   </record>
-  <record id="MECIS.default_form_view_fo_41b51b70-03f1-42dc-9f54-fcf0bbca27de" model="ir.ui.view" context="{'studio': True}">
+  <record id="studio_customization.default_form_view_fo_41b51b70-03f1-42dc-9f54-fcf0bbca27de" model="ir.ui.view" context="{'studio': True}">
     <field name="active" eval="True"/>
     <field name="arch" type="xml">
       <form>
@@ -1420,7 +1420,7 @@
     <field name="priority">16</field>
     <field name="type">form</field>
   </record>
-  <record id="MECIS.default_form_view_fo_48b27549-8671-4232-aa33-fdfec484f361" model="ir.ui.view" context="{'studio': True}">
+  <record id="studio_customization.default_form_view_fo_48b27549-8671-4232-aa33-fdfec484f361" model="ir.ui.view" context="{'studio': True}">
     <field name="active" eval="True"/>
     <field name="arch" type="xml">
       <form>
@@ -1448,7 +1448,7 @@
     <field name="priority">16</field>
     <field name="type">form</field>
   </record>
-  <record id="MECIS.default_form_view_fo_53713b35-05b9-42b1-98b3-7cddcb7ed20e" model="ir.ui.view" context="{'studio': True}">
+  <record id="studio_customization.default_form_view_fo_53713b35-05b9-42b1-98b3-7cddcb7ed20e" model="ir.ui.view" context="{'studio': True}">
     <field name="active" eval="True"/>
     <field name="arch" type="xml">
       <form>
@@ -1476,7 +1476,7 @@
     <field name="priority">16</field>
     <field name="type">form</field>
   </record>
-  <record id="MECIS.default_form_view_fo_6659af13-7a91-4b1a-904b-efa9bcffe8fc" model="ir.ui.view" context="{'studio': True}">
+  <record id="studio_customization.default_form_view_fo_6659af13-7a91-4b1a-904b-efa9bcffe8fc" model="ir.ui.view" context="{'studio': True}">
     <field name="active" eval="True"/>
     <field name="arch" type="xml">
       <form>
@@ -1532,7 +1532,7 @@
     <field name="priority">16</field>
     <field name="type">form</field>
   </record>
-  <record id="MECIS.default_form_view_fo_6a010053-eb45-460c-94b4-1c0459982aa0" model="ir.ui.view" context="{'studio': True}">
+  <record id="studio_customization.default_form_view_fo_6a010053-eb45-460c-94b4-1c0459982aa0" model="ir.ui.view" context="{'studio': True}">
     <field name="active" eval="True"/>
     <field name="arch" type="xml">
       <form>
@@ -1560,7 +1560,7 @@
     <field name="priority">16</field>
     <field name="type">form</field>
   </record>
-  <record id="MECIS.default_form_view_fo_7a3a6d1e-1589-4688-84ec-cf12f0c129e6" model="ir.ui.view" context="{'studio': True}">
+  <record id="studio_customization.default_form_view_fo_7a3a6d1e-1589-4688-84ec-cf12f0c129e6" model="ir.ui.view" context="{'studio': True}">
     <field name="active" eval="True"/>
     <field name="arch" type="xml">
       <form>
@@ -1589,7 +1589,7 @@
     <field name="priority">16</field>
     <field name="type">form</field>
   </record>
-  <record id="MECIS.default_form_view_fo_7e1c0e69-db91-46f4-8e14-b98f3ff7f6f1" model="ir.ui.view" context="{'studio': True}">
+  <record id="studio_customization.default_form_view_fo_7e1c0e69-db91-46f4-8e14-b98f3ff7f6f1" model="ir.ui.view" context="{'studio': True}">
     <field name="active" eval="True"/>
     <field name="arch" type="xml">
       <form>
@@ -1670,7 +1670,7 @@
     <field name="priority">16</field>
     <field name="type">form</field>
   </record>
-  <record id="MECIS.default_form_view_fo_8568a240-a8c3-4f7f-a19e-52d7ec972258" model="ir.ui.view" context="{'studio': True}">
+  <record id="studio_customization.default_form_view_fo_8568a240-a8c3-4f7f-a19e-52d7ec972258" model="ir.ui.view" context="{'studio': True}">
     <field name="active" eval="True"/>
     <field name="arch" type="xml">
       <form>
@@ -1698,7 +1698,7 @@
     <field name="priority">16</field>
     <field name="type">form</field>
   </record>
-  <record id="MECIS.default_form_view_fo_a879bdad-e281-4dd9-be99-f078044fa126" model="ir.ui.view" context="{'studio': True}">
+  <record id="studio_customization.default_form_view_fo_a879bdad-e281-4dd9-be99-f078044fa126" model="ir.ui.view" context="{'studio': True}">
     <field name="active" eval="True"/>
     <field name="arch" type="xml">
       <form>
@@ -1726,7 +1726,7 @@
     <field name="priority">16</field>
     <field name="type">form</field>
   </record>
-  <record id="MECIS.default_form_view_fo_b91a079c-f04e-4e8e-b0f2-ee8eaa0198f4" model="ir.ui.view" context="{'studio': True}">
+  <record id="studio_customization.default_form_view_fo_b91a079c-f04e-4e8e-b0f2-ee8eaa0198f4" model="ir.ui.view" context="{'studio': True}">
     <field name="active" eval="True"/>
     <field name="arch" type="xml">
       <form>
@@ -1759,7 +1759,7 @@
     <field name="priority">16</field>
     <field name="type">form</field>
   </record>
-  <record id="MECIS.default_form_view_fo_c1a62ce7-c03a-44a2-880b-9760365a9386" model="ir.ui.view" context="{'studio': True}">
+  <record id="studio_customization.default_form_view_fo_c1a62ce7-c03a-44a2-880b-9760365a9386" model="ir.ui.view" context="{'studio': True}">
     <field name="active" eval="True"/>
     <field name="arch" type="xml">
       <form>
@@ -1792,7 +1792,7 @@
     <field name="priority">16</field>
     <field name="type">form</field>
   </record>
-  <record id="MECIS.default_form_view_fo_d10d4a25-3b8a-4613-82ca-314fc78512e1" model="ir.ui.view" context="{'studio': True}">
+  <record id="studio_customization.default_form_view_fo_d10d4a25-3b8a-4613-82ca-314fc78512e1" model="ir.ui.view" context="{'studio': True}">
     <field name="active" eval="True"/>
     <field name="arch" type="xml">
       <form>
@@ -1820,7 +1820,7 @@
     <field name="priority">16</field>
     <field name="type">form</field>
   </record>
-  <record id="MECIS.default_form_view_fo_d4ec68be-c530-48a4-a895-af9e2abe5180" model="ir.ui.view" context="{'studio': True}">
+  <record id="studio_customization.default_form_view_fo_d4ec68be-c530-48a4-a895-af9e2abe5180" model="ir.ui.view" context="{'studio': True}">
     <field name="active" eval="True"/>
     <field name="arch" type="xml">
       <form>
@@ -1860,7 +1860,7 @@
     <field name="priority">16</field>
     <field name="type">form</field>
   </record>
-  <record id="MECIS.default_form_view_fo_d803bc44-2aff-4ece-bd1a-aaa9935d0904" model="ir.ui.view" context="{'studio': True}">
+  <record id="studio_customization.default_form_view_fo_d803bc44-2aff-4ece-bd1a-aaa9935d0904" model="ir.ui.view" context="{'studio': True}">
     <field name="active" eval="True"/>
     <field name="arch" type="xml">
       <form>
@@ -1914,7 +1914,7 @@
     <field name="priority">16</field>
     <field name="type">form</field>
   </record>
-  <record id="MECIS.default_form_view_fo_f2a321f0-6cee-4466-95af-2214e3073842" model="ir.ui.view" context="{'studio': True}">
+  <record id="studio_customization.default_form_view_fo_f2a321f0-6cee-4466-95af-2214e3073842" model="ir.ui.view" context="{'studio': True}">
     <field name="active" eval="True"/>
     <field name="arch" type="xml">
       <form>
@@ -1942,7 +1942,7 @@
     <field name="priority">16</field>
     <field name="type">form</field>
   </record>
-  <record id="MECIS.default_form_view_fo_fe5f1bd4-38de-4792-8566-eb75002c0d8d" model="ir.ui.view" context="{'studio': True}">
+  <record id="studio_customization.default_form_view_fo_fe5f1bd4-38de-4792-8566-eb75002c0d8d" model="ir.ui.view" context="{'studio': True}">
     <field name="active" eval="False"/>
     <field name="arch" type="xml">
       <form>
@@ -1970,7 +1970,7 @@
     <field name="priority">16</field>
     <field name="type">form</field>
   </record>
-  <record id="MECIS.default_gantt_view_f_00999755-167e-4e3b-925f-acc6dc94f8d0" model="ir.ui.view" context="{'studio': True}">
+  <record id="studio_customization.default_gantt_view_f_00999755-167e-4e3b-925f-acc6dc94f8d0" model="ir.ui.view" context="{'studio': True}">
     <field name="active" eval="True"/>
     <field name="arch" type="xml">
       <gantt date_start="x_studio_date_start" date_stop="x_studio_date_stop"/>
@@ -1985,7 +1985,7 @@
     <field name="priority">16</field>
     <field name="type">gantt</field>
   </record>
-  <record id="MECIS.default_gantt_view_f_282524c1-b6a3-40e1-a158-f2cc5a64cf0e" model="ir.ui.view" context="{'studio': True}">
+  <record id="studio_customization.default_gantt_view_f_282524c1-b6a3-40e1-a158-f2cc5a64cf0e" model="ir.ui.view" context="{'studio': True}">
     <field name="active" eval="True"/>
     <field name="arch" type="xml">
       <gantt date_start="request_date" date_stop="schedule_date" string="Default gantt view for maintenance.request"/>
@@ -2000,7 +2000,7 @@
     <field name="priority">16</field>
     <field name="type">gantt</field>
   </record>
-  <record id="MECIS.default_gantt_view_f_b70e51a7-081c-460a-b499-840ca86af2dd" model="ir.ui.view" context="{'studio': True}">
+  <record id="studio_customization.default_gantt_view_f_b70e51a7-081c-460a-b499-840ca86af2dd" model="ir.ui.view" context="{'studio': True}">
     <field name="active" eval="True"/>
     <field name="arch" type="xml">
       <gantt date_start="x_studio_date_start" date_stop="x_studio_date_stop"/>
@@ -2015,7 +2015,7 @@
     <field name="priority">16</field>
     <field name="type">gantt</field>
   </record>
-  <record id="MECIS.default_gantt_view_f_f8b0acef-0d76-4b64-9535-6aec389d5bea" model="ir.ui.view" context="{'studio': True}">
+  <record id="studio_customization.default_gantt_view_f_f8b0acef-0d76-4b64-9535-6aec389d5bea" model="ir.ui.view" context="{'studio': True}">
     <field name="active" eval="True"/>
     <field name="arch" type="xml">
       <gantt date_start="x_studio_date_start" date_stop="x_studio_date_stop"/>
@@ -2030,7 +2030,7 @@
     <field name="priority">16</field>
     <field name="type">gantt</field>
   </record>
-  <record id="MECIS.default_graph_view_f_016b1279-c6f8-4fa0-bd62-5118c21d37c0" model="ir.ui.view" context="{'studio': True}">
+  <record id="studio_customization.default_graph_view_f_016b1279-c6f8-4fa0-bd62-5118c21d37c0" model="ir.ui.view" context="{'studio': True}">
     <field name="active" eval="True"/>
     <field name="arch" type="xml">
       <graph sample="1">
@@ -2048,7 +2048,7 @@
     <field name="priority">16</field>
     <field name="type">graph</field>
   </record>
-  <record id="MECIS.default_graph_view_f_12128447-4279-44d2-8139-07cf1e692100" model="ir.ui.view" context="{'studio': True}">
+  <record id="studio_customization.default_graph_view_f_12128447-4279-44d2-8139-07cf1e692100" model="ir.ui.view" context="{'studio': True}">
     <field name="active" eval="True"/>
     <field name="arch" type="xml">
       <graph string="Message" sample="1">
@@ -2065,7 +2065,7 @@
     <field name="priority">16</field>
     <field name="type">graph</field>
   </record>
-  <record id="MECIS.default_graph_view_f_4c725d41-3fb0-4074-8c1a-f6b66b9c32dd" model="ir.ui.view" context="{'studio': True}">
+  <record id="studio_customization.default_graph_view_f_4c725d41-3fb0-4074-8c1a-f6b66b9c32dd" model="ir.ui.view" context="{'studio': True}">
     <field name="active" eval="True"/>
     <field name="arch" type="xml">
       <graph sample="1">
@@ -2083,7 +2083,7 @@
     <field name="priority">16</field>
     <field name="type">graph</field>
   </record>
-  <record id="MECIS.default_graph_view_f_8a337322-2c61-4663-80fe-822e5971619a" model="ir.ui.view" context="{'studio': True}">
+  <record id="studio_customization.default_graph_view_f_8a337322-2c61-4663-80fe-822e5971619a" model="ir.ui.view" context="{'studio': True}">
     <field name="active" eval="True"/>
     <field name="arch" type="xml">
       <graph sample="1">
@@ -2101,7 +2101,7 @@
     <field name="priority">16</field>
     <field name="type">graph</field>
   </record>
-  <record id="MECIS.default_graph_view_f_914e5cc7-8b3d-4492-95ac-2b02d65b3bce" model="ir.ui.view" context="{'studio': True}">
+  <record id="studio_customization.default_graph_view_f_914e5cc7-8b3d-4492-95ac-2b02d65b3bce" model="ir.ui.view" context="{'studio': True}">
     <field name="active" eval="True"/>
     <field name="arch" type="xml">
       <graph string="Phiếu kiểm định, hiệu chuẩn" sample="1">
@@ -2118,7 +2118,7 @@
     <field name="priority">16</field>
     <field name="type">graph</field>
   </record>
-  <record id="MECIS.default_kanban_view__2f50f76b-646f-466a-a824-1cff0b0c8c29" model="ir.ui.view" context="{'studio': True}">
+  <record id="studio_customization.default_kanban_view__2f50f76b-646f-466a-a824-1cff0b0c8c29" model="ir.ui.view" context="{'studio': True}">
     <field name="active" eval="True"/>
     <field name="arch" type="xml">
       <kanban default_group_by="x_studio_stage_id" default_order="x_studio_priority desc, x_studio_sequence asc, id desc">
@@ -2180,7 +2180,7 @@
     <field name="priority">16</field>
     <field name="type">kanban</field>
   </record>
-  <record id="MECIS.default_kanban_view__497c9d44-4668-4437-8031-cf35b98ea52d" model="ir.ui.view" context="{'studio': True}">
+  <record id="studio_customization.default_kanban_view__497c9d44-4668-4437-8031-cf35b98ea52d" model="ir.ui.view" context="{'studio': True}">
     <field name="active" eval="True"/>
     <field name="arch" type="xml">
       <kanban string="Message">
@@ -2205,7 +2205,7 @@
     <field name="priority">16</field>
     <field name="type">kanban</field>
   </record>
-  <record id="MECIS.default_kanban_view__a4d7fbd8-046c-47e4-aa12-e8ca7be95371" model="ir.ui.view" context="{'studio': True}">
+  <record id="studio_customization.default_kanban_view__a4d7fbd8-046c-47e4-aa12-e8ca7be95371" model="ir.ui.view" context="{'studio': True}">
     <field name="active" eval="True"/>
     <field name="arch" type="xml">
       <kanban string="Phiếu kiểm định, hiệu chuẩn">
@@ -2230,7 +2230,7 @@
     <field name="priority">16</field>
     <field name="type">kanban</field>
   </record>
-  <record id="MECIS.default_kanban_view__c227d5ee-1081-470d-8202-ddff9aed4728" model="ir.ui.view" context="{'studio': True}">
+  <record id="studio_customization.default_kanban_view__c227d5ee-1081-470d-8202-ddff9aed4728" model="ir.ui.view" context="{'studio': True}">
     <field name="active" eval="True"/>
     <field name="arch" type="xml">
       <kanban default_group_by="x_studio_stage_id" default_order="x_studio_priority desc, x_studio_sequence asc, id desc">
@@ -2293,7 +2293,7 @@
     <field name="priority">16</field>
     <field name="type">kanban</field>
   </record>
-  <record id="MECIS.default_kanban_view__d2920cdb-98d9-4bfd-b196-d76d05da14ee" model="ir.ui.view" context="{'studio': True}">
+  <record id="studio_customization.default_kanban_view__d2920cdb-98d9-4bfd-b196-d76d05da14ee" model="ir.ui.view" context="{'studio': True}">
     <field name="active" eval="True"/>
     <field name="arch" type="xml">
       <kanban default_group_by="x_studio_stage_id" default_order="x_studio_priority desc, x_studio_sequence asc, id desc">
@@ -2355,7 +2355,7 @@
     <field name="priority">16</field>
     <field name="type">kanban</field>
   </record>
-  <record id="MECIS.default_list_view_fo_129644bb-db21-431a-a391-917fff614891" model="ir.ui.view" context="{'studio': True}">
+  <record id="studio_customization.default_list_view_fo_129644bb-db21-431a-a391-917fff614891" model="ir.ui.view" context="{'studio': True}">
     <field name="active" eval="True"/>
     <field name="arch" type="xml">
       <tree editable="bottom">
@@ -2373,7 +2373,7 @@
     <field name="priority">16</field>
     <field name="type">tree</field>
   </record>
-  <record id="MECIS.default_list_view_fo_13be90b8-141c-477a-851e-ff7558de2ccb" model="ir.ui.view" context="{'studio': True}">
+  <record id="studio_customization.default_list_view_fo_13be90b8-141c-477a-851e-ff7558de2ccb" model="ir.ui.view" context="{'studio': True}">
     <field name="active" eval="True"/>
     <field name="arch" type="xml">
       <tree>
@@ -2391,7 +2391,7 @@
     <field name="priority">16</field>
     <field name="type">tree</field>
   </record>
-  <record id="MECIS.default_list_view_fo_226835a8-6d91-4c3d-a30d-cac610d6060d" model="ir.ui.view" context="{'studio': True}">
+  <record id="studio_customization.default_list_view_fo_226835a8-6d91-4c3d-a30d-cac610d6060d" model="ir.ui.view" context="{'studio': True}">
     <field name="active" eval="True"/>
     <field name="arch" type="xml">
       <tree editable="bottom">
@@ -2409,7 +2409,7 @@
     <field name="priority">16</field>
     <field name="type">tree</field>
   </record>
-  <record id="MECIS.default_list_view_fo_4d173409-912d-418a-95eb-a36773dbdcb4" model="ir.ui.view" context="{'studio': True}">
+  <record id="studio_customization.default_list_view_fo_4d173409-912d-418a-95eb-a36773dbdcb4" model="ir.ui.view" context="{'studio': True}">
     <field name="active" eval="True"/>
     <field name="arch" type="xml">
       <tree editable="bottom">
@@ -2427,7 +2427,7 @@
     <field name="priority">16</field>
     <field name="type">tree</field>
   </record>
-  <record id="MECIS.default_list_view_fo_6fabba72-6b67-454c-b796-438c49201a50" model="ir.ui.view" context="{'studio': True}">
+  <record id="studio_customization.default_list_view_fo_6fabba72-6b67-454c-b796-438c49201a50" model="ir.ui.view" context="{'studio': True}">
     <field name="active" eval="True"/>
     <field name="arch" type="xml">
       <tree>
@@ -2451,7 +2451,7 @@
     <field name="priority">16</field>
     <field name="type">tree</field>
   </record>
-  <record id="MECIS.default_list_view_fo_8450e326-cbc8-461e-859e-03e170d5ea29" model="ir.ui.view" context="{'studio': True}">
+  <record id="studio_customization.default_list_view_fo_8450e326-cbc8-461e-859e-03e170d5ea29" model="ir.ui.view" context="{'studio': True}">
     <field name="active" eval="True"/>
     <field name="arch" type="xml">
       <tree editable="bottom">
@@ -2469,7 +2469,7 @@
     <field name="priority">16</field>
     <field name="type">tree</field>
   </record>
-  <record id="MECIS.default_list_view_fo_8b73ae82-7cb9-4f38-b52a-3b7392e48a94" model="ir.ui.view" context="{'studio': True}">
+  <record id="studio_customization.default_list_view_fo_8b73ae82-7cb9-4f38-b52a-3b7392e48a94" model="ir.ui.view" context="{'studio': True}">
     <field name="active" eval="True"/>
     <field name="arch" type="xml">
       <tree>
@@ -2487,7 +2487,7 @@
     <field name="priority">16</field>
     <field name="type">tree</field>
   </record>
-  <record id="MECIS.default_list_view_fo_918f6c83-e932-4c9d-a500-7662d5d3727a" model="ir.ui.view" context="{'studio': True}">
+  <record id="studio_customization.default_list_view_fo_918f6c83-e932-4c9d-a500-7662d5d3727a" model="ir.ui.view" context="{'studio': True}">
     <field name="active" eval="True"/>
     <field name="arch" type="xml">
       <tree editable="bottom">
@@ -2505,7 +2505,7 @@
     <field name="priority">16</field>
     <field name="type">tree</field>
   </record>
-  <record id="MECIS.default_list_view_fo_926e7bd2-142a-432a-af96-3f31bfd25a23" model="ir.ui.view" context="{'studio': True}">
+  <record id="studio_customization.default_list_view_fo_926e7bd2-142a-432a-af96-3f31bfd25a23" model="ir.ui.view" context="{'studio': True}">
     <field name="active" eval="False"/>
     <field name="arch" type="xml">
       <tree editable="bottom">
@@ -2523,7 +2523,7 @@
     <field name="priority">16</field>
     <field name="type">tree</field>
   </record>
-  <record id="MECIS.default_list_view_fo_c682f7f1-a7ca-494e-8bc0-3b581312bdfc" model="ir.ui.view" context="{'studio': True}">
+  <record id="studio_customization.default_list_view_fo_c682f7f1-a7ca-494e-8bc0-3b581312bdfc" model="ir.ui.view" context="{'studio': True}">
     <field name="active" eval="True"/>
     <field name="arch" type="xml">
       <tree editable="bottom">
@@ -2541,7 +2541,7 @@
     <field name="priority">16</field>
     <field name="type">tree</field>
   </record>
-  <record id="MECIS.default_list_view_fo_cc0d5ef2-ceb0-49d7-9b1c-00e036f86d8e" model="ir.ui.view" context="{'studio': True}">
+  <record id="studio_customization.default_list_view_fo_cc0d5ef2-ceb0-49d7-9b1c-00e036f86d8e" model="ir.ui.view" context="{'studio': True}">
     <field name="active" eval="True"/>
     <field name="arch" type="xml">
       <tree>
@@ -2559,7 +2559,7 @@
     <field name="priority">16</field>
     <field name="type">tree</field>
   </record>
-  <record id="MECIS.default_list_view_fo_d122b14f-3aca-41a7-81c1-92f447ced4f8" model="ir.ui.view" context="{'studio': True}">
+  <record id="studio_customization.default_list_view_fo_d122b14f-3aca-41a7-81c1-92f447ced4f8" model="ir.ui.view" context="{'studio': True}">
     <field name="active" eval="True"/>
     <field name="arch" type="xml">
       <tree editable="bottom">
@@ -2577,7 +2577,7 @@
     <field name="priority">16</field>
     <field name="type">tree</field>
   </record>
-  <record id="MECIS.default_list_view_fo_d49342c0-1629-435b-b7c1-28071921320c" model="ir.ui.view" context="{'studio': True}">
+  <record id="studio_customization.default_list_view_fo_d49342c0-1629-435b-b7c1-28071921320c" model="ir.ui.view" context="{'studio': True}">
     <field name="active" eval="True"/>
     <field name="arch" type="xml">
       <tree>
@@ -2594,7 +2594,7 @@
     <field name="priority">16</field>
     <field name="type">tree</field>
   </record>
-  <record id="MECIS.default_list_view_fo_deec4e88-3803-4a5b-b16f-4c9659a55411" model="ir.ui.view" context="{'studio': True}">
+  <record id="studio_customization.default_list_view_fo_deec4e88-3803-4a5b-b16f-4c9659a55411" model="ir.ui.view" context="{'studio': True}">
     <field name="active" eval="True"/>
     <field name="arch" type="xml">
       <tree editable="bottom">
@@ -2616,7 +2616,7 @@
     <field name="priority">16</field>
     <field name="type">tree</field>
   </record>
-  <record id="MECIS.default_list_view_fo_fb0181a4-138e-4c9d-acd3-3b8b71a676b8" model="ir.ui.view" context="{'studio': True}">
+  <record id="studio_customization.default_list_view_fo_fb0181a4-138e-4c9d-acd3-3b8b71a676b8" model="ir.ui.view" context="{'studio': True}">
     <field name="active" eval="True"/>
     <field name="arch" type="xml">
       <tree multi_edit="1">
@@ -2641,7 +2641,7 @@
     <field name="priority">16</field>
     <field name="type">tree</field>
   </record>
-  <record id="MECIS.default_map_view_for_25efac38-ff27-48c8-935a-101150191382" model="ir.ui.view" context="{'studio': True}">
+  <record id="studio_customization.default_map_view_for_25efac38-ff27-48c8-935a-101150191382" model="ir.ui.view" context="{'studio': True}">
     <field name="active" eval="True"/>
     <field name="arch" type="xml">
       <map res_partner="x_studio_partner_id">
@@ -2658,7 +2658,7 @@
     <field name="priority">16</field>
     <field name="type">map</field>
   </record>
-  <record id="MECIS.default_map_view_for_363fe135-15a4-4b8e-8cc2-5964458101a4" model="ir.ui.view" context="{'studio': True}">
+  <record id="studio_customization.default_map_view_for_363fe135-15a4-4b8e-8cc2-5964458101a4" model="ir.ui.view" context="{'studio': True}">
     <field name="active" eval="True"/>
     <field name="arch" type="xml">
       <map res_partner="x_studio_partner_id">
@@ -2675,7 +2675,7 @@
     <field name="priority">16</field>
     <field name="type">map</field>
   </record>
-  <record id="MECIS.default_map_view_for_397ebb66-abb6-4c0e-a94e-e3fab76764a9" model="ir.ui.view" context="{'studio': True}">
+  <record id="studio_customization.default_map_view_for_397ebb66-abb6-4c0e-a94e-e3fab76764a9" model="ir.ui.view" context="{'studio': True}">
     <field name="active" eval="True"/>
     <field name="arch" type="xml">
       <map res_partner="x_studio_partner_id">
@@ -2692,7 +2692,7 @@
     <field name="priority">16</field>
     <field name="type">map</field>
   </record>
-  <record id="MECIS.default_pivot_view_f_21967ae3-7b12-446c-a1b0-3334ec1c4608" model="ir.ui.view" context="{'studio': True}">
+  <record id="studio_customization.default_pivot_view_f_21967ae3-7b12-446c-a1b0-3334ec1c4608" model="ir.ui.view" context="{'studio': True}">
     <field name="active" eval="True"/>
     <field name="arch" type="xml">
       <pivot sample="1">
@@ -2711,7 +2711,7 @@
     <field name="priority">16</field>
     <field name="type">pivot</field>
   </record>
-  <record id="MECIS.default_pivot_view_f_2972b907-7165-4c39-9d27-e608edc95c94" model="ir.ui.view" context="{'studio': True}">
+  <record id="studio_customization.default_pivot_view_f_2972b907-7165-4c39-9d27-e608edc95c94" model="ir.ui.view" context="{'studio': True}">
     <field name="active" eval="True"/>
     <field name="arch" type="xml">
       <pivot sample="1">
@@ -2730,7 +2730,7 @@
     <field name="priority">16</field>
     <field name="type">pivot</field>
   </record>
-  <record id="MECIS.default_pivot_view_f_4bd66f12-55d4-48cd-958c-88f8d3a1b243" model="ir.ui.view" context="{'studio': True}">
+  <record id="studio_customization.default_pivot_view_f_4bd66f12-55d4-48cd-958c-88f8d3a1b243" model="ir.ui.view" context="{'studio': True}">
     <field name="active" eval="True"/>
     <field name="arch" type="xml">
       <pivot sample="1">
@@ -2749,7 +2749,7 @@
     <field name="priority">16</field>
     <field name="type">pivot</field>
   </record>
-  <record id="MECIS.default_pivot_view_f_d1fb99f2-49ea-4e5b-994c-0e96b02095a2" model="ir.ui.view" context="{'studio': True}">
+  <record id="studio_customization.default_pivot_view_f_d1fb99f2-49ea-4e5b-994c-0e96b02095a2" model="ir.ui.view" context="{'studio': True}">
     <field name="active" eval="True"/>
     <field name="arch" type="xml">
       <pivot string="Phiếu kiểm định, hiệu chuẩn" sample="1"/>
@@ -2764,7 +2764,7 @@
     <field name="priority">16</field>
     <field name="type">pivot</field>
   </record>
-  <record id="MECIS.default_search_view__01f5be81-7a56-4a0e-ae76-441847a17c7d" model="ir.ui.view" context="{'studio': True}">
+  <record id="studio_customization.default_search_view__01f5be81-7a56-4a0e-ae76-441847a17c7d" model="ir.ui.view" context="{'studio': True}">
     <field name="active" eval="True"/>
     <field name="arch" type="xml">
       <search>
@@ -2781,7 +2781,7 @@
     <field name="priority">16</field>
     <field name="type">search</field>
   </record>
-  <record id="MECIS.default_search_view__1389d080-ae05-415f-8a94-f69625a91b1d" model="ir.ui.view" context="{'studio': True}">
+  <record id="studio_customization.default_search_view__1389d080-ae05-415f-8a94-f69625a91b1d" model="ir.ui.view" context="{'studio': True}">
     <field name="active" eval="False"/>
     <field name="arch" type="xml">
       <search>
@@ -2798,7 +2798,7 @@
     <field name="priority">16</field>
     <field name="type">search</field>
   </record>
-  <record id="MECIS.default_search_view__1b5c8e7e-71e6-4a9b-9609-79e50edbe7e8" model="ir.ui.view" context="{'studio': True}">
+  <record id="studio_customization.default_search_view__1b5c8e7e-71e6-4a9b-9609-79e50edbe7e8" model="ir.ui.view" context="{'studio': True}">
     <field name="active" eval="True"/>
     <field name="arch" type="xml">
       <search>
@@ -2815,7 +2815,7 @@
     <field name="priority">16</field>
     <field name="type">search</field>
   </record>
-  <record id="MECIS.default_search_view__1f503fcd-318e-49dc-a643-6c5f57fcf151" model="ir.ui.view" context="{'studio': True}">
+  <record id="studio_customization.default_search_view__1f503fcd-318e-49dc-a643-6c5f57fcf151" model="ir.ui.view" context="{'studio': True}">
     <field name="active" eval="True"/>
     <field name="arch" type="xml">
       <search>
@@ -2832,7 +2832,7 @@
     <field name="priority">16</field>
     <field name="type">search</field>
   </record>
-  <record id="MECIS.default_search_view__292a57f3-c489-4824-9323-7e3d97d6b904" model="ir.ui.view" context="{'studio': True}">
+  <record id="studio_customization.default_search_view__292a57f3-c489-4824-9323-7e3d97d6b904" model="ir.ui.view" context="{'studio': True}">
     <field name="active" eval="True"/>
     <field name="arch" type="xml">
       <search string="Phiếu kiểm định, hiệu chuẩn">
@@ -2849,7 +2849,7 @@
     <field name="priority">16</field>
     <field name="type">search</field>
   </record>
-  <record id="MECIS.default_search_view__3c7543ff-d926-459b-9a84-40a5a7b1f9e1" model="ir.ui.view" context="{'studio': True}">
+  <record id="studio_customization.default_search_view__3c7543ff-d926-459b-9a84-40a5a7b1f9e1" model="ir.ui.view" context="{'studio': True}">
     <field name="active" eval="True"/>
     <field name="arch" type="xml">
       <search>
@@ -2866,7 +2866,7 @@
     <field name="priority">16</field>
     <field name="type">search</field>
   </record>
-  <record id="MECIS.default_search_view__48534d14-8566-44e7-a440-d9cd9c47c11f" model="ir.ui.view" context="{'studio': True}">
+  <record id="studio_customization.default_search_view__48534d14-8566-44e7-a440-d9cd9c47c11f" model="ir.ui.view" context="{'studio': True}">
     <field name="active" eval="True"/>
     <field name="arch" type="xml">
       <search>
@@ -2883,7 +2883,7 @@
     <field name="priority">16</field>
     <field name="type">search</field>
   </record>
-  <record id="MECIS.default_search_view__4e29036e-675b-43c7-b087-e6ccabab12d4" model="ir.ui.view" context="{'studio': True}">
+  <record id="studio_customization.default_search_view__4e29036e-675b-43c7-b087-e6ccabab12d4" model="ir.ui.view" context="{'studio': True}">
     <field name="active" eval="True"/>
     <field name="arch" type="xml">
       <search>
@@ -2914,7 +2914,7 @@
     <field name="priority">16</field>
     <field name="type">search</field>
   </record>
-  <record id="MECIS.default_search_view__533dce96-2149-437b-ab2b-8e1473e559d3" model="ir.ui.view" context="{'studio': True}">
+  <record id="studio_customization.default_search_view__533dce96-2149-437b-ab2b-8e1473e559d3" model="ir.ui.view" context="{'studio': True}">
     <field name="active" eval="True"/>
     <field name="arch" type="xml">
       <search>
@@ -2931,7 +2931,7 @@
     <field name="priority">16</field>
     <field name="type">search</field>
   </record>
-  <record id="MECIS.default_search_view__7d6c9666-c358-4904-b6f2-495b5d472218" model="ir.ui.view" context="{'studio': True}">
+  <record id="studio_customization.default_search_view__7d6c9666-c358-4904-b6f2-495b5d472218" model="ir.ui.view" context="{'studio': True}">
     <field name="active" eval="True"/>
     <field name="arch" type="xml">
       <search>
@@ -2962,7 +2962,7 @@
     <field name="priority">16</field>
     <field name="type">search</field>
   </record>
-  <record id="MECIS.default_search_view__83b6d8ed-9424-4a95-9b6a-73cdc3c5710f" model="ir.ui.view" context="{'studio': True}">
+  <record id="studio_customization.default_search_view__83b6d8ed-9424-4a95-9b6a-73cdc3c5710f" model="ir.ui.view" context="{'studio': True}">
     <field name="active" eval="True"/>
     <field name="arch" type="xml">
       <search>
@@ -2979,7 +2979,7 @@
     <field name="priority">16</field>
     <field name="type">search</field>
   </record>
-  <record id="MECIS.default_search_view__96001de4-9be5-4217-a794-c68b9ac1ea78" model="ir.ui.view" context="{'studio': True}">
+  <record id="studio_customization.default_search_view__96001de4-9be5-4217-a794-c68b9ac1ea78" model="ir.ui.view" context="{'studio': True}">
     <field name="active" eval="True"/>
     <field name="arch" type="xml">
       <search>
@@ -2996,7 +2996,7 @@
     <field name="priority">16</field>
     <field name="type">search</field>
   </record>
-  <record id="MECIS.default_search_view__981bfdef-5ec7-438c-b7a2-3dda3009bfbf" model="ir.ui.view" context="{'studio': True}">
+  <record id="studio_customization.default_search_view__981bfdef-5ec7-438c-b7a2-3dda3009bfbf" model="ir.ui.view" context="{'studio': True}">
     <field name="active" eval="True"/>
     <field name="arch" type="xml">
       <search>
@@ -3013,7 +3013,7 @@
     <field name="priority">16</field>
     <field name="type">search</field>
   </record>
-  <record id="MECIS.default_search_view__993795d5-cf1f-4b9e-83a6-265e6740c4af" model="ir.ui.view" context="{'studio': True}">
+  <record id="studio_customization.default_search_view__993795d5-cf1f-4b9e-83a6-265e6740c4af" model="ir.ui.view" context="{'studio': True}">
     <field name="active" eval="True"/>
     <field name="arch" type="xml">
       <search>
@@ -3044,7 +3044,7 @@
     <field name="priority">16</field>
     <field name="type">search</field>
   </record>
-  <record id="MECIS.default_search_view__99df0639-4971-4507-a403-4bb8a836dae2" model="ir.ui.view" context="{'studio': True}">
+  <record id="studio_customization.default_search_view__99df0639-4971-4507-a403-4bb8a836dae2" model="ir.ui.view" context="{'studio': True}">
     <field name="active" eval="True"/>
     <field name="arch" type="xml">
       <search>
@@ -3061,7 +3061,7 @@
     <field name="priority">16</field>
     <field name="type">search</field>
   </record>
-  <record id="MECIS.default_search_view__ae7e342d-a618-4cd4-beda-0bd754c056c0" model="ir.ui.view" context="{'studio': True}">
+  <record id="studio_customization.default_search_view__ae7e342d-a618-4cd4-beda-0bd754c056c0" model="ir.ui.view" context="{'studio': True}">
     <field name="active" eval="True"/>
     <field name="arch" type="xml">
       <search>
@@ -3078,7 +3078,7 @@
     <field name="priority">16</field>
     <field name="type">search</field>
   </record>
-  <record id="MECIS.default_tree_view_fo_2a16f661-9ff7-499a-addb-2efc1b4a12bf" model="ir.ui.view" context="{'studio': True}">
+  <record id="studio_customization.default_tree_view_fo_2a16f661-9ff7-499a-addb-2efc1b4a12bf" model="ir.ui.view" context="{'studio': True}">
     <field name="active" eval="True"/>
     <field name="arch" type="xml">
       <tree string="Phiếu kiểm định, hiệu chuẩn" multi_edit="1" sample="1">
@@ -3102,7 +3102,7 @@
     <field name="priority">16</field>
     <field name="type">tree</field>
   </record>
-  <record id="MECIS.default_tree_view_fo_86f1a5d6-0cae-4e2f-b4d6-6607c5b4003f" model="ir.ui.view" context="{'studio': True}">
+  <record id="studio_customization.default_tree_view_fo_86f1a5d6-0cae-4e2f-b4d6-6607c5b4003f" model="ir.ui.view" context="{'studio': True}">
     <field name="active" eval="True"/>
     <field name="arch" type="xml">
       <tree string="Message wizard">
@@ -3119,7 +3119,7 @@
     <field name="priority">16</field>
     <field name="type">tree</field>
   </record>
-  <record id="MECIS.default_tree_view_fo_8d4b0f69-7b24-4702-8ad2-d6da17f0b157" model="ir.ui.view" context="{'studio': True}">
+  <record id="studio_customization.default_tree_view_fo_8d4b0f69-7b24-4702-8ad2-d6da17f0b157" model="ir.ui.view" context="{'studio': True}">
     <field name="active" eval="True"/>
     <field name="arch" type="xml">
       <tree string="Loại kiểm định, hiệu chuẩn" multi_edit="1">
@@ -3138,7 +3138,7 @@
     <field name="priority">16</field>
     <field name="type">tree</field>
   </record>
-  <record id="MECIS.default_tree_view_fo_9183553c-eefb-4ad8-8e2e-e7a93ce72053" model="ir.ui.view" context="{'studio': True}">
+  <record id="studio_customization.default_tree_view_fo_9183553c-eefb-4ad8-8e2e-e7a93ce72053" model="ir.ui.view" context="{'studio': True}">
     <field name="active" eval="True"/>
     <field name="arch" type="xml">
       <tree string="Access Groups">
@@ -3155,7 +3155,7 @@
     <field name="priority">16</field>
     <field name="type">tree</field>
   </record>
-  <record id="MECIS.default_tree_view_fo_958c628f-6b4e-4ef1-b49d-6e87c28d7223" model="ir.ui.view" context="{'studio': True}">
+  <record id="studio_customization.default_tree_view_fo_958c628f-6b4e-4ef1-b49d-6e87c28d7223" model="ir.ui.view" context="{'studio': True}">
     <field name="active" eval="True"/>
     <field name="arch" type="xml">
       <tree string="Phiếu giao thiết bị">
@@ -3175,7 +3175,7 @@
     <field name="priority">16</field>
     <field name="type">tree</field>
   </record>
-  <record id="MECIS.default_tree_view_fo_b6e92611-ba2f-430c-aa93-14e4b0c9941e" model="ir.ui.view" context="{'studio': True}">
+  <record id="studio_customization.default_tree_view_fo_b6e92611-ba2f-430c-aa93-14e4b0c9941e" model="ir.ui.view" context="{'studio': True}">
     <field name="active" eval="True"/>
     <field name="arch" type="xml">
       <tree string="Phân tuyến kỹ thuật" multi_edit="1">
@@ -3193,7 +3193,7 @@
     <field name="priority">16</field>
     <field name="type">tree</field>
   </record>
-  <record id="MECIS.default_tree_view_fo_b8e29f2d-93a2-4c59-a64d-58790aa1c11e" model="ir.ui.view" context="{'studio': True}">
+  <record id="studio_customization.default_tree_view_fo_b8e29f2d-93a2-4c59-a64d-58790aa1c11e" model="ir.ui.view" context="{'studio': True}">
     <field name="active" eval="True"/>
     <field name="arch" type="xml">
       <tree string="Nhóm kỹ thuật theo tt23">
@@ -3210,7 +3210,7 @@
     <field name="priority">16</field>
     <field name="type">tree</field>
   </record>
-  <record id="MECIS.delivery_header_df87f5a2-3777-4356-8180-6cd34099c68c" model="ir.ui.view" context="{'studio': True}">
+  <record id="studio_customization.delivery_header_df87f5a2-3777-4356-8180-6cd34099c68c" model="ir.ui.view" context="{'studio': True}">
     <field name="active" eval="True"/>
     <field name="arch" type="xml">
       <t t-name="delivery_header">
@@ -3243,7 +3243,7 @@
     <field name="priority">16</field>
     <field name="type">qweb</field>
   </record>
-  <record id="MECIS.odoo_studio_default__0e2a47af-400b-477a-aafd-e4a48c9d9885" model="ir.ui.view" context="{'studio': True}">
+  <record id="studio_customization.odoo_studio_default__0e2a47af-400b-477a-aafd-e4a48c9d9885" model="ir.ui.view" context="{'studio': True}">
     <field name="active" eval="True"/>
     <field name="arch" type="xml">
       <data>
@@ -3251,7 +3251,7 @@
     </field>
     <field name="field_parent" eval="False"/>
     <field name="groups_id" eval="[(6, 0, [])]"/>
-    <field name="inherit_id" ref="MECIS.default_form_view_fo_6659af13-7a91-4b1a-904b-efa9bcffe8fc"/>
+    <field name="inherit_id" ref="studio_customization.default_form_view_fo_6659af13-7a91-4b1a-904b-efa9bcffe8fc"/>
     <field name="key" eval="False"/>
     <field name="mode">extension</field>
     <field name="model">x_maintenance_parts</field>
@@ -3259,7 +3259,7 @@
     <field name="priority">99</field>
     <field name="type">form</field>
   </record>
-  <record id="MECIS.odoo_studio_default__190328ef-2468-4fe0-a86e-eb6171df06fa" model="ir.ui.view" context="{'studio': True}">
+  <record id="studio_customization.odoo_studio_default__190328ef-2468-4fe0-a86e-eb6171df06fa" model="ir.ui.view" context="{'studio': True}">
     <field name="active" eval="True"/>
     <field name="arch" type="xml">
       <data>
@@ -3270,7 +3270,7 @@
     </field>
     <field name="field_parent" eval="False"/>
     <field name="groups_id" eval="[(6, 0, [])]"/>
-    <field name="inherit_id" ref="MECIS.default_tree_view_fo_8d4b0f69-7b24-4702-8ad2-d6da17f0b157"/>
+    <field name="inherit_id" ref="studio_customization.default_tree_view_fo_8d4b0f69-7b24-4702-8ad2-d6da17f0b157"/>
     <field name="key" eval="False"/>
     <field name="mode">extension</field>
     <field name="model">x_calibration_category</field>
@@ -3278,7 +3278,7 @@
     <field name="priority">99</field>
     <field name="type">tree</field>
   </record>
-  <record id="MECIS.odoo_studio_default__1a81e753-d554-404a-a4da-42a2fcc3b328" model="ir.ui.view" context="{'studio': True}">
+  <record id="studio_customization.odoo_studio_default__1a81e753-d554-404a-a4da-42a2fcc3b328" model="ir.ui.view" context="{'studio': True}">
     <field name="active" eval="True"/>
     <field name="arch" type="xml">
       <data>
@@ -3293,7 +3293,7 @@
     </field>
     <field name="field_parent" eval="False"/>
     <field name="groups_id" eval="[(6, 0, [])]"/>
-    <field name="inherit_id" ref="MECIS.default_list_view_fo_d49342c0-1629-435b-b7c1-28071921320c"/>
+    <field name="inherit_id" ref="studio_customization.default_list_view_fo_d49342c0-1629-435b-b7c1-28071921320c"/>
     <field name="key" eval="False"/>
     <field name="mode">extension</field>
     <field name="model">x_loan_return</field>
@@ -3301,7 +3301,7 @@
     <field name="priority">99</field>
     <field name="type">tree</field>
   </record>
-  <record id="MECIS.odoo_studio_default__23039e3b-9665-4a1f-80cc-546cb0b58c32" model="ir.ui.view" context="{'studio': True}">
+  <record id="studio_customization.odoo_studio_default__23039e3b-9665-4a1f-80cc-546cb0b58c32" model="ir.ui.view" context="{'studio': True}">
     <field name="active" eval="True"/>
     <field name="arch" type="xml">
       <data>
@@ -3318,7 +3318,7 @@
     </field>
     <field name="field_parent" eval="False"/>
     <field name="groups_id" eval="[(6, 0, [])]"/>
-    <field name="inherit_id" ref="MECIS.default_kanban_view__a4d7fbd8-046c-47e4-aa12-e8ca7be95371"/>
+    <field name="inherit_id" ref="studio_customization.default_kanban_view__a4d7fbd8-046c-47e4-aa12-e8ca7be95371"/>
     <field name="key" eval="False"/>
     <field name="mode">extension</field>
     <field name="model">x_calibration_request</field>
@@ -3326,7 +3326,7 @@
     <field name="priority">99</field>
     <field name="type">kanban</field>
   </record>
-  <record id="MECIS.odoo_studio_default__2c3d6e03-65e5-4fff-bb5c-55377748974c" model="ir.ui.view" context="{'studio': True}">
+  <record id="studio_customization.odoo_studio_default__2c3d6e03-65e5-4fff-bb5c-55377748974c" model="ir.ui.view" context="{'studio': True}">
     <field name="active" eval="True"/>
     <field name="arch" type="xml">
       <data>
@@ -3351,7 +3351,7 @@
     </field>
     <field name="field_parent" eval="False"/>
     <field name="groups_id" eval="[(6, 0, [])]"/>
-    <field name="inherit_id" ref="MECIS.default_form_view_fo_41b51b70-03f1-42dc-9f54-fcf0bbca27de"/>
+    <field name="inherit_id" ref="studio_customization.default_form_view_fo_41b51b70-03f1-42dc-9f54-fcf0bbca27de"/>
     <field name="key" eval="False"/>
     <field name="mode">extension</field>
     <field name="model">x_order_funnel</field>
@@ -3359,7 +3359,7 @@
     <field name="priority">99</field>
     <field name="type">form</field>
   </record>
-  <record id="MECIS.odoo_studio_default__4c96eea8-2496-417f-8745-10fd1715b974" model="ir.ui.view" context="{'studio': True}">
+  <record id="studio_customization.odoo_studio_default__4c96eea8-2496-417f-8745-10fd1715b974" model="ir.ui.view" context="{'studio': True}">
     <field name="active" eval="True"/>
     <field name="arch" type="xml">
       <data>
@@ -3370,7 +3370,7 @@
     </field>
     <field name="field_parent" eval="False"/>
     <field name="groups_id" eval="[(6, 0, [])]"/>
-    <field name="inherit_id" ref="MECIS.default_search_view__7d6c9666-c358-4904-b6f2-495b5d472218"/>
+    <field name="inherit_id" ref="studio_customization.default_search_view__7d6c9666-c358-4904-b6f2-495b5d472218"/>
     <field name="key" eval="False"/>
     <field name="mode">extension</field>
     <field name="model">x_maintenance_parts</field>
@@ -3378,7 +3378,7 @@
     <field name="priority">99</field>
     <field name="type">search</field>
   </record>
-  <record id="MECIS.odoo_studio_default__5be9551d-d734-40e8-be47-8c2d59e41b75" model="ir.ui.view" context="{'studio': True}">
+  <record id="studio_customization.odoo_studio_default__5be9551d-d734-40e8-be47-8c2d59e41b75" model="ir.ui.view" context="{'studio': True}">
     <field name="active" eval="True"/>
     <field name="arch" type="xml">
       <data>
@@ -3389,7 +3389,7 @@
     </field>
     <field name="field_parent" eval="False"/>
     <field name="groups_id" eval="[(6, 0, [])]"/>
-    <field name="inherit_id" ref="MECIS.default_list_view_fo_fb0181a4-138e-4c9d-acd3-3b8b71a676b8"/>
+    <field name="inherit_id" ref="studio_customization.default_list_view_fo_fb0181a4-138e-4c9d-acd3-3b8b71a676b8"/>
     <field name="key" eval="False"/>
     <field name="mode">extension</field>
     <field name="model">x_maintenance_parts</field>
@@ -3397,7 +3397,7 @@
     <field name="priority">99</field>
     <field name="type">tree</field>
   </record>
-  <record id="MECIS.odoo_studio_default__77255164-ea2f-4e38-a969-902592fe6648" model="ir.ui.view" context="{'studio': True}">
+  <record id="studio_customization.odoo_studio_default__77255164-ea2f-4e38-a969-902592fe6648" model="ir.ui.view" context="{'studio': True}">
     <field name="active" eval="True"/>
     <field name="arch" type="xml">
       <data>
@@ -3414,7 +3414,7 @@
     </field>
     <field name="field_parent" eval="False"/>
     <field name="groups_id" eval="[(6, 0, [])]"/>
-    <field name="inherit_id" ref="MECIS.default_search_view__292a57f3-c489-4824-9323-7e3d97d6b904"/>
+    <field name="inherit_id" ref="studio_customization.default_search_view__292a57f3-c489-4824-9323-7e3d97d6b904"/>
     <field name="key" eval="False"/>
     <field name="mode">extension</field>
     <field name="model">x_calibration_request</field>
@@ -3422,7 +3422,7 @@
     <field name="priority">99</field>
     <field name="type">search</field>
   </record>
-  <record id="MECIS.odoo_studio_default__af20a750-f60e-414a-bb55-954c6632f5de" model="ir.ui.view" context="{'studio': True}">
+  <record id="studio_customization.odoo_studio_default__af20a750-f60e-414a-bb55-954c6632f5de" model="ir.ui.view" context="{'studio': True}">
     <field name="active" eval="True"/>
     <field name="arch" type="xml">
       <data>
@@ -3456,7 +3456,7 @@
     </field>
     <field name="field_parent" eval="False"/>
     <field name="groups_id" eval="[(6, 0, [])]"/>
-    <field name="inherit_id" ref="MECIS.default_form_view_fo_7e1c0e69-db91-46f4-8e14-b98f3ff7f6f1"/>
+    <field name="inherit_id" ref="studio_customization.default_form_view_fo_7e1c0e69-db91-46f4-8e14-b98f3ff7f6f1"/>
     <field name="key" eval="False"/>
     <field name="mode">extension</field>
     <field name="model">x_loan_return</field>
@@ -3464,7 +3464,7 @@
     <field name="priority">99</field>
     <field name="type">form</field>
   </record>
-  <record id="MECIS.odoo_studio_default__cd4d026f-ffe6-4303-8baf-b80d511f8cb6" model="ir.ui.view" context="{'studio': True}">
+  <record id="studio_customization.odoo_studio_default__cd4d026f-ffe6-4303-8baf-b80d511f8cb6" model="ir.ui.view" context="{'studio': True}">
     <field name="active" eval="True"/>
     <field name="arch" type="xml">
       <data>
@@ -3513,7 +3513,7 @@
     </field>
     <field name="field_parent" eval="False"/>
     <field name="groups_id" eval="[(6, 0, [])]"/>
-    <field name="inherit_id" ref="MECIS.default_form_view_fo_d4ec68be-c530-48a4-a895-af9e2abe5180"/>
+    <field name="inherit_id" ref="studio_customization.default_form_view_fo_d4ec68be-c530-48a4-a895-af9e2abe5180"/>
     <field name="key" eval="False"/>
     <field name="mode">extension</field>
     <field name="model">x_medical_service</field>
@@ -3521,7 +3521,7 @@
     <field name="priority">99</field>
     <field name="type">form</field>
   </record>
-  <record id="MECIS.odoo_studio_default__dcf48a4c-e011-4d63-b58b-1c558970dbe6" model="ir.ui.view" context="{'studio': True}">
+  <record id="studio_customization.odoo_studio_default__dcf48a4c-e011-4d63-b58b-1c558970dbe6" model="ir.ui.view" context="{'studio': True}">
     <field name="active" eval="True"/>
     <field name="arch" type="xml">
       <data>
@@ -3536,7 +3536,7 @@
     </field>
     <field name="field_parent" eval="False"/>
     <field name="groups_id" eval="[(6, 0, [])]"/>
-    <field name="inherit_id" ref="MECIS.default_form_view_fo_33e22a73-57a5-4385-ba4f-395d22a16f13"/>
+    <field name="inherit_id" ref="studio_customization.default_form_view_fo_33e22a73-57a5-4385-ba4f-395d22a16f13"/>
     <field name="key" eval="False"/>
     <field name="mode">extension</field>
     <field name="model">x_calibration_request</field>
@@ -3544,7 +3544,7 @@
     <field name="priority">99</field>
     <field name="type">form</field>
   </record>
-  <record id="MECIS.odoo_studio_default__f5ff48c5-ec6a-45c0-86b9-891a9f01e162" model="ir.ui.view" context="{'studio': True}">
+  <record id="studio_customization.odoo_studio_default__f5ff48c5-ec6a-45c0-86b9-891a9f01e162" model="ir.ui.view" context="{'studio': True}">
     <field name="active" eval="True"/>
     <field name="arch" type="xml">
       <data>
@@ -3564,7 +3564,7 @@
     </field>
     <field name="field_parent" eval="False"/>
     <field name="groups_id" eval="[(6, 0, [])]"/>
-    <field name="inherit_id" ref="MECIS.default_form_view_fo_d803bc44-2aff-4ece-bd1a-aaa9935d0904"/>
+    <field name="inherit_id" ref="studio_customization.default_form_view_fo_d803bc44-2aff-4ece-bd1a-aaa9935d0904"/>
     <field name="key" eval="False"/>
     <field name="mode">extension</field>
     <field name="model">x_delivery_form</field>
@@ -3572,7 +3572,7 @@
     <field name="priority">99</field>
     <field name="type">form</field>
   </record>
-  <record id="MECIS.odoo_studio_document_fb294caf-6447-4736-ae21-cacf057e5c2a" model="ir.ui.view" context="{'studio': True}">
+  <record id="studio_customization.odoo_studio_document_fb294caf-6447-4736-ae21-cacf057e5c2a" model="ir.ui.view" context="{'studio': True}">
     <field name="active" eval="True"/>
     <field name="arch" type="xml">
       <data>
@@ -3591,7 +3591,7 @@
     <field name="priority">99</field>
     <field name="type">kanban</field>
   </record>
-  <record id="MECIS.odoo_studio_equipmen_2a1415fd-a82a-4a33-bbad-57bdb356fd58" model="ir.ui.view" context="{'studio': True}">
+  <record id="studio_customization.odoo_studio_equipmen_2a1415fd-a82a-4a33-bbad-57bdb356fd58" model="ir.ui.view" context="{'studio': True}">
     <field name="active" eval="True"/>
     <field name="arch" type="xml">
       <data>
@@ -3612,7 +3612,7 @@
     <field name="priority">99</field>
     <field name="type">form</field>
   </record>
-  <record id="MECIS.odoo_studio_equipmen_307388b2-3e6e-40a7-94cf-6a52dcf0c255" model="ir.ui.view" context="{'studio': True}">
+  <record id="studio_customization.odoo_studio_equipmen_307388b2-3e6e-40a7-94cf-6a52dcf0c255" model="ir.ui.view" context="{'studio': True}">
     <field name="active" eval="True"/>
     <field name="arch" type="xml">
       <data>
@@ -3644,7 +3644,7 @@
     <field name="priority">99</field>
     <field name="type">search</field>
   </record>
-  <record id="MECIS.odoo_studio_equipmen_91804fc8-4b86-4381-809b-d521e454dc15" model="ir.ui.view" context="{'studio': True}">
+  <record id="studio_customization.odoo_studio_equipmen_91804fc8-4b86-4381-809b-d521e454dc15" model="ir.ui.view" context="{'studio': True}">
     <field name="active" eval="True"/>
     <field name="arch" type="xml">
       <data>
@@ -3666,7 +3666,7 @@
     <field name="priority">99</field>
     <field name="type">kanban</field>
   </record>
-  <record id="MECIS.odoo_studio_equipmen_93ea1140-f53d-4f09-8735-1a1743e8a03b" model="ir.ui.view" context="{'studio': True}">
+  <record id="studio_customization.odoo_studio_equipmen_93ea1140-f53d-4f09-8735-1a1743e8a03b" model="ir.ui.view" context="{'studio': True}">
     <field name="active" eval="True"/>
     <field name="arch" type="xml">
       <data>
@@ -3685,7 +3685,7 @@
     <field name="priority">99</field>
     <field name="type">form</field>
   </record>
-  <record id="MECIS.odoo_studio_equipmen_95ef62c5-c51a-43c9-a63d-24c37644aca4" model="ir.ui.view" context="{'studio': True}">
+  <record id="studio_customization.odoo_studio_equipmen_95ef62c5-c51a-43c9-a63d-24c37644aca4" model="ir.ui.view" context="{'studio': True}">
     <field name="active" eval="True"/>
     <field name="arch" type="xml">
       <data>
@@ -3806,7 +3806,7 @@
     <field name="priority">99</field>
     <field name="type">tree</field>
   </record>
-  <record id="MECIS.odoo_studio_equipmen_9fe06b1a-f9f0-49bc-a0a3-16a9245af6eb" model="ir.ui.view" context="{'studio': True}">
+  <record id="studio_customization.odoo_studio_equipmen_9fe06b1a-f9f0-49bc-a0a3-16a9245af6eb" model="ir.ui.view" context="{'studio': True}">
     <field name="active" eval="True"/>
     <field name="arch" type="xml">
       <data>
@@ -3822,7 +3822,7 @@
     <field name="priority">99</field>
     <field name="type">kanban</field>
   </record>
-  <record id="MECIS.odoo_studio_equipmen_b0fa5783-fecb-490c-b33e-2a6724c8881c" model="ir.ui.view" context="{'studio': True}">
+  <record id="studio_customization.odoo_studio_equipmen_b0fa5783-fecb-490c-b33e-2a6724c8881c" model="ir.ui.view" context="{'studio': True}">
     <field name="active" eval="True"/>
     <field name="arch" type="xml">
       <data>
@@ -3863,7 +3863,7 @@
     <field name="priority">99</field>
     <field name="type">form</field>
   </record>
-  <record id="MECIS.odoo_studio_equipmen_ba294b2d-e305-4eab-bd31-0ed3380413fa" model="ir.ui.view" context="{'studio': True}">
+  <record id="studio_customization.odoo_studio_equipmen_ba294b2d-e305-4eab-bd31-0ed3380413fa" model="ir.ui.view" context="{'studio': True}">
     <field name="active" eval="True"/>
     <field name="arch" type="xml">
       <data>
@@ -3919,7 +3919,7 @@
     <field name="priority">99</field>
     <field name="type">search</field>
   </record>
-  <record id="MECIS.odoo_studio_equipmen_c9ef3f7a-1bb8-419d-b211-5545e7eb5077" model="ir.ui.view" context="{'studio': True}">
+  <record id="studio_customization.odoo_studio_equipmen_c9ef3f7a-1bb8-419d-b211-5545e7eb5077" model="ir.ui.view" context="{'studio': True}">
     <field name="active" eval="True"/>
     <field name="arch" type="xml">
       <data>
@@ -3938,7 +3938,7 @@
     <field name="priority">99</field>
     <field name="type">tree</field>
   </record>
-  <record id="MECIS.odoo_studio_equipmen_fec1bee6-8ec3-4246-ab91-1fbac4475e50" model="ir.ui.view" context="{'studio': True}">
+  <record id="studio_customization.odoo_studio_equipmen_fec1bee6-8ec3-4246-ab91-1fbac4475e50" model="ir.ui.view" context="{'studio': True}">
     <field name="active" eval="True"/>
     <field name="arch" type="xml">
       <data>
@@ -3981,7 +3981,7 @@
     <field name="priority">99</field>
     <field name="type">tree</field>
   </record>
-  <record id="MECIS.odoo_studio_hr_depar_64542fd2-d57e-4751-8ac7-932fab74b95f" model="ir.ui.view" context="{'studio': True}">
+  <record id="studio_customization.odoo_studio_hr_depar_64542fd2-d57e-4751-8ac7-932fab74b95f" model="ir.ui.view" context="{'studio': True}">
     <field name="active" eval="True"/>
     <field name="arch" type="xml">
       <data>
@@ -4000,7 +4000,7 @@
     <field name="priority">99</field>
     <field name="type">form</field>
   </record>
-  <record id="MECIS.odoo_studio_mail_act_ec088387-8c64-4551-8711-d11e11a2b886" model="ir.ui.view" context="{'studio': True}">
+  <record id="studio_customization.odoo_studio_mail_act_ec088387-8c64-4551-8711-d11e11a2b886" model="ir.ui.view" context="{'studio': True}">
     <field name="active" eval="True"/>
     <field name="arch" type="xml">
       <data>
@@ -4023,7 +4023,7 @@
     <field name="priority">99</field>
     <field name="type">search</field>
   </record>
-  <record id="MECIS.odoo_studio_mail_mes_819b46c4-6224-4c77-b770-77484929ecec" model="ir.ui.view" context="{'studio': True}">
+  <record id="studio_customization.odoo_studio_mail_mes_819b46c4-6224-4c77-b770-77484929ecec" model="ir.ui.view" context="{'studio': True}">
     <field name="active" eval="True"/>
     <field name="arch" type="xml">
       <data>
@@ -4055,7 +4055,7 @@
     <field name="priority">99</field>
     <field name="type">form</field>
   </record>
-  <record id="MECIS.odoo_studio_mail_mes_b6419b12-55cd-45d1-bc96-26b958311bf4" model="ir.ui.view" context="{'studio': True}">
+  <record id="studio_customization.odoo_studio_mail_mes_b6419b12-55cd-45d1-bc96-26b958311bf4" model="ir.ui.view" context="{'studio': True}">
     <field name="active" eval="True"/>
     <field name="arch" type="xml">
       <data>
@@ -4083,7 +4083,7 @@
     <field name="priority">99</field>
     <field name="type">search</field>
   </record>
-  <record id="MECIS.odoo_studio_mail_mes_ef0b66c1-37d9-4d62-87cb-f5c4d7726288" model="ir.ui.view" context="{'studio': True}">
+  <record id="studio_customization.odoo_studio_mail_mes_ef0b66c1-37d9-4d62-87cb-f5c4d7726288" model="ir.ui.view" context="{'studio': True}">
     <field name="active" eval="True"/>
     <field name="arch" type="xml">
       <data>
@@ -4099,7 +4099,7 @@
     <field name="priority">99</field>
     <field name="type">tree</field>
   </record>
-  <record id="MECIS.odoo_studio_quality__986a46d4-7759-4577-b666-121a0f9c94a1" model="ir.ui.view" context="{'studio': True}">
+  <record id="studio_customization.odoo_studio_quality__986a46d4-7759-4577-b666-121a0f9c94a1" model="ir.ui.view" context="{'studio': True}">
     <field name="active" eval="True"/>
     <field name="arch" type="xml">
       <data>
@@ -4118,7 +4118,7 @@
     <field name="priority">99</field>
     <field name="type">tree</field>
   </record>
-  <record id="MECIS.odoo_studio_sign_req_0eca2787-d08f-4c4a-8a0d-8919b50f7a1b" model="ir.ui.view" context="{'studio': True}">
+  <record id="studio_customization.odoo_studio_sign_req_0eca2787-d08f-4c4a-8a0d-8919b50f7a1b" model="ir.ui.view" context="{'studio': True}">
     <field name="active" eval="True"/>
     <field name="arch" type="xml">
       <data>
@@ -4137,7 +4137,7 @@
     <field name="priority">99</field>
     <field name="type">kanban</field>
   </record>
-  <record id="MECIS.odoo_studio_sign_tem_320e8585-eb5b-4216-b6ed-1ae2d9c47a26" model="ir.ui.view" context="{'studio': True}">
+  <record id="studio_customization.odoo_studio_sign_tem_320e8585-eb5b-4216-b6ed-1ae2d9c47a26" model="ir.ui.view" context="{'studio': True}">
     <field name="active" eval="True"/>
     <field name="arch" type="xml">
       <data>
@@ -4156,7 +4156,7 @@
     <field name="priority">99</field>
     <field name="type">kanban</field>
   </record>
-  <record id="MECIS.odoo_studio_stock_mo_3cdac114-3e27-4111-95ae-d9d6bc8322d7" model="ir.ui.view" context="{'studio': True}">
+  <record id="studio_customization.odoo_studio_stock_mo_3cdac114-3e27-4111-95ae-d9d6bc8322d7" model="ir.ui.view" context="{'studio': True}">
     <field name="active" eval="True"/>
     <field name="arch" type="xml">
       <data>
@@ -4173,7 +4173,7 @@
     <field name="priority">99</field>
     <field name="type">tree</field>
   </record>
-  <record id="MECIS.odoo_studio_stock_pi_e818c40e-8977-47b9-9eb1-dbedf9922740" model="ir.ui.view" context="{'studio': True}">
+  <record id="studio_customization.odoo_studio_stock_pi_e818c40e-8977-47b9-9eb1-dbedf9922740" model="ir.ui.view" context="{'studio': True}">
     <field name="active" eval="True"/>
     <field name="arch" type="xml">
       <data>
@@ -4192,7 +4192,7 @@
     <field name="priority">99</field>
     <field name="type">form</field>
   </record>
-  <record id="MECIS.studio_report_docume_301769e2-6c92-4389-a9d8-f24f7d339b0f" model="ir.ui.view" context="{'studio': True}">
+  <record id="studio_customization.studio_report_docume_301769e2-6c92-4389-a9d8-f24f7d339b0f" model="ir.ui.view" context="{'studio': True}">
     <field name="active" eval="True"/>
     <field name="arch" type="xml">
       <t t-name="studio_report_document">
@@ -4202,14 +4202,14 @@
     <field name="field_parent" eval="False"/>
     <field name="groups_id" eval="[(6, 0, [])]"/>
     <field name="inherit_id" eval="False"/>
-    <field name="key">MECIS.studio_report_docume_301769e2-6c92-4389-a9d8-f24f7d339b0f_document</field>
+    <field name="key">studio_customization.studio_report_docume_301769e2-6c92-4389-a9d8-f24f7d339b0f_document</field>
     <field name="mode">primary</field>
     <field name="model" eval="False"/>
-    <field name="name">MECIS.studio_report_docume_301769e2-6c92-4389-a9d8-f24f7d339b0f_document</field>
+    <field name="name">studio_customization.studio_report_docume_301769e2-6c92-4389-a9d8-f24f7d339b0f_document</field>
     <field name="priority">16</field>
     <field name="type">qweb</field>
   </record>
-  <record id="MECIS.odoo_studio_studio_c_1ff65f68-c310-47bd-a581-1d82d0df0029" model="ir.ui.view" context="{'studio': True}">
+  <record id="studio_customization.odoo_studio_studio_c_1ff65f68-c310-47bd-a581-1d82d0df0029" model="ir.ui.view" context="{'studio': True}">
     <field name="active" eval="True"/>
     <field name="arch" type="xml">
       <data>
@@ -4224,15 +4224,15 @@
     </field>
     <field name="field_parent" eval="False"/>
     <field name="groups_id" eval="[(6, 0, [])]"/>
-    <field name="inherit_id" ref="MECIS.studio_report_docume_301769e2-6c92-4389-a9d8-f24f7d339b0f"/>
+    <field name="inherit_id" ref="studio_customization.studio_report_docume_301769e2-6c92-4389-a9d8-f24f7d339b0f"/>
     <field name="key">gen_key.160240</field>
     <field name="mode">extension</field>
     <field name="model" eval="False"/>
-    <field name="name">Odoo Studio: MECIS.studio_report_docume_301769e2-6c92-4389-a9d8-f24f7d339b0f_document customization</field>
+    <field name="name">Odoo Studio: studio_customization.studio_report_docume_301769e2-6c92-4389-a9d8-f24f7d339b0f_document customization</field>
     <field name="priority">99</field>
     <field name="type">qweb</field>
   </record>
-  <record id="MECIS.studio_report_docume_7a896f17-f740-447d-ab39-b21626881fa3" model="ir.ui.view" context="{'studio': True}">
+  <record id="studio_customization.studio_report_docume_7a896f17-f740-447d-ab39-b21626881fa3" model="ir.ui.view" context="{'studio': True}">
     <field name="active" eval="True"/>
     <field name="arch" type="xml">
       <t t-name="studio_report_document">
@@ -4242,14 +4242,14 @@
     <field name="field_parent" eval="False"/>
     <field name="groups_id" eval="[(6, 0, [])]"/>
     <field name="inherit_id" eval="False"/>
-    <field name="key">MECIS.studio_report_docume_7a896f17-f740-447d-ab39-b21626881fa3_document</field>
+    <field name="key">studio_customization.studio_report_docume_7a896f17-f740-447d-ab39-b21626881fa3_document</field>
     <field name="mode">primary</field>
     <field name="model" eval="False"/>
-    <field name="name">MECIS.studio_report_docume_7a896f17-f740-447d-ab39-b21626881fa3_document</field>
+    <field name="name">studio_customization.studio_report_docume_7a896f17-f740-447d-ab39-b21626881fa3_document</field>
     <field name="priority">16</field>
     <field name="type">qweb</field>
   </record>
-  <record id="MECIS.odoo_studio_studio_c_36986032-9ad0-495b-8268-9728df5180bc" model="ir.ui.view" context="{'studio': True}">
+  <record id="studio_customization.odoo_studio_studio_c_36986032-9ad0-495b-8268-9728df5180bc" model="ir.ui.view" context="{'studio': True}">
     <field name="active" eval="True"/>
     <field name="arch" type="xml">
       <data>
@@ -4686,15 +4686,15 @@
     </field>
     <field name="field_parent" eval="False"/>
     <field name="groups_id" eval="[(6, 0, [])]"/>
-    <field name="inherit_id" ref="MECIS.studio_report_docume_7a896f17-f740-447d-ab39-b21626881fa3"/>
+    <field name="inherit_id" ref="studio_customization.studio_report_docume_7a896f17-f740-447d-ab39-b21626881fa3"/>
     <field name="key">gen_key.fba22f</field>
     <field name="mode">extension</field>
     <field name="model" eval="False"/>
-    <field name="name">Odoo Studio: MECIS.studio_report_docume_7a896f17-f740-447d-ab39-b21626881fa3_document customization</field>
+    <field name="name">Odoo Studio: studio_customization.studio_report_docume_7a896f17-f740-447d-ab39-b21626881fa3_document customization</field>
     <field name="priority">99</field>
     <field name="type">qweb</field>
   </record>
-  <record id="MECIS.studio_report_docume_21ec7a70-929b-4e8f-859e-4ba13407941f" model="ir.ui.view" context="{'studio': True}">
+  <record id="studio_customization.studio_report_docume_21ec7a70-929b-4e8f-859e-4ba13407941f" model="ir.ui.view" context="{'studio': True}">
     <field name="active" eval="True"/>
     <field name="arch" type="xml">
       <t t-name="studio_report_document">
@@ -4706,14 +4706,14 @@
     <field name="field_parent" eval="False"/>
     <field name="groups_id" eval="[(6, 0, [])]"/>
     <field name="inherit_id" eval="False"/>
-    <field name="key">MECIS.studio_report_docume_21ec7a70-929b-4e8f-859e-4ba13407941f_document</field>
+    <field name="key">studio_customization.studio_report_docume_21ec7a70-929b-4e8f-859e-4ba13407941f_document</field>
     <field name="mode">primary</field>
     <field name="model" eval="False"/>
-    <field name="name">MECIS.studio_report_docume_21ec7a70-929b-4e8f-859e-4ba13407941f_document</field>
+    <field name="name">studio_customization.studio_report_docume_21ec7a70-929b-4e8f-859e-4ba13407941f_document</field>
     <field name="priority">16</field>
     <field name="type">qweb</field>
   </record>
-  <record id="MECIS.odoo_studio_studio_c_425ecf57-f054-48df-94ad-2e54a75cab31" model="ir.ui.view" context="{'studio': True}">
+  <record id="studio_customization.odoo_studio_studio_c_425ecf57-f054-48df-94ad-2e54a75cab31" model="ir.ui.view" context="{'studio': True}">
     <field name="active" eval="True"/>
     <field name="arch" type="xml">
       <data>
@@ -4777,15 +4777,15 @@
     </field>
     <field name="field_parent" eval="False"/>
     <field name="groups_id" eval="[(6, 0, [])]"/>
-    <field name="inherit_id" ref="MECIS.studio_report_docume_21ec7a70-929b-4e8f-859e-4ba13407941f"/>
+    <field name="inherit_id" ref="studio_customization.studio_report_docume_21ec7a70-929b-4e8f-859e-4ba13407941f"/>
     <field name="key">gen_key.5db904</field>
     <field name="mode">extension</field>
     <field name="model" eval="False"/>
-    <field name="name">Odoo Studio: MECIS.studio_report_docume_21ec7a70-929b-4e8f-859e-4ba13407941f_document customization</field>
+    <field name="name">Odoo Studio: studio_customization.studio_report_docume_21ec7a70-929b-4e8f-859e-4ba13407941f_document customization</field>
     <field name="priority">99</field>
     <field name="type">qweb</field>
   </record>
-  <record id="MECIS.studio_report_docume_6129ae64-34f6-47aa-837c-24a8434b9e5d" model="ir.ui.view" context="{'studio': True}">
+  <record id="studio_customization.studio_report_docume_6129ae64-34f6-47aa-837c-24a8434b9e5d" model="ir.ui.view" context="{'studio': True}">
     <field name="active" eval="True"/>
     <field name="arch" type="xml">
       <t t-name="studio_report_document">
@@ -4879,16 +4879,16 @@
                 <t t-foreach="doc.x_part" t-as="line">
                   <tr>
                     <td style="width: 150px; height: 60px; border: 1pt solid black">
-                      <t t-esc="line['x_type']"/>
+                      <t t-esc="line.x_studio_stage_id.x_name"/>
                     </td>
-                    <td t-foreach="doc.x_part.x_name" t-as="l" style="width: 350px; height: 60px; border: 1pt solid black">
-                      <t t-esc="l['x_name']"/>
+                    <td style="width: 350px; height: 60px; border: 1pt solid black">
+                      <t t-esc="line.x_name.x_name"/>
                     </td>
-                    <td t-foreach="doc.x_part.x_product_uom" t-as="l" style="width: 150px; height: 60px; border: 1pt solid black" class="text-center">
-                      <t t-esc="l['name']"/>
+                    <td style="width: 150px; height: 60px; border: 1pt solid black; text-align: center">
+                      <t t-esc="line.x_product_uom.name"/>
                     </td>
-                    <td style="width: 150px; height: 60px; border: 1pt solid black" class="text-center">
-                      <t t-esc="line['x_studio_value']"/>
+                    <td style="width: 150px; height: 60px; border: 1pt solid black; text-align: center">
+                      <t t-esc="line.x_studio_value"/>
                     </td>
                   </tr>
                 </t>
@@ -4929,14 +4929,14 @@
     <field name="field_parent" eval="False"/>
     <field name="groups_id" eval="[(6, 0, [])]"/>
     <field name="inherit_id" eval="False"/>
-    <field name="key">MECIS.studio_report_docume_6129ae64-34f6-47aa-837c-24a8434b9e5d_document</field>
+    <field name="key">studio_customization.studio_report_docume_6129ae64-34f6-47aa-837c-24a8434b9e5d_document</field>
     <field name="mode">primary</field>
     <field name="model" eval="False"/>
-    <field name="name">MECIS.studio_report_docume_6129ae64-34f6-47aa-837c-24a8434b9e5d_document</field>
+    <field name="name">studio_customization.studio_report_docume_6129ae64-34f6-47aa-837c-24a8434b9e5d_document</field>
     <field name="priority">16</field>
     <field name="type">qweb</field>
   </record>
-  <record id="MECIS.odoo_studio_studio_c_903ba005-3637-4db0-9efd-3fffe5b6c37d" model="ir.ui.view" context="{'studio': True}">
+  <record id="studio_customization.odoo_studio_studio_c_903ba005-3637-4db0-9efd-3fffe5b6c37d" model="ir.ui.view" context="{'studio': True}">
     <field name="active" eval="True"/>
     <field name="arch" type="xml">
       <data>
@@ -4957,15 +4957,15 @@
     </field>
     <field name="field_parent" eval="False"/>
     <field name="groups_id" eval="[(6, 0, [])]"/>
-    <field name="inherit_id" ref="MECIS.studio_report_docume_6129ae64-34f6-47aa-837c-24a8434b9e5d"/>
+    <field name="inherit_id" ref="studio_customization.studio_report_docume_6129ae64-34f6-47aa-837c-24a8434b9e5d"/>
     <field name="key">gen_key.2a8a16</field>
     <field name="mode">extension</field>
     <field name="model" eval="False"/>
-    <field name="name">Odoo Studio: MECIS.studio_report_docume_6129ae64-34f6-47aa-837c-24a8434b9e5d_document customization</field>
+    <field name="name">Odoo Studio: studio_customization.studio_report_docume_6129ae64-34f6-47aa-837c-24a8434b9e5d_document customization</field>
     <field name="priority">99</field>
     <field name="type">qweb</field>
   </record>
-  <record id="MECIS.studio_report_docume_f973f087-095b-46e0-b523-ddb8c8f2da11" model="ir.ui.view" context="{'studio': True}">
+  <record id="studio_customization.studio_report_docume_f973f087-095b-46e0-b523-ddb8c8f2da11" model="ir.ui.view" context="{'studio': True}">
     <field name="active" eval="True"/>
     <field name="arch" type="xml">
       <t t-name="studio_report_document">
@@ -4994,14 +4994,14 @@
     <field name="field_parent" eval="False"/>
     <field name="groups_id" eval="[(6, 0, [])]"/>
     <field name="inherit_id" eval="False"/>
-    <field name="key">MECIS.studio_report_docume_f973f087-095b-46e0-b523-ddb8c8f2da11_document</field>
+    <field name="key">studio_customization.studio_report_docume_f973f087-095b-46e0-b523-ddb8c8f2da11_document</field>
     <field name="mode">primary</field>
     <field name="model" eval="False"/>
-    <field name="name">MECIS.studio_report_docume_f973f087-095b-46e0-b523-ddb8c8f2da11_document</field>
+    <field name="name">studio_customization.studio_report_docume_f973f087-095b-46e0-b523-ddb8c8f2da11_document</field>
     <field name="priority">16</field>
     <field name="type">qweb</field>
   </record>
-  <record id="MECIS.odoo_studio_studio_c_9e7823b5-c5a3-47f6-831e-c2416d07abfe" model="ir.ui.view" context="{'studio': True}">
+  <record id="studio_customization.odoo_studio_studio_c_9e7823b5-c5a3-47f6-831e-c2416d07abfe" model="ir.ui.view" context="{'studio': True}">
     <field name="active" eval="False"/>
     <field name="arch" type="xml">
       <data>
@@ -5030,15 +5030,15 @@
     </field>
     <field name="field_parent" eval="False"/>
     <field name="groups_id" eval="[(6, 0, [])]"/>
-    <field name="inherit_id" ref="MECIS.studio_report_docume_f973f087-095b-46e0-b523-ddb8c8f2da11"/>
+    <field name="inherit_id" ref="studio_customization.studio_report_docume_f973f087-095b-46e0-b523-ddb8c8f2da11"/>
     <field name="key">gen_key.cdf595</field>
     <field name="mode">extension</field>
     <field name="model" eval="False"/>
-    <field name="name">Odoo Studio: MECIS.studio_report_docume_f973f087-095b-46e0-b523-ddb8c8f2da11_document customization</field>
+    <field name="name">Odoo Studio: studio_customization.studio_report_docume_f973f087-095b-46e0-b523-ddb8c8f2da11_document customization</field>
     <field name="priority">99</field>
     <field name="type">qweb</field>
   </record>
-  <record id="MECIS.studio_report_docume_c7eeaef2-5056-4e13-80c1-089b6f270b15" model="ir.ui.view" context="{'studio': True}">
+  <record id="studio_customization.studio_report_docume_c7eeaef2-5056-4e13-80c1-089b6f270b15" model="ir.ui.view" context="{'studio': True}">
     <field name="active" eval="True"/>
     <field name="arch" type="xml">
       <t t-name="studio_report_document">
@@ -5061,14 +5061,14 @@
     <field name="field_parent" eval="False"/>
     <field name="groups_id" eval="[(6, 0, [])]"/>
     <field name="inherit_id" eval="False"/>
-    <field name="key">MECIS.studio_report_docume_c7eeaef2-5056-4e13-80c1-089b6f270b15_document</field>
+    <field name="key">studio_customization.studio_report_docume_c7eeaef2-5056-4e13-80c1-089b6f270b15_document</field>
     <field name="mode">primary</field>
     <field name="model" eval="False"/>
-    <field name="name">MECIS.studio_report_docume_c7eeaef2-5056-4e13-80c1-089b6f270b15_document</field>
+    <field name="name">studio_customization.studio_report_docume_c7eeaef2-5056-4e13-80c1-089b6f270b15_document</field>
     <field name="priority">16</field>
     <field name="type">qweb</field>
   </record>
-  <record id="MECIS.odoo_studio_studio_c_ca2adec2-bff8-4152-8dda-c94e366abfb2" model="ir.ui.view" context="{'studio': True}">
+  <record id="studio_customization.odoo_studio_studio_c_ca2adec2-bff8-4152-8dda-c94e366abfb2" model="ir.ui.view" context="{'studio': True}">
     <field name="active" eval="True"/>
     <field name="arch" type="xml">
       <data>
@@ -5079,21 +5079,21 @@
     </field>
     <field name="field_parent" eval="False"/>
     <field name="groups_id" eval="[(6, 0, [])]"/>
-    <field name="inherit_id" ref="MECIS.studio_report_docume_c7eeaef2-5056-4e13-80c1-089b6f270b15"/>
+    <field name="inherit_id" ref="studio_customization.studio_report_docume_c7eeaef2-5056-4e13-80c1-089b6f270b15"/>
     <field name="key">gen_key.7ee011</field>
     <field name="mode">extension</field>
     <field name="model" eval="False"/>
-    <field name="name">Odoo Studio: MECIS.studio_report_docume_c7eeaef2-5056-4e13-80c1-089b6f270b15_document customization</field>
+    <field name="name">Odoo Studio: studio_customization.studio_report_docume_c7eeaef2-5056-4e13-80c1-089b6f270b15_document customization</field>
     <field name="priority">99</field>
     <field name="type">qweb</field>
   </record>
-  <record id="MECIS.studio_main_report_01043719-8c48-4c5d-8598-6ab04b3c4ab2" model="ir.ui.view" context="{'studio': True}">
+  <record id="studio_customization.studio_main_report_01043719-8c48-4c5d-8598-6ab04b3c4ab2" model="ir.ui.view" context="{'studio': True}">
     <field name="active" eval="True"/>
     <field name="arch" type="xml">
       <t t-name="studio_main_report">
         <t t-foreach="docs" t-as="doc">
           <t t-call="web.basic_layout">
-            <t t-call="MECIS.studio_report_docume_d7b58c8b-c5e9-42b6-a595-3a96a9906903_document"/>
+            <t t-call="studio_customization.studio_report_docume_d7b58c8b-c5e9-42b6-a595-3a96a9906903_document"/>
             <p style="page-break-after: always;"/>
           </t>
         </t>
@@ -5102,20 +5102,20 @@
     <field name="field_parent" eval="False"/>
     <field name="groups_id" eval="[(6, 0, [])]"/>
     <field name="inherit_id" eval="False"/>
-    <field name="key">MECIS.studio_report_docume_d7b58c8b-c5e9-42b6-a595-3a96a9906903</field>
+    <field name="key">studio_customization.studio_report_docume_d7b58c8b-c5e9-42b6-a595-3a96a9906903</field>
     <field name="mode">primary</field>
     <field name="model" eval="False"/>
-    <field name="name">MECIS.studio_report_docume_d7b58c8b-c5e9-42b6-a595-3a96a9906903</field>
+    <field name="name">studio_customization.studio_report_docume_d7b58c8b-c5e9-42b6-a595-3a96a9906903</field>
     <field name="priority">16</field>
     <field name="type">qweb</field>
   </record>
-  <record id="MECIS.studio_main_report_03bb1d2e-3edf-4772-8a5e-3ba787811460" model="ir.ui.view" context="{'studio': True}">
+  <record id="studio_customization.studio_main_report_03bb1d2e-3edf-4772-8a5e-3ba787811460" model="ir.ui.view" context="{'studio': True}">
     <field name="active" eval="True"/>
     <field name="arch" type="xml">
       <t t-name="studio_main_report">
         <t t-call="web.html_container">
           <t t-foreach="docs" t-as="doc">
-            <t t-call="MECIS.studio_report_docume_90f85695-efb1-4dfc-a971-43c460d9b7e8_document"/>
+            <t t-call="studio_customization.studio_report_docume_90f85695-efb1-4dfc-a971-43c460d9b7e8_document"/>
           </t>
         </t>
       </t>
@@ -5123,20 +5123,20 @@
     <field name="field_parent" eval="False"/>
     <field name="groups_id" eval="[(6, 0, [])]"/>
     <field name="inherit_id" eval="False"/>
-    <field name="key">MECIS.studio_report_docume_90f85695-efb1-4dfc-a971-43c460d9b7e8</field>
+    <field name="key">studio_customization.studio_report_docume_90f85695-efb1-4dfc-a971-43c460d9b7e8</field>
     <field name="mode">primary</field>
     <field name="model" eval="False"/>
-    <field name="name">MECIS.studio_report_docume_90f85695-efb1-4dfc-a971-43c460d9b7e8</field>
+    <field name="name">studio_customization.studio_report_docume_90f85695-efb1-4dfc-a971-43c460d9b7e8</field>
     <field name="priority">16</field>
     <field name="type">qweb</field>
   </record>
-  <record id="MECIS.studio_main_report_0717218d-bca3-4411-86eb-8e624cd4088a" model="ir.ui.view" context="{'studio': True}">
+  <record id="studio_customization.studio_main_report_0717218d-bca3-4411-86eb-8e624cd4088a" model="ir.ui.view" context="{'studio': True}">
     <field name="active" eval="True"/>
     <field name="arch" type="xml">
       <t t-name="studio_main_report">
         <t t-foreach="docs" t-as="doc">
           <t t-call="web.basic_layout">
-            <t t-call="MECIS.studio_report_docume_c4b17c2d-ffc1-49cf-a92f-7b52e653bc4b_document"/>
+            <t t-call="studio_customization.studio_report_docume_c4b17c2d-ffc1-49cf-a92f-7b52e653bc4b_document"/>
             <p style="page-break-after: always;"/>
           </t>
         </t>
@@ -5145,20 +5145,20 @@
     <field name="field_parent" eval="False"/>
     <field name="groups_id" eval="[(6, 0, [])]"/>
     <field name="inherit_id" eval="False"/>
-    <field name="key">MECIS.studio_report_docume_c4b17c2d-ffc1-49cf-a92f-7b52e653bc4b</field>
+    <field name="key">studio_customization.studio_report_docume_c4b17c2d-ffc1-49cf-a92f-7b52e653bc4b</field>
     <field name="mode">primary</field>
     <field name="model" eval="False"/>
-    <field name="name">MECIS.studio_report_docume_c4b17c2d-ffc1-49cf-a92f-7b52e653bc4b</field>
+    <field name="name">studio_customization.studio_report_docume_c4b17c2d-ffc1-49cf-a92f-7b52e653bc4b</field>
     <field name="priority">16</field>
     <field name="type">qweb</field>
   </record>
-  <record id="MECIS.studio_main_report_08671876-0d88-429c-8cd7-6b63d3ed2b00" model="ir.ui.view" context="{'studio': True}">
+  <record id="studio_customization.studio_main_report_08671876-0d88-429c-8cd7-6b63d3ed2b00" model="ir.ui.view" context="{'studio': True}">
     <field name="active" eval="True"/>
     <field name="arch" type="xml">
       <t t-name="studio_main_report">
         <t t-call="web.html_container">
           <t t-foreach="docs" t-as="doc">
-            <t t-call="MECIS.studio_report_docume_9fc6824e-753b-487b-bfd6-4b87ef0949d5_document"/>
+            <t t-call="studio_customization.studio_report_docume_9fc6824e-753b-487b-bfd6-4b87ef0949d5_document"/>
           </t>
         </t>
       </t>
@@ -5166,20 +5166,20 @@
     <field name="field_parent" eval="False"/>
     <field name="groups_id" eval="[(6, 0, [])]"/>
     <field name="inherit_id" eval="False"/>
-    <field name="key">MECIS.studio_report_docume_9fc6824e-753b-487b-bfd6-4b87ef0949d5</field>
+    <field name="key">studio_customization.studio_report_docume_9fc6824e-753b-487b-bfd6-4b87ef0949d5</field>
     <field name="mode">primary</field>
     <field name="model" eval="False"/>
-    <field name="name">MECIS.studio_report_docume_9fc6824e-753b-487b-bfd6-4b87ef0949d5</field>
+    <field name="name">studio_customization.studio_report_docume_9fc6824e-753b-487b-bfd6-4b87ef0949d5</field>
     <field name="priority">16</field>
     <field name="type">qweb</field>
   </record>
-  <record id="MECIS.studio_main_report_10453480-c073-406a-99e0-f880fc652cbd" model="ir.ui.view" context="{'studio': True}">
+  <record id="studio_customization.studio_main_report_10453480-c073-406a-99e0-f880fc652cbd" model="ir.ui.view" context="{'studio': True}">
     <field name="active" eval="True"/>
     <field name="arch" type="xml">
       <t t-name="studio_main_report">
         <t t-call="web.html_container">
           <t t-foreach="docs" t-as="doc">
-            <t t-call="MECIS.studio_report_docume_21ec7a70-929b-4e8f-859e-4ba13407941f_document"/>
+            <t t-call="studio_customization.studio_report_docume_21ec7a70-929b-4e8f-859e-4ba13407941f_document"/>
           </t>
         </t>
       </t>
@@ -5187,20 +5187,20 @@
     <field name="field_parent" eval="False"/>
     <field name="groups_id" eval="[(6, 0, [])]"/>
     <field name="inherit_id" eval="False"/>
-    <field name="key">MECIS.studio_report_docume_21ec7a70-929b-4e8f-859e-4ba13407941f</field>
+    <field name="key">studio_customization.studio_report_docume_21ec7a70-929b-4e8f-859e-4ba13407941f</field>
     <field name="mode">primary</field>
     <field name="model" eval="False"/>
-    <field name="name">MECIS.studio_report_docume_21ec7a70-929b-4e8f-859e-4ba13407941f</field>
+    <field name="name">studio_customization.studio_report_docume_21ec7a70-929b-4e8f-859e-4ba13407941f</field>
     <field name="priority">16</field>
     <field name="type">qweb</field>
   </record>
-  <record id="MECIS.studio_main_report_27cc3475-f5a0-4ce7-b5de-251763a467af" model="ir.ui.view" context="{'studio': True}">
+  <record id="studio_customization.studio_main_report_27cc3475-f5a0-4ce7-b5de-251763a467af" model="ir.ui.view" context="{'studio': True}">
     <field name="active" eval="True"/>
     <field name="arch" type="xml">
       <t t-name="studio_main_report">
         <t t-call="web.html_container">
           <t t-foreach="docs" t-as="doc">
-            <t t-call="MECIS.studio_report_docume_5c01eb44-a8eb-4067-b105-a2f5dd8a0979_document"/>
+            <t t-call="studio_customization.studio_report_docume_5c01eb44-a8eb-4067-b105-a2f5dd8a0979_document"/>
           </t>
         </t>
       </t>
@@ -5208,20 +5208,20 @@
     <field name="field_parent" eval="False"/>
     <field name="groups_id" eval="[(6, 0, [])]"/>
     <field name="inherit_id" eval="False"/>
-    <field name="key">MECIS.studio_report_docume_5c01eb44-a8eb-4067-b105-a2f5dd8a0979</field>
+    <field name="key">studio_customization.studio_report_docume_5c01eb44-a8eb-4067-b105-a2f5dd8a0979</field>
     <field name="mode">primary</field>
     <field name="model" eval="False"/>
-    <field name="name">MECIS.studio_report_docume_5c01eb44-a8eb-4067-b105-a2f5dd8a0979</field>
+    <field name="name">studio_customization.studio_report_docume_5c01eb44-a8eb-4067-b105-a2f5dd8a0979</field>
     <field name="priority">16</field>
     <field name="type">qweb</field>
   </record>
-  <record id="MECIS.studio_main_report_298972a7-beba-425f-b0e6-c8c07bb175ea" model="ir.ui.view" context="{'studio': True}">
+  <record id="studio_customization.studio_main_report_298972a7-beba-425f-b0e6-c8c07bb175ea" model="ir.ui.view" context="{'studio': True}">
     <field name="active" eval="True"/>
     <field name="arch" type="xml">
       <t t-name="studio_main_report">
         <t t-foreach="docs" t-as="doc">
           <t t-call="web.basic_layout">
-            <t t-call="MECIS.studio_report_docume_301769e2-6c92-4389-a9d8-f24f7d339b0f_document"/>
+            <t t-call="studio_customization.studio_report_docume_301769e2-6c92-4389-a9d8-f24f7d339b0f_document"/>
             <p style="page-break-after: always;"/>
           </t>
         </t>
@@ -5230,20 +5230,20 @@
     <field name="field_parent" eval="False"/>
     <field name="groups_id" eval="[(6, 0, [])]"/>
     <field name="inherit_id" eval="False"/>
-    <field name="key">MECIS.studio_report_docume_301769e2-6c92-4389-a9d8-f24f7d339b0f</field>
+    <field name="key">studio_customization.studio_report_docume_301769e2-6c92-4389-a9d8-f24f7d339b0f</field>
     <field name="mode">primary</field>
     <field name="model" eval="False"/>
-    <field name="name">MECIS.studio_report_docume_301769e2-6c92-4389-a9d8-f24f7d339b0f</field>
+    <field name="name">studio_customization.studio_report_docume_301769e2-6c92-4389-a9d8-f24f7d339b0f</field>
     <field name="priority">16</field>
     <field name="type">qweb</field>
   </record>
-  <record id="MECIS.studio_main_report_2ee8aa09-c0ab-424e-9924-7f2d560f2339" model="ir.ui.view" context="{'studio': True}">
+  <record id="studio_customization.studio_main_report_2ee8aa09-c0ab-424e-9924-7f2d560f2339" model="ir.ui.view" context="{'studio': True}">
     <field name="active" eval="True"/>
     <field name="arch" type="xml">
       <t t-name="studio_main_report">
         <t t-call="web.html_container">
           <t t-foreach="docs" t-as="doc">
-            <t t-call="MECIS.studio_report_docume_6586a272-2382-421d-847c-c7aa61ff82c7_document"/>
+            <t t-call="studio_customization.studio_report_docume_6586a272-2382-421d-847c-c7aa61ff82c7_document"/>
           </t>
         </t>
       </t>
@@ -5251,20 +5251,20 @@
     <field name="field_parent" eval="False"/>
     <field name="groups_id" eval="[(6, 0, [])]"/>
     <field name="inherit_id" eval="False"/>
-    <field name="key">MECIS.studio_report_docume_6586a272-2382-421d-847c-c7aa61ff82c7</field>
+    <field name="key">studio_customization.studio_report_docume_6586a272-2382-421d-847c-c7aa61ff82c7</field>
     <field name="mode">primary</field>
     <field name="model" eval="False"/>
-    <field name="name">MECIS.studio_report_docume_6586a272-2382-421d-847c-c7aa61ff82c7</field>
+    <field name="name">studio_customization.studio_report_docume_6586a272-2382-421d-847c-c7aa61ff82c7</field>
     <field name="priority">16</field>
     <field name="type">qweb</field>
   </record>
-  <record id="MECIS.studio_main_report_3426a058-392c-4b3d-b0b1-30f48cfe5582" model="ir.ui.view" context="{'studio': True}">
+  <record id="studio_customization.studio_main_report_3426a058-392c-4b3d-b0b1-30f48cfe5582" model="ir.ui.view" context="{'studio': True}">
     <field name="active" eval="True"/>
     <field name="arch" type="xml">
       <t t-name="studio_main_report">
         <t t-foreach="docs" t-as="doc">
           <t t-call="web.basic_layout">
-            <t t-call="MECIS.studio_report_docume_7a896f17-f740-447d-ab39-b21626881fa3_document"/>
+            <t t-call="studio_customization.studio_report_docume_7a896f17-f740-447d-ab39-b21626881fa3_document"/>
             <p style="page-break-after: always;"/>
           </t>
         </t>
@@ -5273,14 +5273,14 @@
     <field name="field_parent" eval="False"/>
     <field name="groups_id" eval="[(6, 0, [])]"/>
     <field name="inherit_id" eval="False"/>
-    <field name="key">MECIS.studio_report_docume_7a896f17-f740-447d-ab39-b21626881fa3</field>
+    <field name="key">studio_customization.studio_report_docume_7a896f17-f740-447d-ab39-b21626881fa3</field>
     <field name="mode">primary</field>
     <field name="model" eval="False"/>
-    <field name="name">MECIS.studio_report_docume_7a896f17-f740-447d-ab39-b21626881fa3</field>
+    <field name="name">studio_customization.studio_report_docume_7a896f17-f740-447d-ab39-b21626881fa3</field>
     <field name="priority">16</field>
     <field name="type">qweb</field>
   </record>
-  <record id="MECIS.studio_main_report_4023dac4-edcc-47a0-99bf-d89cc8f1ce9c" model="ir.ui.view" context="{'studio': True}">
+  <record id="studio_customization.studio_main_report_4023dac4-edcc-47a0-99bf-d89cc8f1ce9c" model="ir.ui.view" context="{'studio': True}">
     <field name="active" eval="True"/>
     <field name="arch" type="xml">
       <t t-name="studio_main_report">
@@ -5291,20 +5291,20 @@
     <field name="field_parent" eval="False"/>
     <field name="groups_id" eval="[(6, 0, [])]"/>
     <field name="inherit_id" eval="False"/>
-    <field name="key">MECIS.studio_report_docume_b7a852a8-c478-4c70-afc3-cce2c538c0fc</field>
+    <field name="key">studio_customization.studio_report_docume_b7a852a8-c478-4c70-afc3-cce2c538c0fc</field>
     <field name="mode">primary</field>
     <field name="model" eval="False"/>
-    <field name="name">MECIS.studio_report_docume_b7a852a8-c478-4c70-afc3-cce2c538c0fc</field>
+    <field name="name">studio_customization.studio_report_docume_b7a852a8-c478-4c70-afc3-cce2c538c0fc</field>
     <field name="priority">16</field>
     <field name="type">qweb</field>
   </record>
-  <record id="MECIS.studio_main_report_4457832a-fa0e-4dbb-bd94-63aca464e0d2" model="ir.ui.view" context="{'studio': True}">
+  <record id="studio_customization.studio_main_report_4457832a-fa0e-4dbb-bd94-63aca464e0d2" model="ir.ui.view" context="{'studio': True}">
     <field name="active" eval="True"/>
     <field name="arch" type="xml">
       <t t-name="studio_main_report">
         <t t-call="web.html_container">
           <t t-foreach="docs" t-as="doc">
-            <t t-call="MECIS.studio_report_docume_fd3c7fbb-34b7-4972-870e-087d17558bf6_document"/>
+            <t t-call="studio_customization.studio_report_docume_fd3c7fbb-34b7-4972-870e-087d17558bf6_document"/>
           </t>
         </t>
       </t>
@@ -5312,20 +5312,20 @@
     <field name="field_parent" eval="False"/>
     <field name="groups_id" eval="[(6, 0, [])]"/>
     <field name="inherit_id" eval="False"/>
-    <field name="key">MECIS.studio_report_docume_fd3c7fbb-34b7-4972-870e-087d17558bf6</field>
+    <field name="key">studio_customization.studio_report_docume_fd3c7fbb-34b7-4972-870e-087d17558bf6</field>
     <field name="mode">primary</field>
     <field name="model" eval="False"/>
-    <field name="name">MECIS.studio_report_docume_fd3c7fbb-34b7-4972-870e-087d17558bf6</field>
+    <field name="name">studio_customization.studio_report_docume_fd3c7fbb-34b7-4972-870e-087d17558bf6</field>
     <field name="priority">16</field>
     <field name="type">qweb</field>
   </record>
-  <record id="MECIS.studio_main_report_495e4b05-c0e2-4a31-9dce-00402f05537a" model="ir.ui.view" context="{'studio': True}">
+  <record id="studio_customization.studio_main_report_495e4b05-c0e2-4a31-9dce-00402f05537a" model="ir.ui.view" context="{'studio': True}">
     <field name="active" eval="True"/>
     <field name="arch" type="xml">
       <t t-name="studio_main_report">
         <t t-foreach="docs" t-as="doc">
           <t t-call="web.basic_layout">
-            <t t-call="MECIS.studio_report_docume_6129ae64-34f6-47aa-837c-24a8434b9e5d_document"/>
+            <t t-call="studio_customization.studio_report_docume_6129ae64-34f6-47aa-837c-24a8434b9e5d_document"/>
             <p style="page-break-after: always;"/>
           </t>
         </t>
@@ -5334,20 +5334,20 @@
     <field name="field_parent" eval="False"/>
     <field name="groups_id" eval="[(6, 0, [])]"/>
     <field name="inherit_id" eval="False"/>
-    <field name="key">MECIS.studio_report_docume_6129ae64-34f6-47aa-837c-24a8434b9e5d</field>
+    <field name="key">studio_customization.studio_report_docume_6129ae64-34f6-47aa-837c-24a8434b9e5d</field>
     <field name="mode">primary</field>
     <field name="model" eval="False"/>
-    <field name="name">MECIS.studio_report_docume_6129ae64-34f6-47aa-837c-24a8434b9e5d</field>
+    <field name="name">studio_customization.studio_report_docume_6129ae64-34f6-47aa-837c-24a8434b9e5d</field>
     <field name="priority">16</field>
     <field name="type">qweb</field>
   </record>
-  <record id="MECIS.studio_main_report_571249d8-b647-4c2d-b1b9-d333dcb4f4f1" model="ir.ui.view" context="{'studio': True}">
+  <record id="studio_customization.studio_main_report_571249d8-b647-4c2d-b1b9-d333dcb4f4f1" model="ir.ui.view" context="{'studio': True}">
     <field name="active" eval="True"/>
     <field name="arch" type="xml">
       <t t-name="studio_main_report">
         <t t-call="web.html_container">
           <t t-foreach="docs" t-as="doc">
-            <t t-call="MECIS.studio_report_docume_e1aaee60-f054-41bf-a41f-b2e39bb08713_document"/>
+            <t t-call="studio_customization.studio_report_docume_e1aaee60-f054-41bf-a41f-b2e39bb08713_document"/>
           </t>
         </t>
       </t>
@@ -5355,21 +5355,21 @@
     <field name="field_parent" eval="False"/>
     <field name="groups_id" eval="[(6, 0, [])]"/>
     <field name="inherit_id" eval="False"/>
-    <field name="key">MECIS.studio_report_docume_e1aaee60-f054-41bf-a41f-b2e39bb08713</field>
+    <field name="key">studio_customization.studio_report_docume_e1aaee60-f054-41bf-a41f-b2e39bb08713</field>
     <field name="mode">primary</field>
     <field name="model" eval="False"/>
-    <field name="name">MECIS.studio_report_docume_e1aaee60-f054-41bf-a41f-b2e39bb08713</field>
+    <field name="name">studio_customization.studio_report_docume_e1aaee60-f054-41bf-a41f-b2e39bb08713</field>
     <field name="priority">16</field>
     <field name="type">qweb</field>
   </record>
-  <record id="MECIS.studio_main_report_82aece4e-03a7-401e-b059-281ebb4e3094" model="ir.ui.view" context="{'studio': True}">
+  <record id="studio_customization.studio_main_report_82aece4e-03a7-401e-b059-281ebb4e3094" model="ir.ui.view" context="{'studio': True}">
     <field name="active" eval="True"/>
     <field name="arch" type="xml">
       <t t-name="studio_main_report">
         <t t-call="web.basic_layout">
           <div class="label-container">
             <t t-foreach="docs" t-as="doc">
-              <t t-call="MECIS.studio_report_docume_f973f087-095b-46e0-b523-ddb8c8f2da11_document"/>
+              <t t-call="studio_customization.studio_report_docume_f973f087-095b-46e0-b523-ddb8c8f2da11_document"/>
             </t>
           </div>
         </t>
@@ -5378,20 +5378,20 @@
     <field name="field_parent" eval="False"/>
     <field name="groups_id" eval="[(6, 0, [])]"/>
     <field name="inherit_id" eval="False"/>
-    <field name="key">MECIS.studio_report_docume_f973f087-095b-46e0-b523-ddb8c8f2da11</field>
+    <field name="key">studio_customization.studio_report_docume_f973f087-095b-46e0-b523-ddb8c8f2da11</field>
     <field name="mode">primary</field>
     <field name="model" eval="False"/>
-    <field name="name">MECIS.studio_report_docume_f973f087-095b-46e0-b523-ddb8c8f2da11</field>
+    <field name="name">studio_customization.studio_report_docume_f973f087-095b-46e0-b523-ddb8c8f2da11</field>
     <field name="priority">16</field>
     <field name="type">qweb</field>
   </record>
-  <record id="MECIS.studio_main_report_8b432fd9-a01f-4b56-9288-6fd9e0710d25" model="ir.ui.view" context="{'studio': True}">
+  <record id="studio_customization.studio_main_report_8b432fd9-a01f-4b56-9288-6fd9e0710d25" model="ir.ui.view" context="{'studio': True}">
     <field name="active" eval="True"/>
     <field name="arch" type="xml">
       <t t-name="studio_main_report">
         <t t-call="web.html_container">
           <t t-foreach="docs" t-as="doc">
-            <t t-call="MECIS.studio_report_docume_430493ac-cfbf-4369-aa7d-5e02c4dbb7ed_document"/>
+            <t t-call="studio_customization.studio_report_docume_430493ac-cfbf-4369-aa7d-5e02c4dbb7ed_document"/>
           </t>
         </t>
       </t>
@@ -5399,21 +5399,21 @@
     <field name="field_parent" eval="False"/>
     <field name="groups_id" eval="[(6, 0, [])]"/>
     <field name="inherit_id" eval="False"/>
-    <field name="key">MECIS.studio_report_docume_430493ac-cfbf-4369-aa7d-5e02c4dbb7ed</field>
+    <field name="key">studio_customization.studio_report_docume_430493ac-cfbf-4369-aa7d-5e02c4dbb7ed</field>
     <field name="mode">primary</field>
     <field name="model" eval="False"/>
-    <field name="name">MECIS.studio_report_docume_430493ac-cfbf-4369-aa7d-5e02c4dbb7ed</field>
+    <field name="name">studio_customization.studio_report_docume_430493ac-cfbf-4369-aa7d-5e02c4dbb7ed</field>
     <field name="priority">16</field>
     <field name="type">qweb</field>
   </record>
-  <record id="MECIS.studio_main_report_8ce9dba4-5426-4311-a3ff-91f2305356cf" model="ir.ui.view" context="{'studio': True}">
+  <record id="studio_customization.studio_main_report_8ce9dba4-5426-4311-a3ff-91f2305356cf" model="ir.ui.view" context="{'studio': True}">
     <field name="active" eval="True"/>
     <field name="arch" type="xml">
       <t t-name="studio_main_report">
         <t t-call="web.html_container">
           <t t-call="delivery_header"/>
           <t t-foreach="docs" t-as="doc">
-            <t t-call="MECIS.studio_report_docume_8f95ec02-67ce-4efd-b235-240fd0d1fe2d_document"/>
+            <t t-call="studio_customization.studio_report_docume_8f95ec02-67ce-4efd-b235-240fd0d1fe2d_document"/>
           </t>
         </t>
       </t>
@@ -5421,20 +5421,20 @@
     <field name="field_parent" eval="False"/>
     <field name="groups_id" eval="[(6, 0, [])]"/>
     <field name="inherit_id" eval="False"/>
-    <field name="key">MECIS.studio_report_docume_8f95ec02-67ce-4efd-b235-240fd0d1fe2d</field>
+    <field name="key">studio_customization.studio_report_docume_8f95ec02-67ce-4efd-b235-240fd0d1fe2d</field>
     <field name="mode">primary</field>
     <field name="model" eval="False"/>
-    <field name="name">MECIS.studio_report_docume_8f95ec02-67ce-4efd-b235-240fd0d1fe2d</field>
+    <field name="name">studio_customization.studio_report_docume_8f95ec02-67ce-4efd-b235-240fd0d1fe2d</field>
     <field name="priority">16</field>
     <field name="type">qweb</field>
   </record>
-  <record id="MECIS.studio_main_report_9ee7ceff-eca1-40d6-8c53-9391e789fe2f" model="ir.ui.view" context="{'studio': True}">
+  <record id="studio_customization.studio_main_report_9ee7ceff-eca1-40d6-8c53-9391e789fe2f" model="ir.ui.view" context="{'studio': True}">
     <field name="active" eval="True"/>
     <field name="arch" type="xml">
       <t t-name="studio_main_report">
         <t t-foreach="docs" t-as="doc">
           <t t-call="web.basic_layout">
-            <t t-call="MECIS.studio_report_docume_41e220a6-17cd-4d52-bb95-7061798c5e8b_document"/>
+            <t t-call="studio_customization.studio_report_docume_41e220a6-17cd-4d52-bb95-7061798c5e8b_document"/>
             <p style="page-break-after: always;"/>
           </t>
         </t>
@@ -5443,20 +5443,20 @@
     <field name="field_parent" eval="False"/>
     <field name="groups_id" eval="[(6, 0, [])]"/>
     <field name="inherit_id" eval="False"/>
-    <field name="key">MECIS.studio_report_docume_41e220a6-17cd-4d52-bb95-7061798c5e8b</field>
+    <field name="key">studio_customization.studio_report_docume_41e220a6-17cd-4d52-bb95-7061798c5e8b</field>
     <field name="mode">primary</field>
     <field name="model" eval="False"/>
-    <field name="name">MECIS.studio_report_docume_41e220a6-17cd-4d52-bb95-7061798c5e8b</field>
+    <field name="name">studio_customization.studio_report_docume_41e220a6-17cd-4d52-bb95-7061798c5e8b</field>
     <field name="priority">16</field>
     <field name="type">qweb</field>
   </record>
-  <record id="MECIS.studio_main_report_a1f65349-0be8-4ff2-b6c4-d49717134b02" model="ir.ui.view" context="{'studio': True}">
+  <record id="studio_customization.studio_main_report_a1f65349-0be8-4ff2-b6c4-d49717134b02" model="ir.ui.view" context="{'studio': True}">
     <field name="active" eval="True"/>
     <field name="arch" type="xml">
       <t t-name="studio_main_report">
         <t t-call="web.html_container">
           <t t-foreach="docs" t-as="doc">
-            <t t-call="MECIS.studio_report_docume_e773568a-c0fc-4c16-a0c8-9f456d9dd9a7_document"/>
+            <t t-call="studio_customization.studio_report_docume_e773568a-c0fc-4c16-a0c8-9f456d9dd9a7_document"/>
           </t>
         </t>
       </t>
@@ -5464,20 +5464,20 @@
     <field name="field_parent" eval="False"/>
     <field name="groups_id" eval="[(6, 0, [])]"/>
     <field name="inherit_id" eval="False"/>
-    <field name="key">MECIS.studio_report_docume_e773568a-c0fc-4c16-a0c8-9f456d9dd9a7</field>
+    <field name="key">studio_customization.studio_report_docume_e773568a-c0fc-4c16-a0c8-9f456d9dd9a7</field>
     <field name="mode">primary</field>
     <field name="model" eval="False"/>
-    <field name="name">MECIS.studio_report_docume_e773568a-c0fc-4c16-a0c8-9f456d9dd9a7</field>
+    <field name="name">studio_customization.studio_report_docume_e773568a-c0fc-4c16-a0c8-9f456d9dd9a7</field>
     <field name="priority">16</field>
     <field name="type">qweb</field>
   </record>
-  <record id="MECIS.studio_main_report_bcbd0957-970e-49e4-9326-263429cd83b4" model="ir.ui.view" context="{'studio': True}">
+  <record id="studio_customization.studio_main_report_bcbd0957-970e-49e4-9326-263429cd83b4" model="ir.ui.view" context="{'studio': True}">
     <field name="active" eval="True"/>
     <field name="arch" type="xml">
       <t t-name="studio_main_report">
         <t t-call="web.html_container">
           <t t-foreach="docs" t-as="doc">
-            <t t-call="MECIS.studio_report_docume_46682fe4-74ff-496f-a01b-719326df08e2_document"/>
+            <t t-call="studio_customization.studio_report_docume_46682fe4-74ff-496f-a01b-719326df08e2_document"/>
           </t>
         </t>
       </t>
@@ -5485,20 +5485,20 @@
     <field name="field_parent" eval="False"/>
     <field name="groups_id" eval="[(6, 0, [])]"/>
     <field name="inherit_id" eval="False"/>
-    <field name="key">MECIS.studio_report_docume_46682fe4-74ff-496f-a01b-719326df08e2</field>
+    <field name="key">studio_customization.studio_report_docume_46682fe4-74ff-496f-a01b-719326df08e2</field>
     <field name="mode">primary</field>
     <field name="model" eval="False"/>
-    <field name="name">MECIS.studio_report_docume_46682fe4-74ff-496f-a01b-719326df08e2</field>
+    <field name="name">studio_customization.studio_report_docume_46682fe4-74ff-496f-a01b-719326df08e2</field>
     <field name="priority">16</field>
     <field name="type">qweb</field>
   </record>
-  <record id="MECIS.studio_main_report_de76c790-1a94-4ed7-a778-35fd6cfd165d" model="ir.ui.view" context="{'studio': True}">
+  <record id="studio_customization.studio_main_report_de76c790-1a94-4ed7-a778-35fd6cfd165d" model="ir.ui.view" context="{'studio': True}">
     <field name="active" eval="True"/>
     <field name="arch" type="xml">
       <t t-name="studio_main_report">
         <t t-call="web.html_container">
           <t t-foreach="docs" t-as="doc">
-            <t t-call="MECIS.studio_report_docume_5bc0dcc1-c159-4053-9210-c65d717bb507_document"/>
+            <t t-call="studio_customization.studio_report_docume_5bc0dcc1-c159-4053-9210-c65d717bb507_document"/>
           </t>
         </t>
       </t>
@@ -5506,20 +5506,20 @@
     <field name="field_parent" eval="False"/>
     <field name="groups_id" eval="[(6, 0, [])]"/>
     <field name="inherit_id" eval="False"/>
-    <field name="key">MECIS.studio_report_docume_5bc0dcc1-c159-4053-9210-c65d717bb507</field>
+    <field name="key">studio_customization.studio_report_docume_5bc0dcc1-c159-4053-9210-c65d717bb507</field>
     <field name="mode">primary</field>
     <field name="model" eval="False"/>
-    <field name="name">MECIS.studio_report_docume_5bc0dcc1-c159-4053-9210-c65d717bb507</field>
+    <field name="name">studio_customization.studio_report_docume_5bc0dcc1-c159-4053-9210-c65d717bb507</field>
     <field name="priority">16</field>
     <field name="type">qweb</field>
   </record>
-  <record id="MECIS.studio_main_report_e23a17cb-c62e-46b4-b76e-86da0e4a4d2f" model="ir.ui.view" context="{'studio': True}">
+  <record id="studio_customization.studio_main_report_e23a17cb-c62e-46b4-b76e-86da0e4a4d2f" model="ir.ui.view" context="{'studio': True}">
     <field name="active" eval="True"/>
     <field name="arch" type="xml">
       <t t-name="studio_main_report">
         <t t-call="web.basic_layout">
           <t t-set="devices" t-value="docs"/>
-          <t t-call="MECIS.studio_report_docume_9660f1dd-354d-4f63-a4e2-4e416bd340f4_document">
+          <t t-call="studio_customization.studio_report_docume_9660f1dd-354d-4f63-a4e2-4e416bd340f4_document">
             <t t-set="docs" t-value="devices"/>
           </t>
         </t>
@@ -5528,20 +5528,20 @@
     <field name="field_parent" eval="False"/>
     <field name="groups_id" eval="[(6, 0, [])]"/>
     <field name="inherit_id" eval="False"/>
-    <field name="key">MECIS.studio_report_docume_9660f1dd-354d-4f63-a4e2-4e416bd340f4</field>
+    <field name="key">studio_customization.studio_report_docume_9660f1dd-354d-4f63-a4e2-4e416bd340f4</field>
     <field name="mode">primary</field>
     <field name="model" eval="False"/>
-    <field name="name">MECIS.studio_report_docume_9660f1dd-354d-4f63-a4e2-4e416bd340f4</field>
+    <field name="name">studio_customization.studio_report_docume_9660f1dd-354d-4f63-a4e2-4e416bd340f4</field>
     <field name="priority">16</field>
     <field name="type">qweb</field>
   </record>
-  <record id="MECIS.studio_main_report_e3128c4d-1c69-49a0-a53e-58830de349cc" model="ir.ui.view" context="{'studio': True}">
+  <record id="studio_customization.studio_main_report_e3128c4d-1c69-49a0-a53e-58830de349cc" model="ir.ui.view" context="{'studio': True}">
     <field name="active" eval="True"/>
     <field name="arch" type="xml">
       <t t-name="studio_main_report">
         <t t-call="web.html_container">
           <t t-foreach="docs" t-as="doc">
-            <t t-call="MECIS.studio_report_docume_6e8cf318-9b8f-4194-990b-9cc22ad8747a_document"/>
+            <t t-call="studio_customization.studio_report_docume_6e8cf318-9b8f-4194-990b-9cc22ad8747a_document"/>
           </t>
         </t>
       </t>
@@ -5549,20 +5549,20 @@
     <field name="field_parent" eval="False"/>
     <field name="groups_id" eval="[(6, 0, [])]"/>
     <field name="inherit_id" eval="False"/>
-    <field name="key">MECIS.studio_report_docume_6e8cf318-9b8f-4194-990b-9cc22ad8747a</field>
+    <field name="key">studio_customization.studio_report_docume_6e8cf318-9b8f-4194-990b-9cc22ad8747a</field>
     <field name="mode">primary</field>
     <field name="model" eval="False"/>
-    <field name="name">MECIS.studio_report_docume_6e8cf318-9b8f-4194-990b-9cc22ad8747a</field>
+    <field name="name">studio_customization.studio_report_docume_6e8cf318-9b8f-4194-990b-9cc22ad8747a</field>
     <field name="priority">16</field>
     <field name="type">qweb</field>
   </record>
-  <record id="MECIS.studio_main_report_e6a5d17e-b4bd-480d-99d1-1db5df6b5bc6" model="ir.ui.view" context="{'studio': True}">
+  <record id="studio_customization.studio_main_report_e6a5d17e-b4bd-480d-99d1-1db5df6b5bc6" model="ir.ui.view" context="{'studio': True}">
     <field name="active" eval="True"/>
     <field name="arch" type="xml">
       <t t-name="studio_main_report">
         <t t-call="web.html_container">
           <t t-foreach="docs" t-as="doc">
-            <t t-call="MECIS.studio_report_docume_c7eeaef2-5056-4e13-80c1-089b6f270b15_document"/>
+            <t t-call="studio_customization.studio_report_docume_c7eeaef2-5056-4e13-80c1-089b6f270b15_document"/>
           </t>
         </t>
       </t>
@@ -5570,14 +5570,14 @@
     <field name="field_parent" eval="False"/>
     <field name="groups_id" eval="[(6, 0, [])]"/>
     <field name="inherit_id" eval="False"/>
-    <field name="key">MECIS.studio_report_docume_c7eeaef2-5056-4e13-80c1-089b6f270b15</field>
+    <field name="key">studio_customization.studio_report_docume_c7eeaef2-5056-4e13-80c1-089b6f270b15</field>
     <field name="mode">primary</field>
     <field name="model" eval="False"/>
-    <field name="name">MECIS.studio_report_docume_c7eeaef2-5056-4e13-80c1-089b6f270b15</field>
+    <field name="name">studio_customization.studio_report_docume_c7eeaef2-5056-4e13-80c1-089b6f270b15</field>
     <field name="priority">16</field>
     <field name="type">qweb</field>
   </record>
-  <record id="MECIS.studio_report_docume_41e220a6-17cd-4d52-bb95-7061798c5e8b" model="ir.ui.view" context="{'studio': True}">
+  <record id="studio_customization.studio_report_docume_41e220a6-17cd-4d52-bb95-7061798c5e8b" model="ir.ui.view" context="{'studio': True}">
     <field name="active" eval="True"/>
     <field name="arch" type="xml">
       <t t-name="studio_report_document">
@@ -5587,17 +5587,17 @@
     <field name="field_parent" eval="False"/>
     <field name="groups_id" eval="[(6, 0, [])]"/>
     <field name="inherit_id" eval="False"/>
-    <field name="key">MECIS.studio_report_docume_41e220a6-17cd-4d52-bb95-7061798c5e8b_document</field>
+    <field name="key">studio_customization.studio_report_docume_41e220a6-17cd-4d52-bb95-7061798c5e8b_document</field>
     <field name="mode">primary</field>
     <field name="model" eval="False"/>
-    <field name="name">MECIS.studio_report_docume_41e220a6-17cd-4d52-bb95-7061798c5e8b_document</field>
+    <field name="name">studio_customization.studio_report_docume_41e220a6-17cd-4d52-bb95-7061798c5e8b_document</field>
     <field name="priority">16</field>
     <field name="type">qweb</field>
   </record>
-  <record id="MECIS.studio_report_docume_430493ac-cfbf-4369-aa7d-5e02c4dbb7ed" model="ir.ui.view" context="{'studio': True}">
+  <record id="studio_customization.studio_report_docume_430493ac-cfbf-4369-aa7d-5e02c4dbb7ed" model="ir.ui.view" context="{'studio': True}">
     <field name="active" eval="True"/>
     <field name="arch" type="xml">
-      <t t-name="MECIS.studio_report_docume_9660f1dd-354d-4f63-a4e2-4e416bd340f4_document">
+      <t t-name="studio_customization.studio_report_docume_9660f1dd-354d-4f63-a4e2-4e416bd340f4_document">
         <div class="page" style="padding: 20px; font-size: 14px; line-height: 1.6; font-family: 'DejaVu Sans','sans-serif';">
           <style>
       table {
@@ -5695,14 +5695,14 @@
     <field name="field_parent" eval="False"/>
     <field name="groups_id" eval="[(6, 0, [])]"/>
     <field name="inherit_id" eval="False"/>
-    <field name="key">MECIS.studio_report_docume_430493ac-cfbf-4369-aa7d-5e02c4dbb7ed_document</field>
+    <field name="key">studio_customization.studio_report_docume_430493ac-cfbf-4369-aa7d-5e02c4dbb7ed_document</field>
     <field name="mode">primary</field>
     <field name="model" eval="False"/>
-    <field name="name">MECIS.studio_report_docume_430493ac-cfbf-4369-aa7d-5e02c4dbb7ed_document</field>
+    <field name="name">studio_customization.studio_report_docume_430493ac-cfbf-4369-aa7d-5e02c4dbb7ed_document</field>
     <field name="priority">16</field>
     <field name="type">qweb</field>
   </record>
-  <record id="MECIS.studio_report_docume_46682fe4-74ff-496f-a01b-719326df08e2" model="ir.ui.view" context="{'studio': True}">
+  <record id="studio_customization.studio_report_docume_46682fe4-74ff-496f-a01b-719326df08e2" model="ir.ui.view" context="{'studio': True}">
     <field name="active" eval="True"/>
     <field name="arch" type="xml">
       <t t-name="studio_report_document">
@@ -5714,14 +5714,14 @@
     <field name="field_parent" eval="False"/>
     <field name="groups_id" eval="[(6, 0, [])]"/>
     <field name="inherit_id" eval="False"/>
-    <field name="key">MECIS.studio_report_docume_46682fe4-74ff-496f-a01b-719326df08e2_document</field>
+    <field name="key">studio_customization.studio_report_docume_46682fe4-74ff-496f-a01b-719326df08e2_document</field>
     <field name="mode">primary</field>
     <field name="model" eval="False"/>
-    <field name="name">MECIS.studio_report_docume_46682fe4-74ff-496f-a01b-719326df08e2_document</field>
+    <field name="name">studio_customization.studio_report_docume_46682fe4-74ff-496f-a01b-719326df08e2_document</field>
     <field name="priority">16</field>
     <field name="type">qweb</field>
   </record>
-  <record id="MECIS.studio_report_docume_5bc0dcc1-c159-4053-9210-c65d717bb507" model="ir.ui.view" context="{'studio': True}">
+  <record id="studio_customization.studio_report_docume_5bc0dcc1-c159-4053-9210-c65d717bb507" model="ir.ui.view" context="{'studio': True}">
     <field name="active" eval="True"/>
     <field name="arch" type="xml">
       <t t-name="studio_report_document">
@@ -5825,14 +5825,14 @@
     <field name="field_parent" eval="False"/>
     <field name="groups_id" eval="[(6, 0, [])]"/>
     <field name="inherit_id" eval="False"/>
-    <field name="key">MECIS.studio_report_docume_5bc0dcc1-c159-4053-9210-c65d717bb507_document</field>
+    <field name="key">studio_customization.studio_report_docume_5bc0dcc1-c159-4053-9210-c65d717bb507_document</field>
     <field name="mode">primary</field>
     <field name="model" eval="False"/>
-    <field name="name">MECIS.studio_report_docume_5bc0dcc1-c159-4053-9210-c65d717bb507_document</field>
+    <field name="name">studio_customization.studio_report_docume_5bc0dcc1-c159-4053-9210-c65d717bb507_document</field>
     <field name="priority">16</field>
     <field name="type">qweb</field>
   </record>
-  <record id="MECIS.studio_report_docume_5c01eb44-a8eb-4067-b105-a2f5dd8a0979" model="ir.ui.view" context="{'studio': True}">
+  <record id="studio_customization.studio_report_docume_5c01eb44-a8eb-4067-b105-a2f5dd8a0979" model="ir.ui.view" context="{'studio': True}">
     <field name="active" eval="True"/>
     <field name="arch" type="xml">
       <t t-name="your_module.report_loan_request_tbyt">
@@ -5936,14 +5936,14 @@
     <field name="field_parent" eval="False"/>
     <field name="groups_id" eval="[(6, 0, [])]"/>
     <field name="inherit_id" eval="False"/>
-    <field name="key">MECIS.studio_report_docume_5c01eb44-a8eb-4067-b105-a2f5dd8a0979_document</field>
+    <field name="key">studio_customization.studio_report_docume_5c01eb44-a8eb-4067-b105-a2f5dd8a0979_document</field>
     <field name="mode">primary</field>
     <field name="model" eval="False"/>
-    <field name="name">MECIS.studio_report_docume_5c01eb44-a8eb-4067-b105-a2f5dd8a0979_document</field>
+    <field name="name">studio_customization.studio_report_docume_5c01eb44-a8eb-4067-b105-a2f5dd8a0979_document</field>
     <field name="priority">16</field>
     <field name="type">qweb</field>
   </record>
-  <record id="MECIS.studio_report_docume_6586a272-2382-421d-847c-c7aa61ff82c7" model="ir.ui.view" context="{'studio': True}">
+  <record id="studio_customization.studio_report_docume_6586a272-2382-421d-847c-c7aa61ff82c7" model="ir.ui.view" context="{'studio': True}">
     <field name="active" eval="True"/>
     <field name="arch" type="xml">
       <t t-name="studio_report_document">
@@ -5955,14 +5955,14 @@
     <field name="field_parent" eval="False"/>
     <field name="groups_id" eval="[(6, 0, [])]"/>
     <field name="inherit_id" eval="False"/>
-    <field name="key">MECIS.studio_report_docume_6586a272-2382-421d-847c-c7aa61ff82c7_document</field>
+    <field name="key">studio_customization.studio_report_docume_6586a272-2382-421d-847c-c7aa61ff82c7_document</field>
     <field name="mode">primary</field>
     <field name="model" eval="False"/>
-    <field name="name">MECIS.studio_report_docume_6586a272-2382-421d-847c-c7aa61ff82c7_document</field>
+    <field name="name">studio_customization.studio_report_docume_6586a272-2382-421d-847c-c7aa61ff82c7_document</field>
     <field name="priority">16</field>
     <field name="type">qweb</field>
   </record>
-  <record id="MECIS.studio_report_docume_6e8cf318-9b8f-4194-990b-9cc22ad8747a" model="ir.ui.view" context="{'studio': True}">
+  <record id="studio_customization.studio_report_docume_6e8cf318-9b8f-4194-990b-9cc22ad8747a" model="ir.ui.view" context="{'studio': True}">
     <field name="active" eval="True"/>
     <field name="arch" type="xml">
       <t t-name="studio_report_document">
@@ -5974,14 +5974,14 @@
     <field name="field_parent" eval="False"/>
     <field name="groups_id" eval="[(6, 0, [])]"/>
     <field name="inherit_id" eval="False"/>
-    <field name="key">MECIS.studio_report_docume_6e8cf318-9b8f-4194-990b-9cc22ad8747a_document</field>
+    <field name="key">studio_customization.studio_report_docume_6e8cf318-9b8f-4194-990b-9cc22ad8747a_document</field>
     <field name="mode">primary</field>
     <field name="model" eval="False"/>
-    <field name="name">MECIS.studio_report_docume_6e8cf318-9b8f-4194-990b-9cc22ad8747a_document</field>
+    <field name="name">studio_customization.studio_report_docume_6e8cf318-9b8f-4194-990b-9cc22ad8747a_document</field>
     <field name="priority">16</field>
     <field name="type">qweb</field>
   </record>
-  <record id="MECIS.studio_report_docume_8f95ec02-67ce-4efd-b235-240fd0d1fe2d" model="ir.ui.view" context="{'studio': True}">
+  <record id="studio_customization.studio_report_docume_8f95ec02-67ce-4efd-b235-240fd0d1fe2d" model="ir.ui.view" context="{'studio': True}">
     <field name="active" eval="True"/>
     <field name="arch" type="xml">
       <t t-name="studio_report_document">
@@ -6024,14 +6024,14 @@
     <field name="field_parent" eval="False"/>
     <field name="groups_id" eval="[(6, 0, [])]"/>
     <field name="inherit_id" eval="False"/>
-    <field name="key">MECIS.studio_report_docume_8f95ec02-67ce-4efd-b235-240fd0d1fe2d_document</field>
+    <field name="key">studio_customization.studio_report_docume_8f95ec02-67ce-4efd-b235-240fd0d1fe2d_document</field>
     <field name="mode">primary</field>
     <field name="model" eval="False"/>
-    <field name="name">MECIS.studio_report_docume_8f95ec02-67ce-4efd-b235-240fd0d1fe2d_document</field>
+    <field name="name">studio_customization.studio_report_docume_8f95ec02-67ce-4efd-b235-240fd0d1fe2d_document</field>
     <field name="priority">16</field>
     <field name="type">qweb</field>
   </record>
-  <record id="MECIS.studio_report_docume_90f85695-efb1-4dfc-a971-43c460d9b7e8" model="ir.ui.view" context="{'studio': True}">
+  <record id="studio_customization.studio_report_docume_90f85695-efb1-4dfc-a971-43c460d9b7e8" model="ir.ui.view" context="{'studio': True}">
     <field name="active" eval="True"/>
     <field name="arch" type="xml">
       <t t-name="studio_report_document">
@@ -6101,17 +6101,17 @@
     <field name="field_parent" eval="False"/>
     <field name="groups_id" eval="[(6, 0, [])]"/>
     <field name="inherit_id" eval="False"/>
-    <field name="key">MECIS.studio_report_docume_90f85695-efb1-4dfc-a971-43c460d9b7e8_document</field>
+    <field name="key">studio_customization.studio_report_docume_90f85695-efb1-4dfc-a971-43c460d9b7e8_document</field>
     <field name="mode">primary</field>
     <field name="model" eval="False"/>
-    <field name="name">MECIS.studio_report_docume_90f85695-efb1-4dfc-a971-43c460d9b7e8_document</field>
+    <field name="name">studio_customization.studio_report_docume_90f85695-efb1-4dfc-a971-43c460d9b7e8_document</field>
     <field name="priority">16</field>
     <field name="type">qweb</field>
   </record>
-  <record id="MECIS.studio_report_docume_9660f1dd-354d-4f63-a4e2-4e416bd340f4" model="ir.ui.view" context="{'studio': True}">
+  <record id="studio_customization.studio_report_docume_9660f1dd-354d-4f63-a4e2-4e416bd340f4" model="ir.ui.view" context="{'studio': True}">
     <field name="active" eval="True"/>
     <field name="arch" type="xml">
-      <t t-name="MECIS.studio_report_docume_9660f1dd-354d-4f63-a4e2-4e416bd340f4_document">
+      <t t-name="studio_customization.studio_report_docume_9660f1dd-354d-4f63-a4e2-4e416bd340f4_document">
         <div class="page" style="padding: 20px; font-size: 14px; line-height: 1.6; font-family: 'DejaVu Sans','sans-serif';">
           <style>
           table {
@@ -6210,14 +6210,14 @@
     <field name="field_parent" eval="False"/>
     <field name="groups_id" eval="[(6, 0, [])]"/>
     <field name="inherit_id" eval="False"/>
-    <field name="key">MECIS.studio_report_docume_9660f1dd-354d-4f63-a4e2-4e416bd340f4_document</field>
+    <field name="key">studio_customization.studio_report_docume_9660f1dd-354d-4f63-a4e2-4e416bd340f4_document</field>
     <field name="mode">primary</field>
     <field name="model" eval="False"/>
-    <field name="name">MECIS.studio_report_docume_9660f1dd-354d-4f63-a4e2-4e416bd340f4_document</field>
+    <field name="name">studio_customization.studio_report_docume_9660f1dd-354d-4f63-a4e2-4e416bd340f4_document</field>
     <field name="priority">16</field>
     <field name="type">qweb</field>
   </record>
-  <record id="MECIS.studio_report_docume_9fc6824e-753b-487b-bfd6-4b87ef0949d5" model="ir.ui.view" context="{'studio': True}">
+  <record id="studio_customization.studio_report_docume_9fc6824e-753b-487b-bfd6-4b87ef0949d5" model="ir.ui.view" context="{'studio': True}">
     <field name="active" eval="True"/>
     <field name="arch" type="xml">
       <t t-name="studio_report_document">
@@ -6307,14 +6307,14 @@
     <field name="field_parent" eval="False"/>
     <field name="groups_id" eval="[(6, 0, [])]"/>
     <field name="inherit_id" eval="False"/>
-    <field name="key">MECIS.studio_report_docume_9fc6824e-753b-487b-bfd6-4b87ef0949d5_document</field>
+    <field name="key">studio_customization.studio_report_docume_9fc6824e-753b-487b-bfd6-4b87ef0949d5_document</field>
     <field name="mode">primary</field>
     <field name="model" eval="False"/>
-    <field name="name">MECIS.studio_report_docume_9fc6824e-753b-487b-bfd6-4b87ef0949d5_document</field>
+    <field name="name">studio_customization.studio_report_docume_9fc6824e-753b-487b-bfd6-4b87ef0949d5_document</field>
     <field name="priority">16</field>
     <field name="type">qweb</field>
   </record>
-  <record id="MECIS.studio_report_docume_b7a852a8-c478-4c70-afc3-cce2c538c0fc" model="ir.ui.view" context="{'studio': True}">
+  <record id="studio_customization.studio_report_docume_b7a852a8-c478-4c70-afc3-cce2c538c0fc" model="ir.ui.view" context="{'studio': True}">
     <field name="active" eval="True"/>
     <field name="arch" type="xml">
       <t t-name="studio_report_document">
@@ -6386,14 +6386,14 @@
     <field name="field_parent" eval="False"/>
     <field name="groups_id" eval="[(6, 0, [])]"/>
     <field name="inherit_id" eval="False"/>
-    <field name="key">MECIS.studio_report_docume_b7a852a8-c478-4c70-afc3-cce2c538c0fc_document</field>
+    <field name="key">studio_customization.studio_report_docume_b7a852a8-c478-4c70-afc3-cce2c538c0fc_document</field>
     <field name="mode">primary</field>
     <field name="model" eval="False"/>
-    <field name="name">MECIS.studio_report_docume_b7a852a8-c478-4c70-afc3-cce2c538c0fc_document</field>
+    <field name="name">studio_customization.studio_report_docume_b7a852a8-c478-4c70-afc3-cce2c538c0fc_document</field>
     <field name="priority">16</field>
     <field name="type">qweb</field>
   </record>
-  <record id="MECIS.studio_report_docume_c4b17c2d-ffc1-49cf-a92f-7b52e653bc4b" model="ir.ui.view" context="{'studio': True}">
+  <record id="studio_customization.studio_report_docume_c4b17c2d-ffc1-49cf-a92f-7b52e653bc4b" model="ir.ui.view" context="{'studio': True}">
     <field name="active" eval="True"/>
     <field name="arch" type="xml">
       <t t-name="studio_report_document">
@@ -6433,14 +6433,14 @@
     <field name="field_parent" eval="False"/>
     <field name="groups_id" eval="[(6, 0, [])]"/>
     <field name="inherit_id" eval="False"/>
-    <field name="key">MECIS.studio_report_docume_c4b17c2d-ffc1-49cf-a92f-7b52e653bc4b_document</field>
+    <field name="key">studio_customization.studio_report_docume_c4b17c2d-ffc1-49cf-a92f-7b52e653bc4b_document</field>
     <field name="mode">primary</field>
     <field name="model" eval="False"/>
-    <field name="name">MECIS.studio_report_docume_c4b17c2d-ffc1-49cf-a92f-7b52e653bc4b_document</field>
+    <field name="name">studio_customization.studio_report_docume_c4b17c2d-ffc1-49cf-a92f-7b52e653bc4b_document</field>
     <field name="priority">16</field>
     <field name="type">qweb</field>
   </record>
-  <record id="MECIS.studio_report_docume_d7b58c8b-c5e9-42b6-a595-3a96a9906903" model="ir.ui.view" context="{'studio': True}">
+  <record id="studio_customization.studio_report_docume_d7b58c8b-c5e9-42b6-a595-3a96a9906903" model="ir.ui.view" context="{'studio': True}">
     <field name="active" eval="True"/>
     <field name="arch" type="xml">
       <t t-name="studio_report_document">
@@ -6528,14 +6528,14 @@
     <field name="field_parent" eval="False"/>
     <field name="groups_id" eval="[(6, 0, [])]"/>
     <field name="inherit_id" eval="False"/>
-    <field name="key">MECIS.studio_report_docume_d7b58c8b-c5e9-42b6-a595-3a96a9906903_document</field>
+    <field name="key">studio_customization.studio_report_docume_d7b58c8b-c5e9-42b6-a595-3a96a9906903_document</field>
     <field name="mode">primary</field>
     <field name="model" eval="False"/>
-    <field name="name">MECIS.studio_report_docume_d7b58c8b-c5e9-42b6-a595-3a96a9906903_document</field>
+    <field name="name">studio_customization.studio_report_docume_d7b58c8b-c5e9-42b6-a595-3a96a9906903_document</field>
     <field name="priority">16</field>
     <field name="type">qweb</field>
   </record>
-  <record id="MECIS.studio_report_docume_e1aaee60-f054-41bf-a41f-b2e39bb08713" model="ir.ui.view" context="{'studio': True}">
+  <record id="studio_customization.studio_report_docume_e1aaee60-f054-41bf-a41f-b2e39bb08713" model="ir.ui.view" context="{'studio': True}">
     <field name="active" eval="True"/>
     <field name="arch" type="xml">
       <t t-name="studio_report_document">
@@ -6547,17 +6547,17 @@
     <field name="field_parent" eval="False"/>
     <field name="groups_id" eval="[(6, 0, [])]"/>
     <field name="inherit_id" eval="False"/>
-    <field name="key">MECIS.studio_report_docume_e1aaee60-f054-41bf-a41f-b2e39bb08713_document</field>
+    <field name="key">studio_customization.studio_report_docume_e1aaee60-f054-41bf-a41f-b2e39bb08713_document</field>
     <field name="mode">primary</field>
     <field name="model" eval="False"/>
-    <field name="name">MECIS.studio_report_docume_e1aaee60-f054-41bf-a41f-b2e39bb08713_document</field>
+    <field name="name">studio_customization.studio_report_docume_e1aaee60-f054-41bf-a41f-b2e39bb08713_document</field>
     <field name="priority">16</field>
     <field name="type">qweb</field>
   </record>
-  <record id="MECIS.studio_report_docume_e773568a-c0fc-4c16-a0c8-9f456d9dd9a7" model="ir.ui.view" context="{'studio': True}">
+  <record id="studio_customization.studio_report_docume_e773568a-c0fc-4c16-a0c8-9f456d9dd9a7" model="ir.ui.view" context="{'studio': True}">
     <field name="active" eval="True"/>
     <field name="arch" type="xml">
-      <t t-name="MECIS.studio_report_docume_e773568a-c0fc-4c16-a0c8-9f456d9dd9a7_document">
+      <t t-name="studio_customization.studio_report_docume_e773568a-c0fc-4c16-a0c8-9f456d9dd9a7_document">
         <div class="page" style="padding: 20px; font-size: 14px; line-height: 1.6; font-family: 'DejaVu Sans','sans-serif';">
           <style>
       table {
@@ -6655,14 +6655,14 @@
     <field name="field_parent" eval="False"/>
     <field name="groups_id" eval="[(6, 0, [])]"/>
     <field name="inherit_id" eval="False"/>
-    <field name="key">MECIS.studio_report_docume_e773568a-c0fc-4c16-a0c8-9f456d9dd9a7_document</field>
+    <field name="key">studio_customization.studio_report_docume_e773568a-c0fc-4c16-a0c8-9f456d9dd9a7_document</field>
     <field name="mode">primary</field>
     <field name="model" eval="False"/>
-    <field name="name">MECIS.studio_report_docume_e773568a-c0fc-4c16-a0c8-9f456d9dd9a7_document</field>
+    <field name="name">studio_customization.studio_report_docume_e773568a-c0fc-4c16-a0c8-9f456d9dd9a7_document</field>
     <field name="priority">16</field>
     <field name="type">qweb</field>
   </record>
-  <record id="MECIS.studio_report_docume_fd3c7fbb-34b7-4972-870e-087d17558bf6" model="ir.ui.view" context="{'studio': True}">
+  <record id="studio_customization.studio_report_docume_fd3c7fbb-34b7-4972-870e-087d17558bf6" model="ir.ui.view" context="{'studio': True}">
     <field name="active" eval="True"/>
     <field name="arch" type="xml">
       <t t-name="your_module_name.report_loan_form">
@@ -6744,14 +6744,14 @@
     <field name="field_parent" eval="False"/>
     <field name="groups_id" eval="[(6, 0, [])]"/>
     <field name="inherit_id" eval="False"/>
-    <field name="key">MECIS.studio_report_docume_fd3c7fbb-34b7-4972-870e-087d17558bf6_document</field>
+    <field name="key">studio_customization.studio_report_docume_fd3c7fbb-34b7-4972-870e-087d17558bf6_document</field>
     <field name="mode">primary</field>
     <field name="model" eval="False"/>
-    <field name="name">MECIS.studio_report_docume_fd3c7fbb-34b7-4972-870e-087d17558bf6_document</field>
+    <field name="name">studio_customization.studio_report_docume_fd3c7fbb-34b7-4972-870e-087d17558bf6_document</field>
     <field name="priority">16</field>
     <field name="type">qweb</field>
   </record>
-  <record id="MECIS.x_medical_service_tr_bf2832c8-76eb-467a-849e-1a56fe126021" model="ir.ui.view" context="{'studio': True}">
+  <record id="studio_customization.x_medical_service_tr_bf2832c8-76eb-467a-849e-1a56fe126021" model="ir.ui.view" context="{'studio': True}">
     <field name="active" eval="True"/>
     <field name="arch" type="xml">
       <tree multi_edit="1">

@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <odoo>
-  <record id="MECIS.label_35x22mm_b95b5af4-0ac6-4338-8e92-50354b9a3cbf" model="report.paperformat" context="{'studio': True}">
+  <record id="studio_customization.label_35x22mm_b95b5af4-0ac6-4338-8e92-50354b9a3cbf" model="report.paperformat" context="{'studio': True}">
     <field name="margin_top" eval="False"/>
     <field name="margin_bottom" eval="False"/>
     <field name="disable_shrinking" eval="False"/>

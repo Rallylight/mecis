@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <odoo>
-  <record id="MECIS.auto_change_state_wh_191b0b1c-e0fd-452b-85c1-1e4c17971997" model="base.automation" context="{'studio': True}">
-    <field name="action_server_id" ref="MECIS.auto_change_state_wh_9b56e291-d344-4f14-8aa3-8c360f04f783"/>
+  <record id="studio_customization.auto_change_state_wh_191b0b1c-e0fd-452b-85c1-1e4c17971997" model="base.automation" context="{'studio': True}">
+    <field name="action_server_id" ref="studio_customization.auto_change_state_wh_9b56e291-d344-4f14-8aa3-8c360f04f783"/>
     <field name="active" eval="True"/>
     <field name="filter_domain" eval="False"/>
     <field name="filter_pre_domain">[["stage_id.id","=",3]]</field>
@@ -12,7 +12,7 @@
     <field name="trg_date_range_type" eval="False"/>
     <field name="trigger">on_create_or_write</field>
   </record>
-  <record id="MECIS.no_edit_in_done_stat_e56ed14c-e4d9-4f63-a665-1d3879ccc1ec" model="base.automation" context="{'studio': True}">
+  <record id="studio_customization.no_edit_in_done_stat_e56ed14c-e4d9-4f63-a665-1d3879ccc1ec" model="base.automation" context="{'studio': True}">
     <field name="active" eval="False"/>
     <field name="filter_domain" eval="False"/>
     <field name="filter_pre_domain" eval="False"/>

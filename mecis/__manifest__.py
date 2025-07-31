@@ -7,7 +7,9 @@
 MECIS - A comprehensive platform to manage medical equipment in hospitals.
 Includes maintenance, calibration, loan tracking, and document management.
 """,
-    'author': 'My Company',
+    'author': 'Thangnh',
+    'price': '399.0',
+    'currency': 'USD',
     'depends': [
         'base',
         'documents',
@@ -38,6 +40,7 @@ Includes maintenance, calibration, loan tracking, and document management.
         'data/ir_rule.xml',
         'data/ir_default.xml',
     ],
+    'images': ['static/description/cover.jpg]
     'application': False,
     'license': 'OPL-1',
 }

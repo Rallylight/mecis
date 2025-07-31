@@ -36,7 +36,7 @@
     <field name="state">base</field>
     <field name="transient" eval="False"/>
   </record>
-  <record id="MECIS.chi_tiet_phieu_giao_29284d98-eae4-4098-9f6b-25ac632aeb7f" model="ir.model" context="{'studio': True}">
+  <record id="studio_customization.chi_tiet_phieu_giao_29284d98-eae4-4098-9f6b-25ac632aeb7f" model="ir.model" context="{'studio': True}">
     <field name="info"> Main super-class for regular database-persisted Odoo models.
 
     Odoo models are created by inheriting from this class::
@@ -54,7 +54,7 @@
     <field name="state">manual</field>
     <field name="transient" eval="False"/>
   </record>
-  <record id="MECIS.loan_return_5f5410b5-9a9b-4b81-a536-b45cd27177de" model="ir.model" context="{'studio': True}">
+  <record id="studio_customization.loan_return_5f5410b5-9a9b-4b81-a536-b45cd27177de" model="ir.model" context="{'studio': True}">
     <field name="info"> Main super-class for regular database-persisted Odoo models.
 
     Odoo models are created by inheriting from this class::
@@ -72,7 +72,7 @@
     <field name="state">manual</field>
     <field name="transient" eval="False"/>
   </record>
-  <record id="MECIS.loan_return_lines_2e85940e-4a01-4b24-a526-f7d9fc37afe3" model="ir.model" context="{'studio': True}">
+  <record id="studio_customization.loan_return_lines_2e85940e-4a01-4b24-a526-f7d9fc37afe3" model="ir.model" context="{'studio': True}">
     <field name="info"> Main super-class for regular database-persisted Odoo models.
 
     Odoo models are created by inheriting from this class::
@@ -90,7 +90,7 @@
     <field name="state">manual</field>
     <field name="transient" eval="False"/>
   </record>
-  <record id="MECIS.loan_return_stages_658da81f-11ab-4689-b454-babf91344fd8" model="ir.model" context="{'studio': True}">
+  <record id="studio_customization.loan_return_stages_658da81f-11ab-4689-b454-babf91344fd8" model="ir.model" context="{'studio': True}">
     <field name="info"> Main super-class for regular database-persisted Odoo models.
 
     Odoo models are created by inheriting from this class::
@@ -108,7 +108,7 @@
     <field name="state">manual</field>
     <field name="transient" eval="False"/>
   </record>
-  <record id="MECIS.loan_return_tags_fc2d91c6-dc6d-43f2-a702-a3713b431c44" model="ir.model" context="{'studio': True}">
+  <record id="studio_customization.loan_return_tags_fc2d91c6-dc6d-43f2-a702-a3713b431c44" model="ir.model" context="{'studio': True}">
     <field name="info"> Main super-class for regular database-persisted Odoo models.
 
     Odoo models are created by inheriting from this class::
@@ -126,7 +126,7 @@
     <field name="state">manual</field>
     <field name="transient" eval="False"/>
   </record>
-  <record id="MECIS.maintenance_parts_74b80e0b-d249-4b95-b4e7-b718d92139d7" model="ir.model" context="{'studio': True}">
+  <record id="studio_customization.maintenance_parts_74b80e0b-d249-4b95-b4e7-b718d92139d7" model="ir.model" context="{'studio': True}">
     <field name="info"> Main super-class for regular database-persisted Odoo models.
 
     Odoo models are created by inheriting from this class::
@@ -144,7 +144,7 @@
     <field name="state">manual</field>
     <field name="transient" eval="False"/>
   </record>
-  <record id="MECIS.maintenance_parts_li_f67ff913-885b-433c-aeda-40184a23050d" model="ir.model" context="{'studio': True}">
+  <record id="studio_customization.maintenance_parts_li_f67ff913-885b-433c-aeda-40184a23050d" model="ir.model" context="{'studio': True}">
     <field name="info"> Main super-class for regular database-persisted Odoo models.
 
     Odoo models are created by inheriting from this class::
@@ -162,7 +162,7 @@
     <field name="state">manual</field>
     <field name="transient" eval="False"/>
   </record>
-  <record id="MECIS.maintenance_parts_st_8d0f291b-b021-433b-9801-dca4b4026e35" model="ir.model" context="{'studio': True}">
+  <record id="studio_customization.maintenance_parts_st_8d0f291b-b021-433b-9801-dca4b4026e35" model="ir.model" context="{'studio': True}">
     <field name="info"> Main super-class for regular database-persisted Odoo models.
 
     Odoo models are created by inheriting from this class::
@@ -180,7 +180,7 @@
     <field name="state">manual</field>
     <field name="transient" eval="False"/>
   </record>
-  <record id="MECIS.maintenance_parts_ta_38fe04c9-c3f3-4959-97a2-cb0daa617c26" model="ir.model" context="{'studio': True}">
+  <record id="studio_customization.maintenance_parts_ta_38fe04c9-c3f3-4959-97a2-cb0daa617c26" model="ir.model" context="{'studio': True}">
     <field name="info"> Main super-class for regular database-persisted Odoo models.
 
     Odoo models are created by inheriting from this class::
@@ -198,7 +198,7 @@
     <field name="state">manual</field>
     <field name="transient" eval="False"/>
   </record>
-  <record id="MECIS.order_funnel_1bd0262f-6b71-4195-b208-dd87804393d0" model="ir.model" context="{'studio': True}">
+  <record id="studio_customization.order_funnel_1bd0262f-6b71-4195-b208-dd87804393d0" model="ir.model" context="{'studio': True}">
     <field name="info"> Main super-class for regular database-persisted Odoo models.
 
     Odoo models are created by inheriting from this class::
@@ -216,7 +216,7 @@
     <field name="state">manual</field>
     <field name="transient" eval="False"/>
   </record>
-  <record id="MECIS.order_funnel_lines_a4f9526d-b3f8-4323-91df-28059c7c817e" model="ir.model" context="{'studio': True}">
+  <record id="studio_customization.order_funnel_lines_a4f9526d-b3f8-4323-91df-28059c7c817e" model="ir.model" context="{'studio': True}">
     <field name="info"> Main super-class for regular database-persisted Odoo models.
 
     Odoo models are created by inheriting from this class::
@@ -234,7 +234,7 @@
     <field name="state">manual</field>
     <field name="transient" eval="False"/>
   </record>
-  <record id="MECIS.order_funnel_stages_cd904842-e6bb-4d62-b9dd-58862c0f31e6" model="ir.model" context="{'studio': True}">
+  <record id="studio_customization.order_funnel_stages_cd904842-e6bb-4d62-b9dd-58862c0f31e6" model="ir.model" context="{'studio': True}">
     <field name="info"> Main super-class for regular database-persisted Odoo models.
 
     Odoo models are created by inheriting from this class::
@@ -252,7 +252,7 @@
     <field name="state">manual</field>
     <field name="transient" eval="False"/>
   </record>
-  <record id="MECIS.order_funnel_tags_6704a207-df14-4684-b5cd-961abb1dec64" model="ir.model" context="{'studio': True}">
+  <record id="studio_customization.order_funnel_tags_6704a207-df14-4684-b5cd-961abb1dec64" model="ir.model" context="{'studio': True}">
     <field name="info"> Main super-class for regular database-persisted Odoo models.
 
     Odoo models are created by inheriting from this class::
@@ -270,7 +270,7 @@
     <field name="state">manual</field>
     <field name="transient" eval="False"/>
   </record>
-  <record id="MECIS.phieu_giao_thiet_bi_348e201b-285e-42db-94c1-5795c01585fd" model="ir.model" context="{'studio': True}">
+  <record id="studio_customization.phieu_giao_thiet_bi_348e201b-285e-42db-94c1-5795c01585fd" model="ir.model" context="{'studio': True}">
     <field name="info"> Main super-class for regular database-persisted Odoo models.
 
     Odoo models are created by inheriting from this class::
@@ -288,7 +288,7 @@
     <field name="state">manual</field>
     <field name="transient" eval="False"/>
   </record>
-  <record id="MECIS.phieu_kiem_inh_hieu__a7fb12ee-47cf-4894-95e9-f600f04acd80" model="ir.model" context="{'studio': True}">
+  <record id="studio_customization.phieu_kiem_inh_hieu__a7fb12ee-47cf-4894-95e9-f600f04acd80" model="ir.model" context="{'studio': True}">
     <field name="info"> Main super-class for regular database-persisted Odoo models.
 
     Odoo models are created by inheriting from this class::
