@@ -406,15 +406,35 @@
                 <field name="message_main_attachment_id"/>
               </group>
             </page>
-            <page string="Parts" name="x_maintenance_part">
-              <field name="x_part">
-                <tree name="x_part" editable="bottom">
+            <!--<page string="Parts" name="x_maintenance_part">
+                    <field name="x_part">
+                        <tree name="x_part" editable="bottom">
+                            <field name="x_studio_stage_id"/>
+                            <field name="x_name"/>
+                            <field name="x_lot"/>                            
+                            <field name="x_product_uom"/>
+                            <field name="x_studio_value" sum="Total"/>
+                        </tree>
+                    </field>
+                </page>-->
+            <page string="Linh kiện sử dụng">
+              <field name="x_parts_line">
+                <tree editable="bottom">
                   <field name="x_studio_stage_id"/>
+                  <field name="x_product_id"/>
                   <field name="x_name"/>
-                  <field name="x_lot"/>
-                  <field name="x_product_uom"/>
-                  <field name="x_studio_value" sum="Total"/>
+                  <field name="x_product_uom_id"/>
+                  <field name="x_quantity"/>
                 </tree>
+                <form>
+                  <group>
+                    <field name="x_studio_stage_id" readonly="0"/>
+                    <field name="x_product_id"/>
+                    <field name="x_name"/>
+                    <field name="x_product_uom_id"/>
+                    <field name="x_quantity"/>
+                  </group>
+                </form>
               </field>
             </page>
           </notebook>
@@ -685,13 +705,13 @@
                 </group>
               </group>
             </page>
-            <page string="Thông tin hợp đồng" name="contract" groups="maintenance.group_equipment_manager, __export__.res_groups_87_6ab241dd">
+            <page string="Thông tin hợp đồng" name="contract">
               <group name="contract">
                 <field name="x_contract_name"/>
                 <field name="x_distributor"/>
               </group>
             </page>
-            <page string="Hồ sơ truy xuất nguồn gốc" name="COCQ" groups="maintenance.group_equipment_manager, __export__.res_groups_87_6ab241dd">
+            <page string="Hồ sơ truy xuất nguồn gốc" name="COCQ">
               <group name="Certificate">
                 <field name="x_gpnk" filename="x_gpnk_name" widget="many2many_binary"/>
                 <field name="x_gpnk_name"/>
@@ -1168,6 +1188,21 @@
     <field name="priority">16</field>
     <field name="type">calendar</field>
   </record>
+  <record id="studio_customization.default_calendar_vie_38ff8473-1225-4d11-aa4d-064b68ec3c50" model="ir.ui.view" context="{'studio': True}">
+    <field name="active" eval="True"/>
+    <field name="arch" type="xml">
+      <calendar date_start="assign_date" date_stop="assign_date" string="Default calendar view for maintenance.equipment"/>
+    </field>
+    <field name="field_parent" eval="False"/>
+    <field name="groups_id" eval="[(6, 0, [])]"/>
+    <field name="inherit_id" eval="False"/>
+    <field name="key" eval="False"/>
+    <field name="mode">primary</field>
+    <field name="model">maintenance.equipment</field>
+    <field name="name">Default calendar view for maintenance.equipment</field>
+    <field name="priority">16</field>
+    <field name="type">calendar</field>
+  </record>
   <record id="studio_customization.default_calendar_vie_413b99be-e5df-4435-9c64-84af661c2fad" model="ir.ui.view" context="{'studio': True}">
     <field name="active" eval="True"/>
     <field name="arch" type="xml">
@@ -1228,6 +1263,24 @@
     <field name="mode">primary</field>
     <field name="model">maintenance.equipment</field>
     <field name="name">Default dashboard view for ir.model(324,)</field>
+    <field name="priority">16</field>
+    <field name="type">dashboard</field>
+  </record>
+  <record id="studio_customization.default_dashboard_vi_2b11a0bc-1edd-4981-807b-96211ae8da83" model="ir.ui.view" context="{'studio': True}">
+    <field name="active" eval="True"/>
+    <field name="arch" type="xml">
+      <dashboard>
+        <view type="graph"/>
+        <view type="pivot"/>
+      </dashboard>
+    </field>
+    <field name="field_parent" eval="False"/>
+    <field name="groups_id" eval="[(6, 0, [])]"/>
+    <field name="inherit_id" eval="False"/>
+    <field name="key" eval="False"/>
+    <field name="mode">primary</field>
+    <field name="model">x_medical_service</field>
+    <field name="name">Default dashboard view for ir.model(1145,)</field>
     <field name="priority">16</field>
     <field name="type">dashboard</field>
   </record>
@@ -1310,7 +1363,7 @@
           </group>
           <separator string="File kết quả kiểm định"/>
           <group col="1">
-            <field name="x_attachment_ids" widget="many2many_binary" options="{'no_create': True}" filename="name" class="o_form_field"/>
+            <field name="message_main_attachment_id" filename="name" class="o_form_field"/>
           </group>
         </sheet>
       </form>
@@ -2106,6 +2159,23 @@
     <field name="mode">primary</field>
     <field name="model">x_maintenance_parts</field>
     <field name="name">Default graph view for x_maintenance_parts</field>
+    <field name="priority">16</field>
+    <field name="type">graph</field>
+  </record>
+  <record id="studio_customization.default_graph_view_f_710ab839-a09b-49ae-a5b5-a2a1befb1858" model="ir.ui.view" context="{'studio': True}">
+    <field name="active" eval="True"/>
+    <field name="arch" type="xml">
+      <graph string="Danh mục kỹ thuật y tế" sample="1">
+        <field name="x_name" modifiers="{}"/>
+      </graph>
+    </field>
+    <field name="field_parent" eval="False"/>
+    <field name="groups_id" eval="[(6, 0, [])]"/>
+    <field name="inherit_id" eval="False"/>
+    <field name="key" eval="False"/>
+    <field name="mode">primary</field>
+    <field name="model">x_medical_service</field>
+    <field name="name">Default graph view for ir.model(1145,)</field>
     <field name="priority">16</field>
     <field name="type">graph</field>
   </record>
@@ -2957,6 +3027,23 @@
     <field name="priority">16</field>
     <field name="type">search</field>
   </record>
+  <record id="studio_customization.default_search_view__7b8e2cc1-0f56-4511-8784-759a08063e0e" model="ir.ui.view" context="{'studio': True}">
+    <field name="active" eval="True"/>
+    <field name="arch" type="xml">
+      <search string="Danh mục kỹ thuật y tế">
+        <field name="x_name" modifiers="{}"/>
+      </search>
+    </field>
+    <field name="field_parent" eval="False"/>
+    <field name="groups_id" eval="[(6, 0, [])]"/>
+    <field name="inherit_id" eval="False"/>
+    <field name="key" eval="False"/>
+    <field name="mode">primary</field>
+    <field name="model">x_medical_service</field>
+    <field name="name">Default search view for ir.model(1145,)</field>
+    <field name="priority">16</field>
+    <field name="type">search</field>
+  </record>
   <record id="studio_customization.default_search_view__7d6c9666-c358-4904-b6f2-495b5d472218" model="ir.ui.view" context="{'studio': True}">
     <field name="active" eval="True"/>
     <field name="arch" type="xml">
@@ -3116,6 +3203,7 @@
         <field name="x_due_date"/>
         <field name="x_state"/>
         <field name="x_cost"/>
+        <field name="message_main_attachment_id"/>
       </tree>
     </field>
     <field name="field_parent" eval="False"/>
@@ -3385,6 +3473,31 @@
     <field name="priority">99</field>
     <field name="type">form</field>
   </record>
+  <record id="studio_customization.odoo_studio_default__40f2d901-9d9d-4d8e-a844-a72f389e36dd" model="ir.ui.view" context="{'studio': True}">
+    <field name="active" eval="True"/>
+    <field name="arch" type="xml">
+      <data>
+        <xpath expr="//field[@name='x_name']" position="after">
+          <field name="x_code"/>
+          <field name="x_category_ids"/>
+          <field name="x_group_id"/>
+          <group name="studio_group_by">
+            <filter name="studio_group_by_NBqdD" string="Nhóm kỹ thuật theo Thông tư 23" context="{'group_by': 'x_group_id'}"/>
+          </group>
+          <filter name="studio_filter_N8RXx" string="Danh mục thiết bị còn trống" domain="[[&quot;x_category_ids&quot;,&quot;=&quot;,False]]"/>
+        </xpath>
+      </data>
+    </field>
+    <field name="field_parent" eval="False"/>
+    <field name="groups_id" eval="[(6, 0, [])]"/>
+    <field name="inherit_id" ref="studio_customization.default_search_view__7b8e2cc1-0f56-4511-8784-759a08063e0e"/>
+    <field name="key" eval="False"/>
+    <field name="mode">extension</field>
+    <field name="model">x_medical_service</field>
+    <field name="name">Odoo Studio: Default search view for ir.model(1145,) customization</field>
+    <field name="priority">99</field>
+    <field name="type">search</field>
+  </record>
   <record id="studio_customization.odoo_studio_default__4c96eea8-2496-417f-8745-10fd1715b974" model="ir.ui.view" context="{'studio': True}">
     <field name="active" eval="True"/>
     <field name="arch" type="xml">
@@ -3447,6 +3560,28 @@
     <field name="name">Odoo Studio: Default search view for ir.model(1135,) customization</field>
     <field name="priority">99</field>
     <field name="type">search</field>
+  </record>
+  <record id="studio_customization.odoo_studio_default__802af9fd-86d9-4a52-9a85-e66cbef31b51" model="ir.ui.view" context="{'studio': True}">
+    <field name="active" eval="True"/>
+    <field name="arch" type="xml">
+      <data>
+        <xpath expr="//field[@name='x_name']" position="replace">
+          <field name="x_group_id" type="col"/>
+        </xpath>
+        <xpath expr="//graph[1]" position="attributes">
+          <attribute name="type">pie</attribute>
+        </xpath>
+      </data>
+    </field>
+    <field name="field_parent" eval="False"/>
+    <field name="groups_id" eval="[(6, 0, [])]"/>
+    <field name="inherit_id" ref="studio_customization.default_graph_view_f_710ab839-a09b-49ae-a5b5-a2a1befb1858"/>
+    <field name="key" eval="False"/>
+    <field name="mode">extension</field>
+    <field name="model">x_medical_service</field>
+    <field name="name">Odoo Studio: Default graph view for ir.model(1145,) customization</field>
+    <field name="priority">99</field>
+    <field name="type">graph</field>
   </record>
   <record id="studio_customization.odoo_studio_default__af20a750-f60e-414a-bb55-954c6632f5de" model="ir.ui.view" context="{'studio': True}">
     <field name="active" eval="True"/>
@@ -4902,19 +5037,19 @@
                 </tr>
               </thead>
               <tbody>
-                <t t-foreach="doc.x_part" t-as="line">
+                <t t-foreach="doc.x_parts_line" t-as="line">
                   <tr>
                     <td style="width: 150px; height: 60px; border: 1pt solid black">
                       <t t-esc="line.x_studio_stage_id.x_name"/>
                     </td>
                     <td style="width: 350px; height: 60px; border: 1pt solid black">
-                      <t t-esc="line.x_name.x_name"/>
+                      <t t-esc="line.x_product_id.name"/>
                     </td>
                     <td style="width: 150px; height: 60px; border: 1pt solid black; text-align: center">
-                      <t t-esc="line.x_product_uom.name"/>
+                      <t t-esc="line.x_product_uom_id.name"/>
                     </td>
                     <td style="width: 150px; height: 60px; border: 1pt solid black; text-align: center">
-                      <t t-esc="line.x_studio_value"/>
+                      <t t-esc="line.x_quantity"/>
                     </td>
                   </tr>
                 </t>

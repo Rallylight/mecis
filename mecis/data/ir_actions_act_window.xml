@@ -204,7 +204,7 @@
     <field name="type">ir.actions.act_window</field>
     <field name="usage" eval="False"/>
     <field name="view_id" eval="False"/>
-    <field name="view_mode">tree,form</field>
+    <field name="view_mode">tree,form,graph,dashboard</field>
   </record>
   <record id="studio_customization.danh_muc_ky_thuat_e2106dda-2531-4fa5-b36f-2d6fc2e6b854" model="ir.actions.act_window" context="{'studio': True}">
     <field name="binding_model_id" eval="False"/>
@@ -630,6 +630,35 @@
     <field name="usage" eval="False"/>
     <field name="view_id" eval="False"/>
     <field name="view_mode">kanban,tree,form,calendar,gantt,map,pivot,graph</field>
+  </record>
+  <record id="studio_customization.maintenance_parts_li_27b0c853-9533-4763-bb2c-7585d95e99e2" model="ir.actions.act_window" context="{'studio': True}">
+    <field name="binding_model_id" eval="False"/>
+    <field name="binding_type">action</field>
+    <field name="binding_view_types">list,form</field>
+    <field name="context">{}</field>
+    <field name="domain" eval="False"/>
+    <field name="filter" eval="False"/>
+    <field name="groups_id" eval="[(6, 0, [])]"/>
+    <field name="help"><![CDATA[<p class="o_view_nocontent_smiling_face">
+                    This is your new action.
+                </p>
+                <p>By default, it contains a list and a form view and possibly
+                    other view types depending on the options you chose for your model.
+                </p>
+                <p>
+                    You can start customizing these screens by clicking on the Studio icon on the
+                    top right corner (you can also customize this help message there).
+                </p>
+            ]]></field>
+    <field name="limit">80</field>
+    <field name="name">Parts line</field>
+    <field name="res_model">x_maintenance_parts_line_6de97</field>
+    <field name="search_view_id" eval="False"/>
+    <field name="target">current</field>
+    <field name="type">ir.actions.act_window</field>
+    <field name="usage" eval="False"/>
+    <field name="view_id" eval="False"/>
+    <field name="view_mode">tree,form</field>
   </record>
   <record id="studio_customization.maintenance_parts_st_970be611-5766-4649-be7a-7aa7fec07396" model="ir.actions.act_window" context="{'studio': True}">
     <field name="binding_model_id" eval="False"/>

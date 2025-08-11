@@ -164,6 +164,15 @@
     <field name="sequence">2</field>
     <field name="web_icon" eval="False"/>
   </record>
+  <record id="studio_customization.maintenance_4e6d16ec-40cd-42f5-b689-202f7addc1b7" model="ir.ui.menu" context="{'studio': True}">
+    <field name="action" ref="studio_customization.maintenance_parts_li_27b0c853-9533-4763-bb2c-7585d95e99e2"/>
+    <field name="active" eval="True"/>
+    <field name="groups_id" eval="[(6, 0, [])]"/>
+    <field name="name">Parts line</field>
+    <field name="parent_id" ref="maintenance.menu_maintenance_configuration"/>
+    <field name="sequence">8</field>
+    <field name="web_icon" eval="False"/>
+  </record>
   <record id="studio_customization.maintenance_8c394948-2821-4aac-9c6f-5036f821de6b" model="ir.ui.menu" context="{'studio': True}">
     <field name="action" ref="studio_customization.loan_return_5438720b-f572-47f0-af80-782f0b536123"/>
     <field name="active" eval="False"/>
@@ -204,7 +213,7 @@
     <field name="active" eval="True"/>
     <field name="name">Loan &amp; Return Stages</field>
     <field name="parent_id" ref="maintenance.menu_maintenance_configuration"/>
-    <field name="sequence">9</field>
+    <field name="sequence">10</field>
     <field name="web_icon" eval="False"/>
   </record>
   <record id="studio_customization.maintenance_custom_c_60993582-31e0-4203-b7c4-9c2ab5e069f9" model="ir.ui.menu" context="{'studio': True}">
@@ -221,7 +230,7 @@
     <field name="active" eval="True"/>
     <field name="name">Loan &amp; Return Tags</field>
     <field name="parent_id" ref="maintenance.menu_maintenance_configuration"/>
-    <field name="sequence">8</field>
+    <field name="sequence">9</field>
     <field name="web_icon" eval="False"/>
   </record>
   <record id="studio_customization.maintenance_custom_c_a11b0fe2-c0ab-43a5-84b4-97ead923ebff" model="ir.ui.menu" context="{'studio': True}">
@@ -257,7 +266,7 @@
     <field name="groups_id" eval="[(6, 0, [])]"/>
     <field name="name">Delivery line</field>
     <field name="parent_id" ref="maintenance.menu_maintenance_configuration"/>
-    <field name="sequence">11</field>
+    <field name="sequence">12</field>
     <field name="web_icon" eval="False"/>
   </record>
   <record id="studio_customization.maintenance_e90fa4ce-3625-4bf5-b04f-138c5c9de9be" model="ir.ui.menu" context="{'studio': True}">
@@ -292,7 +301,7 @@
     <field name="groups_id" eval="[(6, 0, [])]"/>
     <field name="name">Loan Lines</field>
     <field name="parent_id" ref="maintenance.menu_maintenance_configuration"/>
-    <field name="sequence">10</field>
+    <field name="sequence">11</field>
     <field name="web_icon" eval="False"/>
   </record>
   <record id="studio_customization.maintenance_loan_ret_669020a5-698e-4588-9b03-7fe8b77d89c8" model="ir.ui.menu" context="{'studio': True}">
